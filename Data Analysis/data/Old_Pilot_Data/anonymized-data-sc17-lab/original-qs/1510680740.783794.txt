@@ -1,0 +1,92 @@
+First save demo at:2017-11-14 10:32:20.784004
+consent : consent
+gender : F
+years : 30
+exper : advanced
+hpc : written
+written : advanced
+--
+session : 1510680740.783794.txt
+state : tutorial
+boxes : ['false', 'false', 'false', 'true']
+question_num : 0
+answer_order : ['2', '3', '1', '0']
+question : 0
+start : 1510680747588
+finish : 1510680757416
+--
+session : 1510680740.783794.txt
+state : tutorial
+boxes : ['false', 'false', 'true', 'false']
+question_num : 1
+answer_order : ['0', '2', '1', '3']
+question : 1
+start : 1510680757419
+finish : 1510680769407
+--
+session : 1510680740.783794.txt
+state : tutorial
+boxes : ['false', 'false', 'false', 'true']
+question_num : 2
+answer_order : ['2', '1', '0', '3']
+question : 2
+start : 1510680769409
+finish : 1510680776783
+--
+session : 1510680740.783794.txt
+state : multi
+boxes : ['false', 'true', 'false', 'false']
+question_num : 5
+answer_order : ['3', '0', '1', '2']
+question : m7
+start : 1510680776784
+finish : 1510680801065
+--
+session : 1510680740.783794.txt
+state : multi
+boxes : ['true', 'false', 'false', 'false']
+question_num : 2
+answer_order : ['2', '1', '3', '0']
+question : m3
+start : 1510680801066
+finish : 1510680808105
+--
+session : 1510680740.783794.txt
+state : multi
+boxes : ['false', 'false', 'true', 'false']
+question_num : 4
+answer_order : ['3', '1', '0', '2']
+question : m6
+start : 1510680808106
+finish : 1510680816217
+--
+session : 1510680740.783794.txt
+state : multi
+boxes : ['false', 'true', 'false', 'false']
+question_num : 1
+answer_order : ['3', '0', '1', '2']
+question : m2
+start : 1510680816218
+finish : 1510680827018
+--
+session : 1510680740.783794.txt
+state : multi
+boxes : ['true', 'false', 'false', 'false']
+question_num : 3
+answer_order : ['2', '1', '3', '0']
+question : m4
+start : 1510680827019
+finish : 1510680837610
+--
+session : 1510680740.783794.txt
+state : multi
+boxes : ['true', 'false', 'false', 'false']
+question_num : 0
+answer_order : ['1', '3', '2', '0']
+question : m1
+start : 1510680837611
+finish : 1510680842914
+End multi at:2017-11-14 10:34:02.924563
+session : 1510680740.783794.txt
+comments : 
+End study at:2017-11-14 10:34:05.308857

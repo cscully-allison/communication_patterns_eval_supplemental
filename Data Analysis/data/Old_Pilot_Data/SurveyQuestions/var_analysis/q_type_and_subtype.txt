@@ -1,0 +1,3 @@
+Exchange	Offset	8
+Offset	Full	44
+Ring	Full	12

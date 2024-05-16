@@ -1,0 +1,6 @@
+flask
+pandas
+bokeh
+redis
+firebase-admin
+gunicorn

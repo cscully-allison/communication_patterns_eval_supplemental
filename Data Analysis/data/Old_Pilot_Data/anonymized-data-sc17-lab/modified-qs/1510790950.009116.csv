@@ -1,0 +1,12 @@
+QN,A1,A2,A3,A4
+0,True,False,False,False
+1,False,False,False,True
+2,False,False,False,True
+It wasn't clear to me it was a multiple options question at the beginning. Was it clearly indicated somewhere?,False,False,True,False
+m1,False,False,True,False
+m2,True,False,False,False
+m3,False,True,False,False
+m4,False,False,True,False
+m6,False,True,False,True
+m7,False,False,False,True
+m8,False,False,True,False

@@ -1,0 +1,1737 @@
+,experiment_id,question_id,percentage_correct,answer_id,answer_incorrect,programming_experience,hpc_experience,written,comments
+0,510621970.541455,T1,0.5,A1,True,beginner,intermediate,intermediate,
+1,510621970.541455,T1,0.5,A2,False,beginner,intermediate,intermediate,
+2,510621970.541455,T1,0.5,A3,True,beginner,intermediate,intermediate,
+3,510621970.541455,T1,0.5,A4,False,beginner,intermediate,intermediate,
+4,510621970.541455,T2,0.75,A1,False,beginner,intermediate,intermediate,
+5,510621970.541455,T2,0.75,A2,False,beginner,intermediate,intermediate,
+6,510621970.541455,T2,0.75,A3,False,beginner,intermediate,intermediate,
+7,510621970.541455,T2,0.75,A4,True,beginner,intermediate,intermediate,
+8,510621970.541455,T3,0.75,A1,True,beginner,intermediate,intermediate,
+9,510621970.541455,T3,0.75,A2,False,beginner,intermediate,intermediate,
+10,510621970.541455,T3,0.75,A3,False,beginner,intermediate,intermediate,
+11,510621970.541455,T3,0.75,A4,False,beginner,intermediate,intermediate,
+12,510621970.541455,M1,1.0,A1,False,beginner,intermediate,intermediate,
+13,510621970.541455,M1,1.0,A2,False,beginner,intermediate,intermediate,
+14,510621970.541455,M1,1.0,A3,False,beginner,intermediate,intermediate,
+15,510621970.541455,M1,1.0,A4,False,beginner,intermediate,intermediate,
+16,510621970.541455,M2,1.0,A1,False,beginner,intermediate,intermediate,
+17,510621970.541455,M2,1.0,A2,False,beginner,intermediate,intermediate,
+18,510621970.541455,M2,1.0,A3,False,beginner,intermediate,intermediate,
+19,510621970.541455,M2,1.0,A4,False,beginner,intermediate,intermediate,
+20,510621970.541455,M3,0.5,A1,False,beginner,intermediate,intermediate,
+21,510621970.541455,M3,0.5,A2,False,beginner,intermediate,intermediate,
+22,510621970.541455,M3,0.5,A3,True,beginner,intermediate,intermediate,
+23,510621970.541455,M3,0.5,A4,True,beginner,intermediate,intermediate,
+24,510621970.541455,M4,0.75,A1,True,beginner,intermediate,intermediate,
+25,510621970.541455,M4,0.75,A2,False,beginner,intermediate,intermediate,
+26,510621970.541455,M4,0.75,A3,False,beginner,intermediate,intermediate,
+27,510621970.541455,M4,0.75,A4,False,beginner,intermediate,intermediate,
+28,510621970.541455,M6,0.75,A1,False,beginner,intermediate,intermediate,
+29,510621970.541455,M6,0.75,A2,True,beginner,intermediate,intermediate,
+30,510621970.541455,M6,0.75,A3,False,beginner,intermediate,intermediate,
+31,510621970.541455,M6,0.75,A4,False,beginner,intermediate,intermediate,
+32,510621970.541455,M7,0.5,A1,False,beginner,intermediate,intermediate,
+33,510621970.541455,M7,0.5,A2,True,beginner,intermediate,intermediate,
+34,510621970.541455,M7,0.5,A3,False,beginner,intermediate,intermediate,
+35,510621970.541455,M7,0.5,A4,True,beginner,intermediate,intermediate,
+36,510622484.909107,T1,1.0,A1,False,intermediate,none,,
+37,510622484.909107,T1,1.0,A2,False,intermediate,none,,
+38,510622484.909107,T1,1.0,A3,False,intermediate,none,,
+39,510622484.909107,T1,1.0,A4,False,intermediate,none,,
+40,510622484.909107,T2,1.0,A1,False,intermediate,none,,
+41,510622484.909107,T2,1.0,A2,False,intermediate,none,,
+42,510622484.909107,T2,1.0,A3,False,intermediate,none,,
+43,510622484.909107,T2,1.0,A4,False,intermediate,none,,
+44,510622484.909107,T3,0.5,A1,True,intermediate,none,,
+45,510622484.909107,T3,0.5,A2,False,intermediate,none,,
+46,510622484.909107,T3,0.5,A3,True,intermediate,none,,
+47,510622484.909107,T3,0.5,A4,False,intermediate,none,,
+48,510622484.909107,M1,0.75,A1,True,intermediate,none,,
+49,510622484.909107,M1,0.75,A2,False,intermediate,none,,
+50,510622484.909107,M1,0.75,A3,False,intermediate,none,,
+51,510622484.909107,M1,0.75,A4,False,intermediate,none,,
+52,510622484.909107,M2,0.75,A1,False,intermediate,none,,
+53,510622484.909107,M2,0.75,A2,False,intermediate,none,,
+54,510622484.909107,M2,0.75,A3,False,intermediate,none,,
+55,510622484.909107,M2,0.75,A4,True,intermediate,none,,
+56,510622484.909107,M3,0.75,A1,True,intermediate,none,,
+57,510622484.909107,M3,0.75,A2,False,intermediate,none,,
+58,510622484.909107,M3,0.75,A3,False,intermediate,none,,
+59,510622484.909107,M3,0.75,A4,False,intermediate,none,,
+60,510622484.909107,M4,0.75,A1,False,intermediate,none,,
+61,510622484.909107,M4,0.75,A2,False,intermediate,none,,
+62,510622484.909107,M4,0.75,A3,True,intermediate,none,,
+63,510622484.909107,M4,0.75,A4,False,intermediate,none,,
+64,510622484.909107,M6,0.75,A1,False,intermediate,none,,
+65,510622484.909107,M6,0.75,A2,False,intermediate,none,,
+66,510622484.909107,M6,0.75,A3,False,intermediate,none,,
+67,510622484.909107,M6,0.75,A4,True,intermediate,none,,
+68,510622484.909107,M7,0.5,A1,True,intermediate,none,,
+69,510622484.909107,M7,0.5,A2,True,intermediate,none,,
+70,510622484.909107,M7,0.5,A3,False,intermediate,none,,
+71,510622484.909107,M7,0.5,A4,False,intermediate,none,,
+72,510623123.347915,T1,1.0,A1,False,intermediate,beginner,beginner,
+73,510623123.347915,T1,1.0,A2,False,intermediate,beginner,beginner,
+74,510623123.347915,T1,1.0,A3,False,intermediate,beginner,beginner,
+75,510623123.347915,T1,1.0,A4,False,intermediate,beginner,beginner,
+76,510623123.347915,T2,0.75,A1,False,intermediate,beginner,beginner,
+77,510623123.347915,T2,0.75,A2,False,intermediate,beginner,beginner,
+78,510623123.347915,T2,0.75,A3,False,intermediate,beginner,beginner,
+79,510623123.347915,T2,0.75,A4,True,intermediate,beginner,beginner,
+80,510623123.347915,T3,0.75,A1,True,intermediate,beginner,beginner,
+81,510623123.347915,T3,0.75,A2,False,intermediate,beginner,beginner,
+82,510623123.347915,T3,0.75,A3,False,intermediate,beginner,beginner,
+83,510623123.347915,T3,0.75,A4,False,intermediate,beginner,beginner,
+84,510623123.347915,M1,1.0,A1,False,intermediate,beginner,beginner,
+85,510623123.347915,M1,1.0,A2,False,intermediate,beginner,beginner,
+86,510623123.347915,M1,1.0,A3,False,intermediate,beginner,beginner,
+87,510623123.347915,M1,1.0,A4,False,intermediate,beginner,beginner,
+88,510623123.347915,M2,0.5,A1,True,intermediate,beginner,beginner,
+89,510623123.347915,M2,0.5,A2,False,intermediate,beginner,beginner,
+90,510623123.347915,M2,0.5,A3,False,intermediate,beginner,beginner,
+91,510623123.347915,M2,0.5,A4,True,intermediate,beginner,beginner,
+92,510623123.347915,M3,0.5,A1,True,intermediate,beginner,beginner,
+93,510623123.347915,M3,0.5,A2,False,intermediate,beginner,beginner,
+94,510623123.347915,M3,0.5,A3,True,intermediate,beginner,beginner,
+95,510623123.347915,M3,0.5,A4,False,intermediate,beginner,beginner,
+96,510623123.347915,M4,0.75,A1,True,intermediate,beginner,beginner,
+97,510623123.347915,M4,0.75,A2,False,intermediate,beginner,beginner,
+98,510623123.347915,M4,0.75,A3,False,intermediate,beginner,beginner,
+99,510623123.347915,M4,0.75,A4,False,intermediate,beginner,beginner,
+100,510623123.347915,M6,0.75,A1,False,intermediate,beginner,beginner,
+101,510623123.347915,M6,0.75,A2,True,intermediate,beginner,beginner,
+102,510623123.347915,M6,0.75,A3,False,intermediate,beginner,beginner,
+103,510623123.347915,M6,0.75,A4,False,intermediate,beginner,beginner,
+104,510623123.347915,M7,0.75,A1,False,intermediate,beginner,beginner,
+105,510623123.347915,M7,0.75,A2,False,intermediate,beginner,beginner,
+106,510623123.347915,M7,0.75,A3,False,intermediate,beginner,beginner,
+107,510623123.347915,M7,0.75,A4,True,intermediate,beginner,beginner,
+108,510623510.644882,T1,1.0,A1,False,beginner,beginner,,
+109,510623510.644882,T1,1.0,A2,False,beginner,beginner,,
+110,510623510.644882,T1,1.0,A3,False,beginner,beginner,,
+111,510623510.644882,T1,1.0,A4,False,beginner,beginner,,
+112,510623510.644882,T2,0.75,A1,False,beginner,beginner,,
+113,510623510.644882,T2,0.75,A2,False,beginner,beginner,,
+114,510623510.644882,T2,0.75,A3,True,beginner,beginner,,
+115,510623510.644882,T2,0.75,A4,False,beginner,beginner,,
+116,510623510.644882,T3,0.75,A1,False,beginner,beginner,,
+117,510623510.644882,T3,0.75,A2,False,beginner,beginner,,
+118,510623510.644882,T3,0.75,A3,True,beginner,beginner,,
+119,510623510.644882,T3,0.75,A4,False,beginner,beginner,,
+120,510623510.644882,M1,1.0,A1,False,beginner,beginner,,
+121,510623510.644882,M1,1.0,A2,False,beginner,beginner,,
+122,510623510.644882,M1,1.0,A3,False,beginner,beginner,,
+123,510623510.644882,M1,1.0,A4,False,beginner,beginner,,
+124,510623510.644882,M2,1.0,A1,False,beginner,beginner,,
+125,510623510.644882,M2,1.0,A2,False,beginner,beginner,,
+126,510623510.644882,M2,1.0,A3,False,beginner,beginner,,
+127,510623510.644882,M2,1.0,A4,False,beginner,beginner,,
+128,510623510.644882,M3,0.0,A1,True,beginner,beginner,,
+129,510623510.644882,M3,0.0,A2,True,beginner,beginner,,
+130,510623510.644882,M3,0.0,A3,True,beginner,beginner,,
+131,510623510.644882,M3,0.0,A4,True,beginner,beginner,,
+132,510623510.644882,M4,0.75,A1,False,beginner,beginner,,
+133,510623510.644882,M4,0.75,A2,False,beginner,beginner,,
+134,510623510.644882,M4,0.75,A3,True,beginner,beginner,,
+135,510623510.644882,M4,0.75,A4,False,beginner,beginner,,
+136,510623510.644882,M6,0.5,A1,False,beginner,beginner,,
+137,510623510.644882,M6,0.5,A2,True,beginner,beginner,,
+138,510623510.644882,M6,0.5,A3,False,beginner,beginner,,
+139,510623510.644882,M6,0.5,A4,True,beginner,beginner,,
+140,510623510.644882,M7,0.75,A1,False,beginner,beginner,,
+141,510623510.644882,M7,0.75,A2,False,beginner,beginner,,
+142,510623510.644882,M7,0.75,A3,False,beginner,beginner,,
+143,510623510.644882,M7,0.75,A4,True,beginner,beginner,,
+144,510624049.8592849,T1,0.75,A1,False,beginner,none,,
+145,510624049.8592849,T1,0.75,A2,False,beginner,none,,
+146,510624049.8592849,T1,0.75,A3,True,beginner,none,,
+147,510624049.8592849,T1,0.75,A4,False,beginner,none,,
+148,510624049.8592849,T2,1.0,A1,False,beginner,none,,
+149,510624049.8592849,T2,1.0,A2,False,beginner,none,,
+150,510624049.8592849,T2,1.0,A3,False,beginner,none,,
+151,510624049.8592849,T2,1.0,A4,False,beginner,none,,
+152,510624049.8592849,T3,1.0,A1,False,beginner,none,,
+153,510624049.8592849,T3,1.0,A2,False,beginner,none,,
+154,510624049.8592849,T3,1.0,A3,False,beginner,none,,
+155,510624049.8592849,T3,1.0,A4,False,beginner,none,,
+156,510624049.8592849,M1,0.75,A1,True,beginner,none,,
+157,510624049.8592849,M1,0.75,A2,False,beginner,none,,
+158,510624049.8592849,M1,0.75,A3,False,beginner,none,,
+159,510624049.8592849,M1,0.75,A4,False,beginner,none,,
+160,510624049.8592849,M2,0.75,A1,False,beginner,none,,
+161,510624049.8592849,M2,0.75,A2,False,beginner,none,,
+162,510624049.8592849,M2,0.75,A3,False,beginner,none,,
+163,510624049.8592849,M2,0.75,A4,True,beginner,none,,
+164,510624049.8592849,M3,1.0,A1,False,beginner,none,,
+165,510624049.8592849,M3,1.0,A2,False,beginner,none,,
+166,510624049.8592849,M3,1.0,A3,False,beginner,none,,
+167,510624049.8592849,M3,1.0,A4,False,beginner,none,,
+168,510624049.8592849,M4,1.0,A1,False,beginner,none,,
+169,510624049.8592849,M4,1.0,A2,False,beginner,none,,
+170,510624049.8592849,M4,1.0,A3,False,beginner,none,,
+171,510624049.8592849,M4,1.0,A4,False,beginner,none,,
+172,510624049.8592849,M6,1.0,A1,False,beginner,none,,
+173,510624049.8592849,M6,1.0,A2,False,beginner,none,,
+174,510624049.8592849,M6,1.0,A3,False,beginner,none,,
+175,510624049.8592849,M6,1.0,A4,False,beginner,none,,
+176,510624049.8592849,M7,1.0,A1,False,beginner,none,,
+177,510624049.8592849,M7,1.0,A2,False,beginner,none,,
+178,510624049.8592849,M7,1.0,A3,False,beginner,none,,
+179,510624049.8592849,M7,1.0,A4,False,beginner,none,,
+180,510624678.806518,T1,0.75,A1,False,advanced,intermediate,intermediate,
+181,510624678.806518,T1,0.75,A2,False,advanced,intermediate,intermediate,
+182,510624678.806518,T1,0.75,A3,True,advanced,intermediate,intermediate,
+183,510624678.806518,T1,0.75,A4,False,advanced,intermediate,intermediate,
+184,510624678.806518,T2,0.75,A1,True,advanced,intermediate,intermediate,
+185,510624678.806518,T2,0.75,A2,False,advanced,intermediate,intermediate,
+186,510624678.806518,T2,0.75,A3,False,advanced,intermediate,intermediate,
+187,510624678.806518,T2,0.75,A4,False,advanced,intermediate,intermediate,
+188,510624678.806518,T3,1.0,A1,False,advanced,intermediate,intermediate,
+189,510624678.806518,T3,1.0,A2,False,advanced,intermediate,intermediate,
+190,510624678.806518,T3,1.0,A3,False,advanced,intermediate,intermediate,
+191,510624678.806518,T3,1.0,A4,False,advanced,intermediate,intermediate,
+192,510624678.806518,M1,0.5,A1,True,advanced,intermediate,intermediate,
+193,510624678.806518,M1,0.5,A2,False,advanced,intermediate,intermediate,
+194,510624678.806518,M1,0.5,A3,True,advanced,intermediate,intermediate,
+195,510624678.806518,M1,0.5,A4,False,advanced,intermediate,intermediate,
+196,510624678.806518,M2,0.75,A1,True,advanced,intermediate,intermediate,
+197,510624678.806518,M2,0.75,A2,False,advanced,intermediate,intermediate,
+198,510624678.806518,M2,0.75,A3,False,advanced,intermediate,intermediate,
+199,510624678.806518,M2,0.75,A4,False,advanced,intermediate,intermediate,
+200,510624678.806518,M3,0.75,A1,False,advanced,intermediate,intermediate,
+201,510624678.806518,M3,0.75,A2,False,advanced,intermediate,intermediate,
+202,510624678.806518,M3,0.75,A3,True,advanced,intermediate,intermediate,
+203,510624678.806518,M3,0.75,A4,False,advanced,intermediate,intermediate,
+204,510624678.806518,M4,0.75,A1,True,advanced,intermediate,intermediate,
+205,510624678.806518,M4,0.75,A2,False,advanced,intermediate,intermediate,
+206,510624678.806518,M4,0.75,A3,False,advanced,intermediate,intermediate,
+207,510624678.806518,M4,0.75,A4,False,advanced,intermediate,intermediate,
+208,510624678.806518,M6,0.75,A1,False,advanced,intermediate,intermediate,
+209,510624678.806518,M6,0.75,A2,True,advanced,intermediate,intermediate,
+210,510624678.806518,M6,0.75,A3,False,advanced,intermediate,intermediate,
+211,510624678.806518,M6,0.75,A4,False,advanced,intermediate,intermediate,
+212,510624678.806518,M7,0.75,A1,False,advanced,intermediate,intermediate,
+213,510624678.806518,M7,0.75,A2,False,advanced,intermediate,intermediate,
+214,510624678.806518,M7,0.75,A3,False,advanced,intermediate,intermediate,
+215,510624678.806518,M7,0.75,A4,True,advanced,intermediate,intermediate,
+216,510625100.960153,T1,1.0,A1,False,advanced,advanced,,
+217,510625100.960153,T1,1.0,A2,False,advanced,advanced,,
+218,510625100.960153,T1,1.0,A3,False,advanced,advanced,,
+219,510625100.960153,T1,1.0,A4,False,advanced,advanced,,
+220,510625100.960153,T2,1.0,A1,False,advanced,advanced,,
+221,510625100.960153,T2,1.0,A2,False,advanced,advanced,,
+222,510625100.960153,T2,1.0,A3,False,advanced,advanced,,
+223,510625100.960153,T2,1.0,A4,False,advanced,advanced,,
+224,510625100.960153,T3,0.5,A1,True,advanced,advanced,,
+225,510625100.960153,T3,0.5,A2,False,advanced,advanced,,
+226,510625100.960153,T3,0.5,A3,True,advanced,advanced,,
+227,510625100.960153,T3,0.5,A4,False,advanced,advanced,,
+228,510625100.960153,M1,0.75,A1,True,advanced,advanced,,
+229,510625100.960153,M1,0.75,A2,False,advanced,advanced,,
+230,510625100.960153,M1,0.75,A3,False,advanced,advanced,,
+231,510625100.960153,M1,0.75,A4,False,advanced,advanced,,
+232,510625100.960153,M2,0.75,A1,False,advanced,advanced,,
+233,510625100.960153,M2,0.75,A2,False,advanced,advanced,,
+234,510625100.960153,M2,0.75,A3,False,advanced,advanced,,
+235,510625100.960153,M2,0.75,A4,True,advanced,advanced,,
+236,510625100.960153,M3,0.25,A1,True,advanced,advanced,,
+237,510625100.960153,M3,0.25,A2,False,advanced,advanced,,
+238,510625100.960153,M3,0.25,A3,True,advanced,advanced,,
+239,510625100.960153,M3,0.25,A4,True,advanced,advanced,,
+240,510625100.960153,M4,0.5,A1,True,advanced,advanced,,
+241,510625100.960153,M4,0.5,A2,False,advanced,advanced,,
+242,510625100.960153,M4,0.5,A3,True,advanced,advanced,,
+243,510625100.960153,M4,0.5,A4,False,advanced,advanced,,
+244,510625100.960153,M6,0.75,A1,False,advanced,advanced,,
+245,510625100.960153,M6,0.75,A2,False,advanced,advanced,,
+246,510625100.960153,M6,0.75,A3,False,advanced,advanced,,
+247,510625100.960153,M6,0.75,A4,True,advanced,advanced,,
+248,510625100.960153,M7,0.75,A1,False,advanced,advanced,,
+249,510625100.960153,M7,0.75,A2,False,advanced,advanced,,
+250,510625100.960153,M7,0.75,A3,False,advanced,advanced,,
+251,510625100.960153,M7,0.75,A4,True,advanced,advanced,,
+252,510625507.00501,T1,0.75,A1,True,intermediate,beginner,beginner,
+253,510625507.00501,T1,0.75,A2,False,intermediate,beginner,beginner,
+254,510625507.00501,T1,0.75,A3,False,intermediate,beginner,beginner,
+255,510625507.00501,T1,0.75,A4,False,intermediate,beginner,beginner,
+256,510625507.00501,T2,0.75,A1,False,intermediate,beginner,beginner,
+257,510625507.00501,T2,0.75,A2,False,intermediate,beginner,beginner,
+258,510625507.00501,T2,0.75,A3,False,intermediate,beginner,beginner,
+259,510625507.00501,T2,0.75,A4,True,intermediate,beginner,beginner,
+260,510625507.00501,T3,0.5,A1,True,intermediate,beginner,beginner,
+261,510625507.00501,T3,0.5,A2,False,intermediate,beginner,beginner,
+262,510625507.00501,T3,0.5,A3,True,intermediate,beginner,beginner,
+263,510625507.00501,T3,0.5,A4,False,intermediate,beginner,beginner,
+264,510625507.00501,M1,0.5,A1,False,intermediate,beginner,beginner,
+265,510625507.00501,M1,0.5,A2,True,intermediate,beginner,beginner,
+266,510625507.00501,M1,0.5,A3,True,intermediate,beginner,beginner,
+267,510625507.00501,M1,0.5,A4,False,intermediate,beginner,beginner,
+268,510625507.00501,M2,0.75,A1,True,intermediate,beginner,beginner,
+269,510625507.00501,M2,0.75,A2,False,intermediate,beginner,beginner,
+270,510625507.00501,M2,0.75,A3,False,intermediate,beginner,beginner,
+271,510625507.00501,M2,0.75,A4,False,intermediate,beginner,beginner,
+272,510625507.00501,M3,0.25,A1,True,intermediate,beginner,beginner,
+273,510625507.00501,M3,0.25,A2,False,intermediate,beginner,beginner,
+274,510625507.00501,M3,0.25,A3,True,intermediate,beginner,beginner,
+275,510625507.00501,M3,0.25,A4,True,intermediate,beginner,beginner,
+276,510625507.00501,M4,0.5,A1,True,intermediate,beginner,beginner,
+277,510625507.00501,M4,0.5,A2,False,intermediate,beginner,beginner,
+278,510625507.00501,M4,0.5,A3,True,intermediate,beginner,beginner,
+279,510625507.00501,M4,0.5,A4,False,intermediate,beginner,beginner,
+280,510625507.00501,M6,0.75,A1,False,intermediate,beginner,beginner,
+281,510625507.00501,M6,0.75,A2,True,intermediate,beginner,beginner,
+282,510625507.00501,M6,0.75,A3,False,intermediate,beginner,beginner,
+283,510625507.00501,M6,0.75,A4,False,intermediate,beginner,beginner,
+284,510625507.00501,M7,0.75,A1,False,intermediate,beginner,beginner,
+285,510625507.00501,M7,0.75,A2,False,intermediate,beginner,beginner,
+286,510625507.00501,M7,0.75,A3,False,intermediate,beginner,beginner,
+287,510625507.00501,M7,0.75,A4,True,intermediate,beginner,beginner,
+288,510625933.063763,T1,0.5,A1,True,none,none,,
+289,510625933.063763,T1,0.5,A2,False,none,none,,
+290,510625933.063763,T1,0.5,A3,True,none,none,,
+291,510625933.063763,T1,0.5,A4,False,none,none,,
+292,510625933.063763,T2,0.75,A1,False,none,none,,
+293,510625933.063763,T2,0.75,A2,False,none,none,,
+294,510625933.063763,T2,0.75,A3,False,none,none,,
+295,510625933.063763,T2,0.75,A4,True,none,none,,
+296,510625933.063763,T3,0.25,A1,True,none,none,,
+297,510625933.063763,T3,0.25,A2,False,none,none,,
+298,510625933.063763,T3,0.25,A3,True,none,none,,
+299,510625933.063763,T3,0.25,A4,True,none,none,,
+300,510625933.063763,M1,1.0,A1,False,none,none,,
+301,510625933.063763,M1,1.0,A2,False,none,none,,
+302,510625933.063763,M1,1.0,A3,False,none,none,,
+303,510625933.063763,M1,1.0,A4,False,none,none,,
+304,510625933.063763,M2,1.0,A1,False,none,none,,
+305,510625933.063763,M2,1.0,A2,False,none,none,,
+306,510625933.063763,M2,1.0,A3,False,none,none,,
+307,510625933.063763,M2,1.0,A4,False,none,none,,
+308,510625933.063763,M3,0.5,A1,True,none,none,,
+309,510625933.063763,M3,0.5,A2,False,none,none,,
+310,510625933.063763,M3,0.5,A3,True,none,none,,
+311,510625933.063763,M3,0.5,A4,False,none,none,,
+312,510625933.063763,M4,0.75,A1,True,none,none,,
+313,510625933.063763,M4,0.75,A2,False,none,none,,
+314,510625933.063763,M4,0.75,A3,False,none,none,,
+315,510625933.063763,M4,0.75,A4,False,none,none,,
+316,510625933.063763,M6,0.75,A1,False,none,none,,
+317,510625933.063763,M6,0.75,A2,True,none,none,,
+318,510625933.063763,M6,0.75,A3,False,none,none,,
+319,510625933.063763,M6,0.75,A4,False,none,none,,
+320,510625933.063763,M7,0.5,A1,False,none,none,,
+321,510625933.063763,M7,0.5,A2,True,none,none,,
+322,510625933.063763,M7,0.5,A3,False,none,none,,
+323,510625933.063763,M7,0.5,A4,True,none,none,,
+324,510626207.010776,T1,1.0,A1,False,intermediate,beginner,beginner,
+325,510626207.010776,T1,1.0,A2,False,intermediate,beginner,beginner,
+326,510626207.010776,T1,1.0,A3,False,intermediate,beginner,beginner,
+327,510626207.010776,T1,1.0,A4,False,intermediate,beginner,beginner,
+328,510626207.010776,T2,0.75,A1,False,intermediate,beginner,beginner,
+329,510626207.010776,T2,0.75,A2,True,intermediate,beginner,beginner,
+330,510626207.010776,T2,0.75,A3,False,intermediate,beginner,beginner,
+331,510626207.010776,T2,0.75,A4,False,intermediate,beginner,beginner,
+332,510626207.010776,T3,0.5,A1,True,intermediate,beginner,beginner,
+333,510626207.010776,T3,0.5,A2,False,intermediate,beginner,beginner,
+334,510626207.010776,T3,0.5,A3,True,intermediate,beginner,beginner,
+335,510626207.010776,T3,0.5,A4,False,intermediate,beginner,beginner,
+336,510626207.010776,M1,1.0,A1,False,intermediate,beginner,beginner,
+337,510626207.010776,M1,1.0,A2,False,intermediate,beginner,beginner,
+338,510626207.010776,M1,1.0,A3,False,intermediate,beginner,beginner,
+339,510626207.010776,M1,1.0,A4,False,intermediate,beginner,beginner,
+340,510626207.010776,M2,0.75,A1,False,intermediate,beginner,beginner,
+341,510626207.010776,M2,0.75,A2,False,intermediate,beginner,beginner,
+342,510626207.010776,M2,0.75,A3,False,intermediate,beginner,beginner,
+343,510626207.010776,M2,0.75,A4,True,intermediate,beginner,beginner,
+344,510626207.010776,M3,0.75,A1,False,intermediate,beginner,beginner,
+345,510626207.010776,M3,0.75,A2,False,intermediate,beginner,beginner,
+346,510626207.010776,M3,0.75,A3,True,intermediate,beginner,beginner,
+347,510626207.010776,M3,0.75,A4,False,intermediate,beginner,beginner,
+348,510626207.010776,M4,0.75,A1,True,intermediate,beginner,beginner,
+349,510626207.010776,M4,0.75,A2,False,intermediate,beginner,beginner,
+350,510626207.010776,M4,0.75,A3,False,intermediate,beginner,beginner,
+351,510626207.010776,M4,0.75,A4,False,intermediate,beginner,beginner,
+352,510626207.010776,M6,1.0,A1,False,intermediate,beginner,beginner,
+353,510626207.010776,M6,1.0,A2,False,intermediate,beginner,beginner,
+354,510626207.010776,M6,1.0,A3,False,intermediate,beginner,beginner,
+355,510626207.010776,M6,1.0,A4,False,intermediate,beginner,beginner,
+356,510626207.010776,M7,0.75,A1,False,intermediate,beginner,beginner,
+357,510626207.010776,M7,0.75,A2,False,intermediate,beginner,beginner,
+358,510626207.010776,M7,0.75,A3,False,intermediate,beginner,beginner,
+359,510626207.010776,M7,0.75,A4,True,intermediate,beginner,beginner,
+360,510679745.071083,T1,1.0,A1,False,advanced,intermediate,,Maybe explain why I need to take the test.
+361,510679745.071083,T1,1.0,A2,False,advanced,intermediate,,Maybe explain why I need to take the test.
+362,510679745.071083,T1,1.0,A3,False,advanced,intermediate,,Maybe explain why I need to take the test.
+363,510679745.071083,T1,1.0,A4,False,advanced,intermediate,,Maybe explain why I need to take the test.
+364,510679745.071083,T2,0.75,A1,False,advanced,intermediate,,Maybe explain why I need to take the test.
+365,510679745.071083,T2,0.75,A2,False,advanced,intermediate,,Maybe explain why I need to take the test.
+366,510679745.071083,T2,0.75,A3,True,advanced,intermediate,,Maybe explain why I need to take the test.
+367,510679745.071083,T2,0.75,A4,False,advanced,intermediate,,Maybe explain why I need to take the test.
+368,510679745.071083,T3,0.75,A1,False,advanced,intermediate,,Maybe explain why I need to take the test.
+369,510679745.071083,T3,0.75,A2,False,advanced,intermediate,,Maybe explain why I need to take the test.
+370,510679745.071083,T3,0.75,A3,True,advanced,intermediate,,Maybe explain why I need to take the test.
+371,510679745.071083,T3,0.75,A4,False,advanced,intermediate,,Maybe explain why I need to take the test.
+372,510679745.071083,M1,1.0,A1,False,advanced,intermediate,,Maybe explain why I need to take the test.
+373,510679745.071083,M1,1.0,A2,False,advanced,intermediate,,Maybe explain why I need to take the test.
+374,510679745.071083,M1,1.0,A3,False,advanced,intermediate,,Maybe explain why I need to take the test.
+375,510679745.071083,M1,1.0,A4,False,advanced,intermediate,,Maybe explain why I need to take the test.
+376,510679745.071083,M2,0.5,A1,True,advanced,intermediate,,Maybe explain why I need to take the test.
+377,510679745.071083,M2,0.5,A2,True,advanced,intermediate,,Maybe explain why I need to take the test.
+378,510679745.071083,M2,0.5,A3,False,advanced,intermediate,,Maybe explain why I need to take the test.
+379,510679745.071083,M2,0.5,A4,False,advanced,intermediate,,Maybe explain why I need to take the test.
+380,510679745.071083,M3,0.5,A1,True,advanced,intermediate,,Maybe explain why I need to take the test.
+381,510679745.071083,M3,0.5,A2,False,advanced,intermediate,,Maybe explain why I need to take the test.
+382,510679745.071083,M3,0.5,A3,True,advanced,intermediate,,Maybe explain why I need to take the test.
+383,510679745.071083,M3,0.5,A4,False,advanced,intermediate,,Maybe explain why I need to take the test.
+384,510679745.071083,M4,0.75,A1,False,advanced,intermediate,,Maybe explain why I need to take the test.
+385,510679745.071083,M4,0.75,A2,False,advanced,intermediate,,Maybe explain why I need to take the test.
+386,510679745.071083,M4,0.75,A3,True,advanced,intermediate,,Maybe explain why I need to take the test.
+387,510679745.071083,M4,0.75,A4,False,advanced,intermediate,,Maybe explain why I need to take the test.
+388,510679745.071083,M6,1.0,A1,False,advanced,intermediate,,Maybe explain why I need to take the test.
+389,510679745.071083,M6,1.0,A2,False,advanced,intermediate,,Maybe explain why I need to take the test.
+390,510679745.071083,M6,1.0,A3,False,advanced,intermediate,,Maybe explain why I need to take the test.
+391,510679745.071083,M6,1.0,A4,False,advanced,intermediate,,Maybe explain why I need to take the test.
+392,510679745.071083,M7,1.0,A1,False,advanced,intermediate,,Maybe explain why I need to take the test.
+393,510679745.071083,M7,1.0,A2,False,advanced,intermediate,,Maybe explain why I need to take the test.
+394,510679745.071083,M7,1.0,A3,False,advanced,intermediate,,Maybe explain why I need to take the test.
+395,510679745.071083,M7,1.0,A4,False,advanced,intermediate,,Maybe explain why I need to take the test.
+396,510680303.284801,T1,0.75,A1,False,intermediate,beginner,beginner,
+397,510680303.284801,T1,0.75,A2,True,intermediate,beginner,beginner,
+398,510680303.284801,T1,0.75,A3,False,intermediate,beginner,beginner,
+399,510680303.284801,T1,0.75,A4,False,intermediate,beginner,beginner,
+400,510680303.284801,T2,1.0,A1,False,intermediate,beginner,beginner,
+401,510680303.284801,T2,1.0,A2,False,intermediate,beginner,beginner,
+402,510680303.284801,T2,1.0,A3,False,intermediate,beginner,beginner,
+403,510680303.284801,T2,1.0,A4,False,intermediate,beginner,beginner,
+404,510680303.284801,T3,0.0,A1,True,intermediate,beginner,beginner,
+405,510680303.284801,T3,0.0,A2,True,intermediate,beginner,beginner,
+406,510680303.284801,T3,0.0,A3,True,intermediate,beginner,beginner,
+407,510680303.284801,T3,0.0,A4,True,intermediate,beginner,beginner,
+408,510680303.284801,M1,0.75,A1,False,intermediate,beginner,beginner,
+409,510680303.284801,M1,0.75,A2,True,intermediate,beginner,beginner,
+410,510680303.284801,M1,0.75,A3,False,intermediate,beginner,beginner,
+411,510680303.284801,M1,0.75,A4,False,intermediate,beginner,beginner,
+412,510680303.284801,M2,0.5,A1,False,intermediate,beginner,beginner,
+413,510680303.284801,M2,0.5,A2,True,intermediate,beginner,beginner,
+414,510680303.284801,M2,0.5,A3,False,intermediate,beginner,beginner,
+415,510680303.284801,M2,0.5,A4,True,intermediate,beginner,beginner,
+416,510680303.284801,M3,0.5,A1,True,intermediate,beginner,beginner,
+417,510680303.284801,M3,0.5,A2,False,intermediate,beginner,beginner,
+418,510680303.284801,M3,0.5,A3,False,intermediate,beginner,beginner,
+419,510680303.284801,M3,0.5,A4,True,intermediate,beginner,beginner,
+420,510680303.284801,M4,0.25,A1,True,intermediate,beginner,beginner,
+421,510680303.284801,M4,0.25,A2,True,intermediate,beginner,beginner,
+422,510680303.284801,M4,0.25,A3,True,intermediate,beginner,beginner,
+423,510680303.284801,M4,0.25,A4,False,intermediate,beginner,beginner,
+424,510680303.284801,M6,0.5,A1,False,intermediate,beginner,beginner,
+425,510680303.284801,M6,0.5,A2,True,intermediate,beginner,beginner,
+426,510680303.284801,M6,0.5,A3,False,intermediate,beginner,beginner,
+427,510680303.284801,M6,0.5,A4,True,intermediate,beginner,beginner,
+428,510680303.284801,M7,0.5,A1,False,intermediate,beginner,beginner,
+429,510680303.284801,M7,0.5,A2,True,intermediate,beginner,beginner,
+430,510680303.284801,M7,0.5,A3,False,intermediate,beginner,beginner,
+431,510680303.284801,M7,0.5,A4,True,intermediate,beginner,beginner,
+432,510680642.345282,T1,1.0,A1,False,advanced,advanced,advanced,
+433,510680642.345282,T1,1.0,A2,False,advanced,advanced,advanced,
+434,510680642.345282,T1,1.0,A3,False,advanced,advanced,advanced,
+435,510680642.345282,T1,1.0,A4,False,advanced,advanced,advanced,
+436,510680642.345282,T2,0.75,A1,False,advanced,advanced,advanced,
+437,510680642.345282,T2,0.75,A2,False,advanced,advanced,advanced,
+438,510680642.345282,T2,0.75,A3,False,advanced,advanced,advanced,
+439,510680642.345282,T2,0.75,A4,True,advanced,advanced,advanced,
+440,510680642.345282,T3,0.75,A1,True,advanced,advanced,advanced,
+441,510680642.345282,T3,0.75,A2,False,advanced,advanced,advanced,
+442,510680642.345282,T3,0.75,A3,False,advanced,advanced,advanced,
+443,510680642.345282,T3,0.75,A4,False,advanced,advanced,advanced,
+444,510680642.345282,M1,1.0,A1,False,advanced,advanced,advanced,
+445,510680642.345282,M1,1.0,A2,False,advanced,advanced,advanced,
+446,510680642.345282,M1,1.0,A3,False,advanced,advanced,advanced,
+447,510680642.345282,M1,1.0,A4,False,advanced,advanced,advanced,
+448,510680642.345282,M2,1.0,A1,False,advanced,advanced,advanced,
+449,510680642.345282,M2,1.0,A2,False,advanced,advanced,advanced,
+450,510680642.345282,M2,1.0,A3,False,advanced,advanced,advanced,
+451,510680642.345282,M2,1.0,A4,False,advanced,advanced,advanced,
+452,510680642.345282,M3,0.5,A1,True,advanced,advanced,advanced,
+453,510680642.345282,M3,0.5,A2,False,advanced,advanced,advanced,
+454,510680642.345282,M3,0.5,A3,False,advanced,advanced,advanced,
+455,510680642.345282,M3,0.5,A4,True,advanced,advanced,advanced,
+456,510680642.345282,M4,0.75,A1,True,advanced,advanced,advanced,
+457,510680642.345282,M4,0.75,A2,False,advanced,advanced,advanced,
+458,510680642.345282,M4,0.75,A3,False,advanced,advanced,advanced,
+459,510680642.345282,M4,0.75,A4,False,advanced,advanced,advanced,
+460,510680642.345282,M6,0.5,A1,False,advanced,advanced,advanced,
+461,510680642.345282,M6,0.5,A2,True,advanced,advanced,advanced,
+462,510680642.345282,M6,0.5,A3,False,advanced,advanced,advanced,
+463,510680642.345282,M6,0.5,A4,True,advanced,advanced,advanced,
+464,510680642.345282,M7,0.75,A1,False,advanced,advanced,advanced,
+465,510680642.345282,M7,0.75,A2,False,advanced,advanced,advanced,
+466,510680642.345282,M7,0.75,A3,False,advanced,advanced,advanced,
+467,510680642.345282,M7,0.75,A4,True,advanced,advanced,advanced,
+468,510681079.587591,T1,1.0,A1,False,none,none,,
+469,510681079.587591,T1,1.0,A2,False,none,none,,
+470,510681079.587591,T1,1.0,A3,False,none,none,,
+471,510681079.587591,T1,1.0,A4,False,none,none,,
+472,510681079.587591,T2,0.75,A1,False,none,none,,
+473,510681079.587591,T2,0.75,A2,False,none,none,,
+474,510681079.587591,T2,0.75,A3,True,none,none,,
+475,510681079.587591,T2,0.75,A4,False,none,none,,
+476,510681079.587591,T3,0.75,A1,False,none,none,,
+477,510681079.587591,T3,0.75,A2,False,none,none,,
+478,510681079.587591,T3,0.75,A3,True,none,none,,
+479,510681079.587591,T3,0.75,A4,False,none,none,,
+480,510681079.587591,M1,1.0,A1,False,none,none,,
+481,510681079.587591,M1,1.0,A2,False,none,none,,
+482,510681079.587591,M1,1.0,A3,False,none,none,,
+483,510681079.587591,M1,1.0,A4,False,none,none,,
+484,510681079.587591,M2,1.0,A1,False,none,none,,
+485,510681079.587591,M2,1.0,A2,False,none,none,,
+486,510681079.587591,M2,1.0,A3,False,none,none,,
+487,510681079.587591,M2,1.0,A4,False,none,none,,
+488,510681079.587591,M3,0.5,A1,True,none,none,,
+489,510681079.587591,M3,0.5,A2,False,none,none,,
+490,510681079.587591,M3,0.5,A3,False,none,none,,
+491,510681079.587591,M3,0.5,A4,True,none,none,,
+492,510681079.587591,M4,0.75,A1,True,none,none,,
+493,510681079.587591,M4,0.75,A2,False,none,none,,
+494,510681079.587591,M4,0.75,A3,False,none,none,,
+495,510681079.587591,M4,0.75,A4,False,none,none,,
+496,510681079.587591,M6,1.0,A1,False,none,none,,
+497,510681079.587591,M6,1.0,A2,False,none,none,,
+498,510681079.587591,M6,1.0,A3,False,none,none,,
+499,510681079.587591,M6,1.0,A4,False,none,none,,
+500,510681079.587591,M7,0.75,A1,False,none,none,,
+501,510681079.587591,M7,0.75,A2,False,none,none,,
+502,510681079.587591,M7,0.75,A3,False,none,none,,
+503,510681079.587591,M7,0.75,A4,True,none,none,,
+504,510681414.514905,T1,0.75,A1,False,beginner,none,,
+505,510681414.514905,T1,0.75,A2,True,beginner,none,,
+506,510681414.514905,T1,0.75,A3,False,beginner,none,,
+507,510681414.514905,T1,0.75,A4,False,beginner,none,,
+508,510681414.514905,T2,1.0,A1,False,beginner,none,,
+509,510681414.514905,T2,1.0,A2,False,beginner,none,,
+510,510681414.514905,T2,1.0,A3,False,beginner,none,,
+511,510681414.514905,T2,1.0,A4,False,beginner,none,,
+512,510681414.514905,T3,0.75,A1,False,beginner,none,,
+513,510681414.514905,T3,0.75,A2,False,beginner,none,,
+514,510681414.514905,T3,0.75,A3,True,beginner,none,,
+515,510681414.514905,T3,0.75,A4,False,beginner,none,,
+516,510681414.514905,M1,0.75,A1,True,beginner,none,,
+517,510681414.514905,M1,0.75,A2,False,beginner,none,,
+518,510681414.514905,M1,0.75,A3,False,beginner,none,,
+519,510681414.514905,M1,0.75,A4,False,beginner,none,,
+520,510681414.514905,M2,0.75,A1,False,beginner,none,,
+521,510681414.514905,M2,0.75,A2,False,beginner,none,,
+522,510681414.514905,M2,0.75,A3,False,beginner,none,,
+523,510681414.514905,M2,0.75,A4,True,beginner,none,,
+524,510681414.514905,M3,0.5,A1,True,beginner,none,,
+525,510681414.514905,M3,0.5,A2,False,beginner,none,,
+526,510681414.514905,M3,0.5,A3,True,beginner,none,,
+527,510681414.514905,M3,0.5,A4,False,beginner,none,,
+528,510681414.514905,M4,1.0,A1,False,beginner,none,,
+529,510681414.514905,M4,1.0,A2,False,beginner,none,,
+530,510681414.514905,M4,1.0,A3,False,beginner,none,,
+531,510681414.514905,M4,1.0,A4,False,beginner,none,,
+532,510681414.514905,M6,0.75,A1,False,beginner,none,,
+533,510681414.514905,M6,0.75,A2,False,beginner,none,,
+534,510681414.514905,M6,0.75,A3,False,beginner,none,,
+535,510681414.514905,M6,0.75,A4,True,beginner,none,,
+536,510681414.514905,M7,0.5,A1,False,beginner,none,,
+537,510681414.514905,M7,0.5,A2,True,beginner,none,,
+538,510681414.514905,M7,0.5,A3,False,beginner,none,,
+539,510681414.514905,M7,0.5,A4,True,beginner,none,,
+540,510681658.089876,T1,1.0,A1,False,advanced,advanced,advanced,
+541,510681658.089876,T1,1.0,A2,False,advanced,advanced,advanced,
+542,510681658.089876,T1,1.0,A3,False,advanced,advanced,advanced,
+543,510681658.089876,T1,1.0,A4,False,advanced,advanced,advanced,
+544,510681658.089876,T2,1.0,A1,False,advanced,advanced,advanced,
+545,510681658.089876,T2,1.0,A2,False,advanced,advanced,advanced,
+546,510681658.089876,T2,1.0,A3,False,advanced,advanced,advanced,
+547,510681658.089876,T2,1.0,A4,False,advanced,advanced,advanced,
+548,510681658.089876,T3,1.0,A1,False,advanced,advanced,advanced,
+549,510681658.089876,T3,1.0,A2,False,advanced,advanced,advanced,
+550,510681658.089876,T3,1.0,A3,False,advanced,advanced,advanced,
+551,510681658.089876,T3,1.0,A4,False,advanced,advanced,advanced,
+552,510681658.089876,M1,1.0,A1,False,advanced,advanced,advanced,
+553,510681658.089876,M1,1.0,A2,False,advanced,advanced,advanced,
+554,510681658.089876,M1,1.0,A3,False,advanced,advanced,advanced,
+555,510681658.089876,M1,1.0,A4,False,advanced,advanced,advanced,
+556,510681658.089876,M2,1.0,A1,False,advanced,advanced,advanced,
+557,510681658.089876,M2,1.0,A2,False,advanced,advanced,advanced,
+558,510681658.089876,M2,1.0,A3,False,advanced,advanced,advanced,
+559,510681658.089876,M2,1.0,A4,False,advanced,advanced,advanced,
+560,510681658.089876,M3,0.75,A1,False,advanced,advanced,advanced,
+561,510681658.089876,M3,0.75,A2,False,advanced,advanced,advanced,
+562,510681658.089876,M3,0.75,A3,True,advanced,advanced,advanced,
+563,510681658.089876,M3,0.75,A4,False,advanced,advanced,advanced,
+564,510681658.089876,M4,0.75,A1,False,advanced,advanced,advanced,
+565,510681658.089876,M4,0.75,A2,False,advanced,advanced,advanced,
+566,510681658.089876,M4,0.75,A3,True,advanced,advanced,advanced,
+567,510681658.089876,M4,0.75,A4,False,advanced,advanced,advanced,
+568,510681658.089876,M6,1.0,A1,False,advanced,advanced,advanced,
+569,510681658.089876,M6,1.0,A2,False,advanced,advanced,advanced,
+570,510681658.089876,M6,1.0,A3,False,advanced,advanced,advanced,
+571,510681658.089876,M6,1.0,A4,False,advanced,advanced,advanced,
+572,510681658.089876,M7,0.75,A1,False,advanced,advanced,advanced,
+573,510681658.089876,M7,0.75,A2,False,advanced,advanced,advanced,
+574,510681658.089876,M7,0.75,A3,False,advanced,advanced,advanced,
+575,510681658.089876,M7,0.75,A4,True,advanced,advanced,advanced,
+576,510684116.4901462,T1,1.0,A1,False,intermediate,advanced,advanced,
+577,510684116.4901462,T1,1.0,A2,False,intermediate,advanced,advanced,
+578,510684116.4901462,T1,1.0,A3,False,intermediate,advanced,advanced,
+579,510684116.4901462,T1,1.0,A4,False,intermediate,advanced,advanced,
+580,510684116.4901462,T2,0.75,A1,True,intermediate,advanced,advanced,
+581,510684116.4901462,T2,0.75,A2,False,intermediate,advanced,advanced,
+582,510684116.4901462,T2,0.75,A3,False,intermediate,advanced,advanced,
+583,510684116.4901462,T2,0.75,A4,False,intermediate,advanced,advanced,
+584,510684116.4901462,T3,0.5,A1,True,intermediate,advanced,advanced,
+585,510684116.4901462,T3,0.5,A2,False,intermediate,advanced,advanced,
+586,510684116.4901462,T3,0.5,A3,True,intermediate,advanced,advanced,
+587,510684116.4901462,T3,0.5,A4,False,intermediate,advanced,advanced,
+588,510684116.4901462,M1,0.75,A1,True,intermediate,advanced,advanced,
+589,510684116.4901462,M1,0.75,A2,False,intermediate,advanced,advanced,
+590,510684116.4901462,M1,0.75,A3,False,intermediate,advanced,advanced,
+591,510684116.4901462,M1,0.75,A4,False,intermediate,advanced,advanced,
+592,510684116.4901462,M2,0.75,A1,False,intermediate,advanced,advanced,
+593,510684116.4901462,M2,0.75,A2,False,intermediate,advanced,advanced,
+594,510684116.4901462,M2,0.75,A3,False,intermediate,advanced,advanced,
+595,510684116.4901462,M2,0.75,A4,True,intermediate,advanced,advanced,
+596,510684116.4901462,M3,0.25,A1,True,intermediate,advanced,advanced,
+597,510684116.4901462,M3,0.25,A2,False,intermediate,advanced,advanced,
+598,510684116.4901462,M3,0.25,A3,True,intermediate,advanced,advanced,
+599,510684116.4901462,M3,0.25,A4,True,intermediate,advanced,advanced,
+600,510684116.4901462,M4,1.0,A1,False,intermediate,advanced,advanced,
+601,510684116.4901462,M4,1.0,A2,False,intermediate,advanced,advanced,
+602,510684116.4901462,M4,1.0,A3,False,intermediate,advanced,advanced,
+603,510684116.4901462,M4,1.0,A4,False,intermediate,advanced,advanced,
+604,510684116.4901462,M6,0.75,A1,False,intermediate,advanced,advanced,
+605,510684116.4901462,M6,0.75,A2,False,intermediate,advanced,advanced,
+606,510684116.4901462,M6,0.75,A3,False,intermediate,advanced,advanced,
+607,510684116.4901462,M6,0.75,A4,True,intermediate,advanced,advanced,
+608,510684116.4901462,M7,1.0,A1,False,intermediate,advanced,advanced,
+609,510684116.4901462,M7,1.0,A2,False,intermediate,advanced,advanced,
+610,510684116.4901462,M7,1.0,A3,False,intermediate,advanced,advanced,
+611,510684116.4901462,M7,1.0,A4,False,intermediate,advanced,advanced,
+612,510696383.908916,T1,1.0,A1,False,intermediate,intermediate,intermediate,
+613,510696383.908916,T1,1.0,A2,False,intermediate,intermediate,intermediate,
+614,510696383.908916,T1,1.0,A3,False,intermediate,intermediate,intermediate,
+615,510696383.908916,T1,1.0,A4,False,intermediate,intermediate,intermediate,
+616,510696383.908916,T2,0.75,A1,False,intermediate,intermediate,intermediate,
+617,510696383.908916,T2,0.75,A2,True,intermediate,intermediate,intermediate,
+618,510696383.908916,T2,0.75,A3,False,intermediate,intermediate,intermediate,
+619,510696383.908916,T2,0.75,A4,False,intermediate,intermediate,intermediate,
+620,510696383.908916,T3,1.0,A1,False,intermediate,intermediate,intermediate,
+621,510696383.908916,T3,1.0,A2,False,intermediate,intermediate,intermediate,
+622,510696383.908916,T3,1.0,A3,False,intermediate,intermediate,intermediate,
+623,510696383.908916,T3,1.0,A4,False,intermediate,intermediate,intermediate,
+624,510696383.908916,M1,0.5,A1,True,intermediate,intermediate,intermediate,
+625,510696383.908916,M1,0.5,A2,True,intermediate,intermediate,intermediate,
+626,510696383.908916,M1,0.5,A3,False,intermediate,intermediate,intermediate,
+627,510696383.908916,M1,0.5,A4,False,intermediate,intermediate,intermediate,
+628,510696383.908916,M2,0.75,A1,False,intermediate,intermediate,intermediate,
+629,510696383.908916,M2,0.75,A2,False,intermediate,intermediate,intermediate,
+630,510696383.908916,M2,0.75,A3,False,intermediate,intermediate,intermediate,
+631,510696383.908916,M2,0.75,A4,True,intermediate,intermediate,intermediate,
+632,510696383.908916,M3,1.0,A1,False,intermediate,intermediate,intermediate,
+633,510696383.908916,M3,1.0,A2,False,intermediate,intermediate,intermediate,
+634,510696383.908916,M3,1.0,A3,False,intermediate,intermediate,intermediate,
+635,510696383.908916,M3,1.0,A4,False,intermediate,intermediate,intermediate,
+636,510696383.908916,M4,1.0,A1,False,intermediate,intermediate,intermediate,
+637,510696383.908916,M4,1.0,A2,False,intermediate,intermediate,intermediate,
+638,510696383.908916,M4,1.0,A3,False,intermediate,intermediate,intermediate,
+639,510696383.908916,M4,1.0,A4,False,intermediate,intermediate,intermediate,
+640,510696383.908916,M6,1.0,A1,False,intermediate,intermediate,intermediate,
+641,510696383.908916,M6,1.0,A2,False,intermediate,intermediate,intermediate,
+642,510696383.908916,M6,1.0,A3,False,intermediate,intermediate,intermediate,
+643,510696383.908916,M6,1.0,A4,False,intermediate,intermediate,intermediate,
+644,510696383.908916,M7,1.0,A1,False,intermediate,intermediate,intermediate,
+645,510696383.908916,M7,1.0,A2,False,intermediate,intermediate,intermediate,
+646,510696383.908916,M7,1.0,A3,False,intermediate,intermediate,intermediate,
+647,510696383.908916,M7,1.0,A4,False,intermediate,intermediate,intermediate,
+648,510702477.7352698,T1,1.0,A1,False,intermediate,none,,
+649,510702477.7352698,T1,1.0,A2,False,intermediate,none,,
+650,510702477.7352698,T1,1.0,A3,False,intermediate,none,,
+651,510702477.7352698,T1,1.0,A4,False,intermediate,none,,
+652,510702477.7352698,T2,1.0,A1,False,intermediate,none,,
+653,510702477.7352698,T2,1.0,A2,False,intermediate,none,,
+654,510702477.7352698,T2,1.0,A3,False,intermediate,none,,
+655,510702477.7352698,T2,1.0,A4,False,intermediate,none,,
+656,510702477.7352698,T3,1.0,A1,False,intermediate,none,,
+657,510702477.7352698,T3,1.0,A2,False,intermediate,none,,
+658,510702477.7352698,T3,1.0,A3,False,intermediate,none,,
+659,510702477.7352698,T3,1.0,A4,False,intermediate,none,,
+660,510702477.7352698,M1,1.0,A1,False,intermediate,none,,
+661,510702477.7352698,M1,1.0,A2,False,intermediate,none,,
+662,510702477.7352698,M1,1.0,A3,False,intermediate,none,,
+663,510702477.7352698,M1,1.0,A4,False,intermediate,none,,
+664,510702477.7352698,M2,0.75,A1,False,intermediate,none,,
+665,510702477.7352698,M2,0.75,A2,False,intermediate,none,,
+666,510702477.7352698,M2,0.75,A3,False,intermediate,none,,
+667,510702477.7352698,M2,0.75,A4,True,intermediate,none,,
+668,510702477.7352698,M3,0.5,A1,True,intermediate,none,,
+669,510702477.7352698,M3,0.5,A2,False,intermediate,none,,
+670,510702477.7352698,M3,0.5,A3,True,intermediate,none,,
+671,510702477.7352698,M3,0.5,A4,False,intermediate,none,,
+672,510702477.7352698,M4,1.0,A1,False,intermediate,none,,
+673,510702477.7352698,M4,1.0,A2,False,intermediate,none,,
+674,510702477.7352698,M4,1.0,A3,False,intermediate,none,,
+675,510702477.7352698,M4,1.0,A4,False,intermediate,none,,
+676,510702477.7352698,M6,0.75,A1,False,intermediate,none,,
+677,510702477.7352698,M6,0.75,A2,False,intermediate,none,,
+678,510702477.7352698,M6,0.75,A3,False,intermediate,none,,
+679,510702477.7352698,M6,0.75,A4,True,intermediate,none,,
+680,510702477.7352698,M7,0.75,A1,False,intermediate,none,,
+681,510702477.7352698,M7,0.75,A2,True,intermediate,none,,
+682,510702477.7352698,M7,0.75,A3,False,intermediate,none,,
+683,510702477.7352698,M7,0.75,A4,False,intermediate,none,,
+684,510703612.648215,T1,1.0,A1,False,advanced,advanced,advanced,
+685,510703612.648215,T1,1.0,A2,False,advanced,advanced,advanced,
+686,510703612.648215,T1,1.0,A3,False,advanced,advanced,advanced,
+687,510703612.648215,T1,1.0,A4,False,advanced,advanced,advanced,
+688,510703612.648215,T2,0.75,A1,False,advanced,advanced,advanced,
+689,510703612.648215,T2,0.75,A2,True,advanced,advanced,advanced,
+690,510703612.648215,T2,0.75,A3,False,advanced,advanced,advanced,
+691,510703612.648215,T2,0.75,A4,False,advanced,advanced,advanced,
+692,510703612.648215,T3,1.0,A1,False,advanced,advanced,advanced,
+693,510703612.648215,T3,1.0,A2,False,advanced,advanced,advanced,
+694,510703612.648215,T3,1.0,A3,False,advanced,advanced,advanced,
+695,510703612.648215,T3,1.0,A4,False,advanced,advanced,advanced,
+696,510703612.648215,M1,1.0,A1,False,advanced,advanced,advanced,
+697,510703612.648215,M1,1.0,A2,False,advanced,advanced,advanced,
+698,510703612.648215,M1,1.0,A3,False,advanced,advanced,advanced,
+699,510703612.648215,M1,1.0,A4,False,advanced,advanced,advanced,
+700,510703612.648215,M2,0.75,A1,False,advanced,advanced,advanced,
+701,510703612.648215,M2,0.75,A2,False,advanced,advanced,advanced,
+702,510703612.648215,M2,0.75,A3,False,advanced,advanced,advanced,
+703,510703612.648215,M2,0.75,A4,True,advanced,advanced,advanced,
+704,510703612.648215,M3,1.0,A1,False,advanced,advanced,advanced,
+705,510703612.648215,M3,1.0,A2,False,advanced,advanced,advanced,
+706,510703612.648215,M3,1.0,A3,False,advanced,advanced,advanced,
+707,510703612.648215,M3,1.0,A4,False,advanced,advanced,advanced,
+708,510703612.648215,M4,1.0,A1,False,advanced,advanced,advanced,
+709,510703612.648215,M4,1.0,A2,False,advanced,advanced,advanced,
+710,510703612.648215,M4,1.0,A3,False,advanced,advanced,advanced,
+711,510703612.648215,M4,1.0,A4,False,advanced,advanced,advanced,
+712,510703612.648215,M6,0.75,A1,False,advanced,advanced,advanced,
+713,510703612.648215,M6,0.75,A2,False,advanced,advanced,advanced,
+714,510703612.648215,M6,0.75,A3,False,advanced,advanced,advanced,
+715,510703612.648215,M6,0.75,A4,True,advanced,advanced,advanced,
+716,510703612.648215,M7,0.75,A1,False,advanced,advanced,advanced,
+717,510703612.648215,M7,0.75,A2,False,advanced,advanced,advanced,
+718,510703612.648215,M7,0.75,A3,False,advanced,advanced,advanced,
+719,510703612.648215,M7,0.75,A4,True,advanced,advanced,advanced,
+720,510621219.605657,T1,1.0,A1,False,none,none,,
+721,510621219.605657,T1,1.0,A2,False,none,none,,
+722,510621219.605657,T1,1.0,A3,False,none,none,,
+723,510621219.605657,T1,1.0,A4,False,none,none,,
+724,510621219.605657,T2,0.75,A1,False,none,none,,
+725,510621219.605657,T2,0.75,A2,False,none,none,,
+726,510621219.605657,T2,0.75,A3,False,none,none,,
+727,510621219.605657,T2,0.75,A4,True,none,none,,
+728,510621219.605657,T3,0.25,A1,True,none,none,,
+729,510621219.605657,T3,0.25,A2,True,none,none,,
+730,510621219.605657,T3,0.25,A3,True,none,none,,
+731,510621219.605657,T3,0.25,A4,False,none,none,,
+732,510621219.605657,M1,0.5,A1,True,none,none,,
+733,510621219.605657,M1,0.5,A2,False,none,none,,
+734,510621219.605657,M1,0.5,A3,True,none,none,,
+735,510621219.605657,M1,0.5,A4,False,none,none,,
+736,510621219.605657,M2,0.5,A1,True,none,none,,
+737,510621219.605657,M2,0.5,A2,True,none,none,,
+738,510621219.605657,M2,0.5,A3,False,none,none,,
+739,510621219.605657,M2,0.5,A4,False,none,none,,
+740,510621219.605657,M3,0.5,A1,True,none,none,,
+741,510621219.605657,M3,0.5,A2,False,none,none,,
+742,510621219.605657,M3,0.5,A3,True,none,none,,
+743,510621219.605657,M3,0.5,A4,False,none,none,,
+744,510621219.605657,M4,0.75,A1,True,none,none,,
+745,510621219.605657,M4,0.75,A2,False,none,none,,
+746,510621219.605657,M4,0.75,A3,False,none,none,,
+747,510621219.605657,M4,0.75,A4,False,none,none,,
+748,510621219.605657,M6,1.0,A1,False,none,none,,
+749,510621219.605657,M6,1.0,A2,False,none,none,,
+750,510621219.605657,M6,1.0,A3,False,none,none,,
+751,510621219.605657,M6,1.0,A4,False,none,none,,
+752,510621219.605657,M7,0.75,A1,False,none,none,,
+753,510621219.605657,M7,0.75,A2,False,none,none,,
+754,510621219.605657,M7,0.75,A3,False,none,none,,
+755,510621219.605657,M7,0.75,A4,True,none,none,,
+756,510621603.364384,T1,1.0,A1,False,intermediate,intermediate,intermediate,
+757,510621603.364384,T1,1.0,A2,False,intermediate,intermediate,intermediate,
+758,510621603.364384,T1,1.0,A3,False,intermediate,intermediate,intermediate,
+759,510621603.364384,T1,1.0,A4,False,intermediate,intermediate,intermediate,
+760,510621603.364384,T2,1.0,A1,False,intermediate,intermediate,intermediate,
+761,510621603.364384,T2,1.0,A2,False,intermediate,intermediate,intermediate,
+762,510621603.364384,T2,1.0,A3,False,intermediate,intermediate,intermediate,
+763,510621603.364384,T2,1.0,A4,False,intermediate,intermediate,intermediate,
+764,510621603.364384,T3,0.5,A1,False,intermediate,intermediate,intermediate,
+765,510621603.364384,T3,0.5,A2,True,intermediate,intermediate,intermediate,
+766,510621603.364384,T3,0.5,A3,False,intermediate,intermediate,intermediate,
+767,510621603.364384,T3,0.5,A4,True,intermediate,intermediate,intermediate,
+768,510621603.364384,M1,0.75,A1,True,intermediate,intermediate,intermediate,
+769,510621603.364384,M1,0.75,A2,False,intermediate,intermediate,intermediate,
+770,510621603.364384,M1,0.75,A3,False,intermediate,intermediate,intermediate,
+771,510621603.364384,M1,0.75,A4,False,intermediate,intermediate,intermediate,
+772,510621603.364384,M2,0.5,A1,False,intermediate,intermediate,intermediate,
+773,510621603.364384,M2,0.5,A2,True,intermediate,intermediate,intermediate,
+774,510621603.364384,M2,0.5,A3,False,intermediate,intermediate,intermediate,
+775,510621603.364384,M2,0.5,A4,True,intermediate,intermediate,intermediate,
+776,510621603.364384,M3,1.0,A1,False,intermediate,intermediate,intermediate,
+777,510621603.364384,M3,1.0,A2,False,intermediate,intermediate,intermediate,
+778,510621603.364384,M3,1.0,A3,False,intermediate,intermediate,intermediate,
+779,510621603.364384,M3,1.0,A4,False,intermediate,intermediate,intermediate,
+780,510621603.364384,M4,0.75,A1,False,intermediate,intermediate,intermediate,
+781,510621603.364384,M4,0.75,A2,False,intermediate,intermediate,intermediate,
+782,510621603.364384,M4,0.75,A3,False,intermediate,intermediate,intermediate,
+783,510621603.364384,M4,0.75,A4,True,intermediate,intermediate,intermediate,
+784,510621603.364384,M6,0.75,A1,False,intermediate,intermediate,intermediate,
+785,510621603.364384,M6,0.75,A2,False,intermediate,intermediate,intermediate,
+786,510621603.364384,M6,0.75,A3,False,intermediate,intermediate,intermediate,
+787,510621603.364384,M6,0.75,A4,True,intermediate,intermediate,intermediate,
+788,510621603.364384,M7,0.75,A1,False,intermediate,intermediate,intermediate,
+789,510621603.364384,M7,0.75,A2,False,intermediate,intermediate,intermediate,
+790,510621603.364384,M7,0.75,A3,False,intermediate,intermediate,intermediate,
+791,510621603.364384,M7,0.75,A4,True,intermediate,intermediate,intermediate,
+792,510622672.152173,T1,1.0,A1,False,advanced,advanced,advanced,
+793,510622672.152173,T1,1.0,A2,False,advanced,advanced,advanced,
+794,510622672.152173,T1,1.0,A3,False,advanced,advanced,advanced,
+795,510622672.152173,T1,1.0,A4,False,advanced,advanced,advanced,
+796,510622672.152173,T2,1.0,A1,False,advanced,advanced,advanced,
+797,510622672.152173,T2,1.0,A2,False,advanced,advanced,advanced,
+798,510622672.152173,T2,1.0,A3,False,advanced,advanced,advanced,
+799,510622672.152173,T2,1.0,A4,False,advanced,advanced,advanced,
+800,510622672.152173,T3,0.75,A1,True,advanced,advanced,advanced,
+801,510622672.152173,T3,0.75,A2,False,advanced,advanced,advanced,
+802,510622672.152173,T3,0.75,A3,False,advanced,advanced,advanced,
+803,510622672.152173,T3,0.75,A4,False,advanced,advanced,advanced,
+804,510622672.152173,M1,0.5,A1,True,advanced,advanced,advanced,
+805,510622672.152173,M1,0.5,A2,False,advanced,advanced,advanced,
+806,510622672.152173,M1,0.5,A3,True,advanced,advanced,advanced,
+807,510622672.152173,M1,0.5,A4,False,advanced,advanced,advanced,
+808,510622672.152173,M2,1.0,A1,False,advanced,advanced,advanced,
+809,510622672.152173,M2,1.0,A2,False,advanced,advanced,advanced,
+810,510622672.152173,M2,1.0,A3,False,advanced,advanced,advanced,
+811,510622672.152173,M2,1.0,A4,False,advanced,advanced,advanced,
+812,510622672.152173,M3,0.5,A1,True,advanced,advanced,advanced,
+813,510622672.152173,M3,0.5,A2,False,advanced,advanced,advanced,
+814,510622672.152173,M3,0.5,A3,False,advanced,advanced,advanced,
+815,510622672.152173,M3,0.5,A4,True,advanced,advanced,advanced,
+816,510622672.152173,M4,0.75,A1,True,advanced,advanced,advanced,
+817,510622672.152173,M4,0.75,A2,False,advanced,advanced,advanced,
+818,510622672.152173,M4,0.75,A3,False,advanced,advanced,advanced,
+819,510622672.152173,M4,0.75,A4,False,advanced,advanced,advanced,
+820,510622672.152173,M6,0.75,A1,False,advanced,advanced,advanced,
+821,510622672.152173,M6,0.75,A2,False,advanced,advanced,advanced,
+822,510622672.152173,M6,0.75,A3,False,advanced,advanced,advanced,
+823,510622672.152173,M6,0.75,A4,True,advanced,advanced,advanced,
+824,510622672.152173,M7,0.5,A1,True,advanced,advanced,advanced,
+825,510622672.152173,M7,0.5,A2,False,advanced,advanced,advanced,
+826,510622672.152173,M7,0.5,A3,False,advanced,advanced,advanced,
+827,510622672.152173,M7,0.5,A4,True,advanced,advanced,advanced,
+828,510623359.139895,T1,0.5,A1,True,beginner,none,,
+829,510623359.139895,T1,0.5,A2,False,beginner,none,,
+830,510623359.139895,T1,0.5,A3,True,beginner,none,,
+831,510623359.139895,T1,0.5,A4,False,beginner,none,,
+832,510623359.139895,T2,0.75,A1,False,beginner,none,,
+833,510623359.139895,T2,0.75,A2,False,beginner,none,,
+834,510623359.139895,T2,0.75,A3,True,beginner,none,,
+835,510623359.139895,T2,0.75,A4,False,beginner,none,,
+836,510623359.139895,T3,0.25,A1,True,beginner,none,,
+837,510623359.139895,T3,0.25,A2,True,beginner,none,,
+838,510623359.139895,T3,0.25,A3,True,beginner,none,,
+839,510623359.139895,T3,0.25,A4,False,beginner,none,,
+840,510623359.139895,M1,0.5,A1,True,beginner,none,,
+841,510623359.139895,M1,0.5,A2,False,beginner,none,,
+842,510623359.139895,M1,0.5,A3,True,beginner,none,,
+843,510623359.139895,M1,0.5,A4,False,beginner,none,,
+844,510623359.139895,M2,0.5,A1,True,beginner,none,,
+845,510623359.139895,M2,0.5,A2,False,beginner,none,,
+846,510623359.139895,M2,0.5,A3,False,beginner,none,,
+847,510623359.139895,M2,0.5,A4,True,beginner,none,,
+848,510623359.139895,M3,0.5,A1,True,beginner,none,,
+849,510623359.139895,M3,0.5,A2,False,beginner,none,,
+850,510623359.139895,M3,0.5,A3,False,beginner,none,,
+851,510623359.139895,M3,0.5,A4,True,beginner,none,,
+852,510623359.139895,M4,0.25,A1,True,beginner,none,,
+853,510623359.139895,M4,0.25,A2,True,beginner,none,,
+854,510623359.139895,M4,0.25,A3,True,beginner,none,,
+855,510623359.139895,M4,0.25,A4,False,beginner,none,,
+856,510623359.139895,M6,0.5,A1,False,beginner,none,,
+857,510623359.139895,M6,0.5,A2,True,beginner,none,,
+858,510623359.139895,M6,0.5,A3,False,beginner,none,,
+859,510623359.139895,M6,0.5,A4,True,beginner,none,,
+860,510623359.139895,M7,0.75,A1,False,beginner,none,,
+861,510623359.139895,M7,0.75,A2,False,beginner,none,,
+862,510623359.139895,M7,0.75,A3,False,beginner,none,,
+863,510623359.139895,M7,0.75,A4,True,beginner,none,,
+864,510623546.800766,T1,0.75,A1,False,beginner,beginner,,
+865,510623546.800766,T1,0.75,A2,True,beginner,beginner,,
+866,510623546.800766,T1,0.75,A3,False,beginner,beginner,,
+867,510623546.800766,T1,0.75,A4,False,beginner,beginner,,
+868,510623546.800766,T2,0.25,A1,False,beginner,beginner,,
+869,510623546.800766,T2,0.25,A2,True,beginner,beginner,,
+870,510623546.800766,T2,0.25,A3,True,beginner,beginner,,
+871,510623546.800766,T2,0.25,A4,True,beginner,beginner,,
+872,510623546.800766,T3,0.25,A1,True,beginner,beginner,,
+873,510623546.800766,T3,0.25,A2,True,beginner,beginner,,
+874,510623546.800766,T3,0.25,A3,True,beginner,beginner,,
+875,510623546.800766,T3,0.25,A4,False,beginner,beginner,,
+876,510623546.800766,M1,1.0,A1,False,beginner,beginner,,
+877,510623546.800766,M1,1.0,A2,False,beginner,beginner,,
+878,510623546.800766,M1,1.0,A3,False,beginner,beginner,,
+879,510623546.800766,M1,1.0,A4,False,beginner,beginner,,
+880,510623546.800766,M2,1.0,A1,False,beginner,beginner,,
+881,510623546.800766,M2,1.0,A2,False,beginner,beginner,,
+882,510623546.800766,M2,1.0,A3,False,beginner,beginner,,
+883,510623546.800766,M2,1.0,A4,False,beginner,beginner,,
+884,510623546.800766,M3,0.5,A1,True,beginner,beginner,,
+885,510623546.800766,M3,0.5,A2,False,beginner,beginner,,
+886,510623546.800766,M3,0.5,A3,False,beginner,beginner,,
+887,510623546.800766,M3,0.5,A4,True,beginner,beginner,,
+888,510623546.800766,M4,0.25,A1,True,beginner,beginner,,
+889,510623546.800766,M4,0.25,A2,True,beginner,beginner,,
+890,510623546.800766,M4,0.25,A3,True,beginner,beginner,,
+891,510623546.800766,M4,0.25,A4,False,beginner,beginner,,
+892,510623546.800766,M6,0.5,A1,False,beginner,beginner,,
+893,510623546.800766,M6,0.5,A2,True,beginner,beginner,,
+894,510623546.800766,M6,0.5,A3,False,beginner,beginner,,
+895,510623546.800766,M6,0.5,A4,True,beginner,beginner,,
+896,510623546.800766,M7,1.0,A1,False,beginner,beginner,,
+897,510623546.800766,M7,1.0,A2,False,beginner,beginner,,
+898,510623546.800766,M7,1.0,A3,False,beginner,beginner,,
+899,510623546.800766,M7,1.0,A4,False,beginner,beginner,,
+900,510623760.1881,T1,1.0,A1,False,beginner,beginner,beginner,
+901,510623760.1881,T1,1.0,A2,False,beginner,beginner,beginner,
+902,510623760.1881,T1,1.0,A3,False,beginner,beginner,beginner,
+903,510623760.1881,T1,1.0,A4,False,beginner,beginner,beginner,
+904,510623760.1881,T2,0.75,A1,False,beginner,beginner,beginner,
+905,510623760.1881,T2,0.75,A2,False,beginner,beginner,beginner,
+906,510623760.1881,T2,0.75,A3,True,beginner,beginner,beginner,
+907,510623760.1881,T2,0.75,A4,False,beginner,beginner,beginner,
+908,510623760.1881,T3,0.75,A1,False,beginner,beginner,beginner,
+909,510623760.1881,T3,0.75,A2,False,beginner,beginner,beginner,
+910,510623760.1881,T3,0.75,A3,True,beginner,beginner,beginner,
+911,510623760.1881,T3,0.75,A4,False,beginner,beginner,beginner,
+912,510623760.1881,M1,1.0,A1,False,beginner,beginner,beginner,
+913,510623760.1881,M1,1.0,A2,False,beginner,beginner,beginner,
+914,510623760.1881,M1,1.0,A3,False,beginner,beginner,beginner,
+915,510623760.1881,M1,1.0,A4,False,beginner,beginner,beginner,
+916,510623760.1881,M2,1.0,A1,False,beginner,beginner,beginner,
+917,510623760.1881,M2,1.0,A2,False,beginner,beginner,beginner,
+918,510623760.1881,M2,1.0,A3,False,beginner,beginner,beginner,
+919,510623760.1881,M2,1.0,A4,False,beginner,beginner,beginner,
+920,510623760.1881,M3,0.5,A1,True,beginner,beginner,beginner,
+921,510623760.1881,M3,0.5,A2,False,beginner,beginner,beginner,
+922,510623760.1881,M3,0.5,A3,False,beginner,beginner,beginner,
+923,510623760.1881,M3,0.5,A4,True,beginner,beginner,beginner,
+924,510623760.1881,M4,0.75,A1,True,beginner,beginner,beginner,
+925,510623760.1881,M4,0.75,A2,False,beginner,beginner,beginner,
+926,510623760.1881,M4,0.75,A3,False,beginner,beginner,beginner,
+927,510623760.1881,M4,0.75,A4,False,beginner,beginner,beginner,
+928,510623760.1881,M6,1.0,A1,False,beginner,beginner,beginner,
+929,510623760.1881,M6,1.0,A2,False,beginner,beginner,beginner,
+930,510623760.1881,M6,1.0,A3,False,beginner,beginner,beginner,
+931,510623760.1881,M6,1.0,A4,False,beginner,beginner,beginner,
+932,510623760.1881,M7,0.75,A1,False,beginner,beginner,beginner,
+933,510623760.1881,M7,0.75,A2,False,beginner,beginner,beginner,
+934,510623760.1881,M7,0.75,A3,False,beginner,beginner,beginner,
+935,510623760.1881,M7,0.75,A4,True,beginner,beginner,beginner,
+936,510624135.490651,T1,0.75,A1,False,intermediate,written,beginner,
+937,510624135.490651,T1,0.75,A2,False,intermediate,written,beginner,
+938,510624135.490651,T1,0.75,A3,True,intermediate,written,beginner,
+939,510624135.490651,T1,0.75,A4,False,intermediate,written,beginner,
+940,510624135.490651,T2,1.0,A1,False,intermediate,written,beginner,
+941,510624135.490651,T2,1.0,A2,False,intermediate,written,beginner,
+942,510624135.490651,T2,1.0,A3,False,intermediate,written,beginner,
+943,510624135.490651,T2,1.0,A4,False,intermediate,written,beginner,
+944,510624135.490651,T3,1.0,A1,False,intermediate,written,beginner,
+945,510624135.490651,T3,1.0,A2,False,intermediate,written,beginner,
+946,510624135.490651,T3,1.0,A3,False,intermediate,written,beginner,
+947,510624135.490651,T3,1.0,A4,False,intermediate,written,beginner,
+948,510624135.490651,M1,1.0,A1,False,intermediate,written,beginner,
+949,510624135.490651,M1,1.0,A2,False,intermediate,written,beginner,
+950,510624135.490651,M1,1.0,A3,False,intermediate,written,beginner,
+951,510624135.490651,M1,1.0,A4,False,intermediate,written,beginner,
+952,510624135.490651,M2,1.0,A1,False,intermediate,written,beginner,
+953,510624135.490651,M2,1.0,A2,False,intermediate,written,beginner,
+954,510624135.490651,M2,1.0,A3,False,intermediate,written,beginner,
+955,510624135.490651,M2,1.0,A4,False,intermediate,written,beginner,
+956,510624135.490651,M3,1.0,A1,False,intermediate,written,beginner,
+957,510624135.490651,M3,1.0,A2,False,intermediate,written,beginner,
+958,510624135.490651,M3,1.0,A3,False,intermediate,written,beginner,
+959,510624135.490651,M3,1.0,A4,False,intermediate,written,beginner,
+960,510624135.490651,M4,1.0,A1,False,intermediate,written,beginner,
+961,510624135.490651,M4,1.0,A2,False,intermediate,written,beginner,
+962,510624135.490651,M4,1.0,A3,False,intermediate,written,beginner,
+963,510624135.490651,M4,1.0,A4,False,intermediate,written,beginner,
+964,510624135.490651,M6,1.0,A1,False,intermediate,written,beginner,
+965,510624135.490651,M6,1.0,A2,False,intermediate,written,beginner,
+966,510624135.490651,M6,1.0,A3,False,intermediate,written,beginner,
+967,510624135.490651,M6,1.0,A4,False,intermediate,written,beginner,
+968,510624135.490651,M7,0.75,A1,False,intermediate,written,beginner,
+969,510624135.490651,M7,0.75,A2,False,intermediate,written,beginner,
+970,510624135.490651,M7,0.75,A3,False,intermediate,written,beginner,
+971,510624135.490651,M7,0.75,A4,True,intermediate,written,beginner,
+972,510624666.8553548,T1,0.75,A1,False,intermediate,beginner,beginner,
+973,510624666.8553548,T1,0.75,A2,False,intermediate,beginner,beginner,
+974,510624666.8553548,T1,0.75,A3,True,intermediate,beginner,beginner,
+975,510624666.8553548,T1,0.75,A4,False,intermediate,beginner,beginner,
+976,510624666.8553548,T2,0.75,A1,True,intermediate,beginner,beginner,
+977,510624666.8553548,T2,0.75,A2,False,intermediate,beginner,beginner,
+978,510624666.8553548,T2,0.75,A3,False,intermediate,beginner,beginner,
+979,510624666.8553548,T2,0.75,A4,False,intermediate,beginner,beginner,
+980,510624666.8553548,T3,0.25,A1,True,intermediate,beginner,beginner,
+981,510624666.8553548,T3,0.25,A2,True,intermediate,beginner,beginner,
+982,510624666.8553548,T3,0.25,A3,True,intermediate,beginner,beginner,
+983,510624666.8553548,T3,0.25,A4,False,intermediate,beginner,beginner,
+984,510624666.8553548,M1,1.0,A1,False,intermediate,beginner,beginner,
+985,510624666.8553548,M1,1.0,A2,False,intermediate,beginner,beginner,
+986,510624666.8553548,M1,1.0,A3,False,intermediate,beginner,beginner,
+987,510624666.8553548,M1,1.0,A4,False,intermediate,beginner,beginner,
+988,510624666.8553548,M2,1.0,A1,False,intermediate,beginner,beginner,
+989,510624666.8553548,M2,1.0,A2,False,intermediate,beginner,beginner,
+990,510624666.8553548,M2,1.0,A3,False,intermediate,beginner,beginner,
+991,510624666.8553548,M2,1.0,A4,False,intermediate,beginner,beginner,
+992,510624666.8553548,M3,0.5,A1,True,intermediate,beginner,beginner,
+993,510624666.8553548,M3,0.5,A2,False,intermediate,beginner,beginner,
+994,510624666.8553548,M3,0.5,A3,False,intermediate,beginner,beginner,
+995,510624666.8553548,M3,0.5,A4,True,intermediate,beginner,beginner,
+996,510624666.8553548,M4,0.75,A1,True,intermediate,beginner,beginner,
+997,510624666.8553548,M4,0.75,A2,False,intermediate,beginner,beginner,
+998,510624666.8553548,M4,0.75,A3,False,intermediate,beginner,beginner,
+999,510624666.8553548,M4,0.75,A4,False,intermediate,beginner,beginner,
+1000,510624666.8553548,M6,1.0,A1,False,intermediate,beginner,beginner,
+1001,510624666.8553548,M6,1.0,A2,False,intermediate,beginner,beginner,
+1002,510624666.8553548,M6,1.0,A3,False,intermediate,beginner,beginner,
+1003,510624666.8553548,M6,1.0,A4,False,intermediate,beginner,beginner,
+1004,510624666.8553548,M7,1.0,A1,False,intermediate,beginner,beginner,
+1005,510624666.8553548,M7,1.0,A2,False,intermediate,beginner,beginner,
+1006,510624666.8553548,M7,1.0,A3,False,intermediate,beginner,beginner,
+1007,510624666.8553548,M7,1.0,A4,False,intermediate,beginner,beginner,
+1008,510625094.864854,T1,1.0,A1,False,advanced,run,,
+1009,510625094.864854,T1,1.0,A2,False,advanced,run,,
+1010,510625094.864854,T1,1.0,A3,False,advanced,run,,
+1011,510625094.864854,T1,1.0,A4,False,advanced,run,,
+1012,510625094.864854,T2,1.0,A1,False,advanced,run,,
+1013,510625094.864854,T2,1.0,A2,False,advanced,run,,
+1014,510625094.864854,T2,1.0,A3,False,advanced,run,,
+1015,510625094.864854,T2,1.0,A4,False,advanced,run,,
+1016,510625094.864854,T3,0.5,A1,True,advanced,run,,
+1017,510625094.864854,T3,0.5,A2,False,advanced,run,,
+1018,510625094.864854,T3,0.5,A3,True,advanced,run,,
+1019,510625094.864854,T3,0.5,A4,False,advanced,run,,
+1020,510625094.864854,M1,0.75,A1,True,advanced,run,,
+1021,510625094.864854,M1,0.75,A2,False,advanced,run,,
+1022,510625094.864854,M1,0.75,A3,False,advanced,run,,
+1023,510625094.864854,M1,0.75,A4,False,advanced,run,,
+1024,510625094.864854,M2,0.5,A1,False,advanced,run,,
+1025,510625094.864854,M2,0.5,A2,True,advanced,run,,
+1026,510625094.864854,M2,0.5,A3,False,advanced,run,,
+1027,510625094.864854,M2,0.5,A4,True,advanced,run,,
+1028,510625094.864854,M3,0.25,A1,True,advanced,run,,
+1029,510625094.864854,M3,0.25,A2,False,advanced,run,,
+1030,510625094.864854,M3,0.25,A3,True,advanced,run,,
+1031,510625094.864854,M3,0.25,A4,True,advanced,run,,
+1032,510625094.864854,M4,0.5,A1,True,advanced,run,,
+1033,510625094.864854,M4,0.5,A2,False,advanced,run,,
+1034,510625094.864854,M4,0.5,A3,True,advanced,run,,
+1035,510625094.864854,M4,0.5,A4,False,advanced,run,,
+1036,510625094.864854,M6,0.75,A1,False,advanced,run,,
+1037,510625094.864854,M6,0.75,A2,False,advanced,run,,
+1038,510625094.864854,M6,0.75,A3,False,advanced,run,,
+1039,510625094.864854,M6,0.75,A4,True,advanced,run,,
+1040,510625094.864854,M7,0.5,A1,False,advanced,run,,
+1041,510625094.864854,M7,0.5,A2,True,advanced,run,,
+1042,510625094.864854,M7,0.5,A3,False,advanced,run,,
+1043,510625094.864854,M7,0.5,A4,True,advanced,run,,
+1044,510625574.843644,T1,1.0,A1,False,intermediate,none,,
+1045,510625574.843644,T1,1.0,A2,False,intermediate,none,,
+1046,510625574.843644,T1,1.0,A3,False,intermediate,none,,
+1047,510625574.843644,T1,1.0,A4,False,intermediate,none,,
+1048,510625574.843644,T2,0.75,A1,False,intermediate,none,,
+1049,510625574.843644,T2,0.75,A2,False,intermediate,none,,
+1050,510625574.843644,T2,0.75,A3,False,intermediate,none,,
+1051,510625574.843644,T2,0.75,A4,True,intermediate,none,,
+1052,510625574.843644,T3,0.75,A1,False,intermediate,none,,
+1053,510625574.843644,T3,0.75,A2,False,intermediate,none,,
+1054,510625574.843644,T3,0.75,A3,True,intermediate,none,,
+1055,510625574.843644,T3,0.75,A4,False,intermediate,none,,
+1056,510625574.843644,M1,0.75,A1,True,intermediate,none,,
+1057,510625574.843644,M1,0.75,A2,False,intermediate,none,,
+1058,510625574.843644,M1,0.75,A3,False,intermediate,none,,
+1059,510625574.843644,M1,0.75,A4,False,intermediate,none,,
+1060,510625574.843644,M2,0.5,A1,False,intermediate,none,,
+1061,510625574.843644,M2,0.5,A2,True,intermediate,none,,
+1062,510625574.843644,M2,0.5,A3,False,intermediate,none,,
+1063,510625574.843644,M2,0.5,A4,True,intermediate,none,,
+1064,510625574.843644,M3,0.5,A1,True,intermediate,none,,
+1065,510625574.843644,M3,0.5,A2,False,intermediate,none,,
+1066,510625574.843644,M3,0.5,A3,False,intermediate,none,,
+1067,510625574.843644,M3,0.5,A4,True,intermediate,none,,
+1068,510625574.843644,M4,0.75,A1,True,intermediate,none,,
+1069,510625574.843644,M4,0.75,A2,False,intermediate,none,,
+1070,510625574.843644,M4,0.75,A3,False,intermediate,none,,
+1071,510625574.843644,M4,0.75,A4,False,intermediate,none,,
+1072,510625574.843644,M6,0.75,A1,False,intermediate,none,,
+1073,510625574.843644,M6,0.75,A2,False,intermediate,none,,
+1074,510625574.843644,M6,0.75,A3,False,intermediate,none,,
+1075,510625574.843644,M6,0.75,A4,True,intermediate,none,,
+1076,510625574.843644,M7,0.75,A1,False,intermediate,none,,
+1077,510625574.843644,M7,0.75,A2,False,intermediate,none,,
+1078,510625574.843644,M7,0.75,A3,False,intermediate,none,,
+1079,510625574.843644,M7,0.75,A4,True,intermediate,none,,
+1080,510625825.558051,T1,1.0,A1,False,beginner,none,,
+1081,510625825.558051,T1,1.0,A2,False,beginner,none,,
+1082,510625825.558051,T1,1.0,A3,False,beginner,none,,
+1083,510625825.558051,T1,1.0,A4,False,beginner,none,,
+1084,510625825.558051,T2,0.75,A1,False,beginner,none,,
+1085,510625825.558051,T2,0.75,A2,True,beginner,none,,
+1086,510625825.558051,T2,0.75,A3,False,beginner,none,,
+1087,510625825.558051,T2,0.75,A4,False,beginner,none,,
+1088,510625825.558051,T3,0.25,A1,True,beginner,none,,
+1089,510625825.558051,T3,0.25,A2,True,beginner,none,,
+1090,510625825.558051,T3,0.25,A3,True,beginner,none,,
+1091,510625825.558051,T3,0.25,A4,False,beginner,none,,
+1092,510625825.558051,M1,0.75,A1,True,beginner,none,,
+1093,510625825.558051,M1,0.75,A2,False,beginner,none,,
+1094,510625825.558051,M1,0.75,A3,False,beginner,none,,
+1095,510625825.558051,M1,0.75,A4,False,beginner,none,,
+1096,510625825.558051,M2,0.5,A1,False,beginner,none,,
+1097,510625825.558051,M2,0.5,A2,True,beginner,none,,
+1098,510625825.558051,M2,0.5,A3,False,beginner,none,,
+1099,510625825.558051,M2,0.5,A4,True,beginner,none,,
+1100,510625825.558051,M3,0.5,A1,True,beginner,none,,
+1101,510625825.558051,M3,0.5,A2,False,beginner,none,,
+1102,510625825.558051,M3,0.5,A3,False,beginner,none,,
+1103,510625825.558051,M3,0.5,A4,True,beginner,none,,
+1104,510625825.558051,M4,0.25,A1,True,beginner,none,,
+1105,510625825.558051,M4,0.25,A2,True,beginner,none,,
+1106,510625825.558051,M4,0.25,A3,True,beginner,none,,
+1107,510625825.558051,M4,0.25,A4,False,beginner,none,,
+1108,510625825.558051,M6,1.0,A1,False,beginner,none,,
+1109,510625825.558051,M6,1.0,A2,False,beginner,none,,
+1110,510625825.558051,M6,1.0,A3,False,beginner,none,,
+1111,510625825.558051,M6,1.0,A4,False,beginner,none,,
+1112,510625825.558051,M7,1.0,A1,False,beginner,none,,
+1113,510625825.558051,M7,1.0,A2,False,beginner,none,,
+1114,510625825.558051,M7,1.0,A3,False,beginner,none,,
+1115,510625825.558051,M7,1.0,A4,False,beginner,none,,
+1116,510679289.167242,T1,1.0,A1,False,advanced,run,,Very interesting
+1117,510679289.167242,T1,1.0,A2,False,advanced,run,,Very interesting
+1118,510679289.167242,T1,1.0,A3,False,advanced,run,,Very interesting
+1119,510679289.167242,T1,1.0,A4,False,advanced,run,,Very interesting
+1120,510679289.167242,T2,1.0,A1,False,advanced,run,,Very interesting
+1121,510679289.167242,T2,1.0,A2,False,advanced,run,,Very interesting
+1122,510679289.167242,T2,1.0,A3,False,advanced,run,,Very interesting
+1123,510679289.167242,T2,1.0,A4,False,advanced,run,,Very interesting
+1124,510679289.167242,T3,0.75,A1,False,advanced,run,,Very interesting
+1125,510679289.167242,T3,0.75,A2,True,advanced,run,,Very interesting
+1126,510679289.167242,T3,0.75,A3,False,advanced,run,,Very interesting
+1127,510679289.167242,T3,0.75,A4,False,advanced,run,,Very interesting
+1128,510679289.167242,M1,0.75,A1,True,advanced,run,,Very interesting
+1129,510679289.167242,M1,0.75,A2,False,advanced,run,,Very interesting
+1130,510679289.167242,M1,0.75,A3,False,advanced,run,,Very interesting
+1131,510679289.167242,M1,0.75,A4,False,advanced,run,,Very interesting
+1132,510679289.167242,M2,0.75,A1,False,advanced,run,,Very interesting
+1133,510679289.167242,M2,0.75,A2,False,advanced,run,,Very interesting
+1134,510679289.167242,M2,0.75,A3,False,advanced,run,,Very interesting
+1135,510679289.167242,M2,0.75,A4,True,advanced,run,,Very interesting
+1136,510679289.167242,M3,1.0,A1,False,advanced,run,,Very interesting
+1137,510679289.167242,M3,1.0,A2,False,advanced,run,,Very interesting
+1138,510679289.167242,M3,1.0,A3,False,advanced,run,,Very interesting
+1139,510679289.167242,M3,1.0,A4,False,advanced,run,,Very interesting
+1140,510679289.167242,M4,1.0,A1,False,advanced,run,,Very interesting
+1141,510679289.167242,M4,1.0,A2,False,advanced,run,,Very interesting
+1142,510679289.167242,M4,1.0,A3,False,advanced,run,,Very interesting
+1143,510679289.167242,M4,1.0,A4,False,advanced,run,,Very interesting
+1144,510679289.167242,M6,0.75,A1,False,advanced,run,,Very interesting
+1145,510679289.167242,M6,0.75,A2,False,advanced,run,,Very interesting
+1146,510679289.167242,M6,0.75,A3,False,advanced,run,,Very interesting
+1147,510679289.167242,M6,0.75,A4,True,advanced,run,,Very interesting
+1148,510679289.167242,M7,0.75,A1,False,advanced,run,,Very interesting
+1149,510679289.167242,M7,0.75,A2,False,advanced,run,,Very interesting
+1150,510679289.167242,M7,0.75,A3,False,advanced,run,,Very interesting
+1151,510679289.167242,M7,0.75,A4,True,advanced,run,,Very interesting
+1152,510679728.846724,T1,1.0,A1,False,advanced,run,intermediate,didn't notice the text regarding partial and full on the right. I think I started with assuming they rights were full till  mid stream.
+1153,510679728.846724,T1,1.0,A2,False,advanced,run,intermediate,didn't notice the text regarding partial and full on the right. I think I started with assuming they rights were full till  mid stream.
+1154,510679728.846724,T1,1.0,A3,False,advanced,run,intermediate,didn't notice the text regarding partial and full on the right. I think I started with assuming they rights were full till  mid stream.
+1155,510679728.846724,T1,1.0,A4,False,advanced,run,intermediate,didn't notice the text regarding partial and full on the right. I think I started with assuming they rights were full till  mid stream.
+1156,510679728.846724,T2,1.0,A1,False,advanced,run,intermediate,didn't notice the text regarding partial and full on the right. I think I started with assuming they rights were full till  mid stream.
+1157,510679728.846724,T2,1.0,A2,False,advanced,run,intermediate,didn't notice the text regarding partial and full on the right. I think I started with assuming they rights were full till  mid stream.
+1158,510679728.846724,T2,1.0,A3,False,advanced,run,intermediate,didn't notice the text regarding partial and full on the right. I think I started with assuming they rights were full till  mid stream.
+1159,510679728.846724,T2,1.0,A4,False,advanced,run,intermediate,didn't notice the text regarding partial and full on the right. I think I started with assuming they rights were full till  mid stream.
+1160,510679728.846724,T3,0.5,A1,True,advanced,run,intermediate,didn't notice the text regarding partial and full on the right. I think I started with assuming they rights were full till  mid stream.
+1161,510679728.846724,T3,0.5,A2,False,advanced,run,intermediate,didn't notice the text regarding partial and full on the right. I think I started with assuming they rights were full till  mid stream.
+1162,510679728.846724,T3,0.5,A3,True,advanced,run,intermediate,didn't notice the text regarding partial and full on the right. I think I started with assuming they rights were full till  mid stream.
+1163,510679728.846724,T3,0.5,A4,False,advanced,run,intermediate,didn't notice the text regarding partial and full on the right. I think I started with assuming they rights were full till  mid stream.
+1164,510679728.846724,M1,1.0,A1,False,advanced,run,intermediate,didn't notice the text regarding partial and full on the right. I think I started with assuming they rights were full till  mid stream.
+1165,510679728.846724,M1,1.0,A2,False,advanced,run,intermediate,didn't notice the text regarding partial and full on the right. I think I started with assuming they rights were full till  mid stream.
+1166,510679728.846724,M1,1.0,A3,False,advanced,run,intermediate,didn't notice the text regarding partial and full on the right. I think I started with assuming they rights were full till  mid stream.
+1167,510679728.846724,M1,1.0,A4,False,advanced,run,intermediate,didn't notice the text regarding partial and full on the right. I think I started with assuming they rights were full till  mid stream.
+1168,510679728.846724,M2,0.75,A1,False,advanced,run,intermediate,didn't notice the text regarding partial and full on the right. I think I started with assuming they rights were full till  mid stream.
+1169,510679728.846724,M2,0.75,A2,True,advanced,run,intermediate,didn't notice the text regarding partial and full on the right. I think I started with assuming they rights were full till  mid stream.
+1170,510679728.846724,M2,0.75,A3,False,advanced,run,intermediate,didn't notice the text regarding partial and full on the right. I think I started with assuming they rights were full till  mid stream.
+1171,510679728.846724,M2,0.75,A4,False,advanced,run,intermediate,didn't notice the text regarding partial and full on the right. I think I started with assuming they rights were full till  mid stream.
+1172,510679728.846724,M3,1.0,A1,False,advanced,run,intermediate,didn't notice the text regarding partial and full on the right. I think I started with assuming they rights were full till  mid stream.
+1173,510679728.846724,M3,1.0,A2,False,advanced,run,intermediate,didn't notice the text regarding partial and full on the right. I think I started with assuming they rights were full till  mid stream.
+1174,510679728.846724,M3,1.0,A3,False,advanced,run,intermediate,didn't notice the text regarding partial and full on the right. I think I started with assuming they rights were full till  mid stream.
+1175,510679728.846724,M3,1.0,A4,False,advanced,run,intermediate,didn't notice the text regarding partial and full on the right. I think I started with assuming they rights were full till  mid stream.
+1176,510679728.846724,M4,1.0,A1,False,advanced,run,intermediate,didn't notice the text regarding partial and full on the right. I think I started with assuming they rights were full till  mid stream.
+1177,510679728.846724,M4,1.0,A2,False,advanced,run,intermediate,didn't notice the text regarding partial and full on the right. I think I started with assuming they rights were full till  mid stream.
+1178,510679728.846724,M4,1.0,A3,False,advanced,run,intermediate,didn't notice the text regarding partial and full on the right. I think I started with assuming they rights were full till  mid stream.
+1179,510679728.846724,M4,1.0,A4,False,advanced,run,intermediate,didn't notice the text regarding partial and full on the right. I think I started with assuming they rights were full till  mid stream.
+1180,510679728.846724,M6,1.0,A1,False,advanced,run,intermediate,didn't notice the text regarding partial and full on the right. I think I started with assuming they rights were full till  mid stream.
+1181,510679728.846724,M6,1.0,A2,False,advanced,run,intermediate,didn't notice the text regarding partial and full on the right. I think I started with assuming they rights were full till  mid stream.
+1182,510679728.846724,M6,1.0,A3,False,advanced,run,intermediate,didn't notice the text regarding partial and full on the right. I think I started with assuming they rights were full till  mid stream.
+1183,510679728.846724,M6,1.0,A4,False,advanced,run,intermediate,didn't notice the text regarding partial and full on the right. I think I started with assuming they rights were full till  mid stream.
+1184,510679728.846724,M7,0.75,A1,False,advanced,run,intermediate,didn't notice the text regarding partial and full on the right. I think I started with assuming they rights were full till  mid stream.
+1185,510679728.846724,M7,0.75,A2,False,advanced,run,intermediate,didn't notice the text regarding partial and full on the right. I think I started with assuming they rights were full till  mid stream.
+1186,510679728.846724,M7,0.75,A3,False,advanced,run,intermediate,didn't notice the text regarding partial and full on the right. I think I started with assuming they rights were full till  mid stream.
+1187,510679728.846724,M7,0.75,A4,True,advanced,run,intermediate,didn't notice the text regarding partial and full on the right. I think I started with assuming they rights were full till  mid stream.
+1188,510680740.783794,T1,1.0,A1,False,advanced,written,advanced,
+1189,510680740.783794,T1,1.0,A2,False,advanced,written,advanced,
+1190,510680740.783794,T1,1.0,A3,False,advanced,written,advanced,
+1191,510680740.783794,T1,1.0,A4,False,advanced,written,advanced,
+1192,510680740.783794,T2,0.25,A1,False,advanced,written,advanced,
+1193,510680740.783794,T2,0.25,A2,True,advanced,written,advanced,
+1194,510680740.783794,T2,0.25,A3,True,advanced,written,advanced,
+1195,510680740.783794,T2,0.25,A4,True,advanced,written,advanced,
+1196,510680740.783794,T3,0.25,A1,True,advanced,written,advanced,
+1197,510680740.783794,T3,0.25,A2,False,advanced,written,advanced,
+1198,510680740.783794,T3,0.25,A3,True,advanced,written,advanced,
+1199,510680740.783794,T3,0.25,A4,True,advanced,written,advanced,
+1200,510680740.783794,M1,0.5,A1,False,advanced,written,advanced,
+1201,510680740.783794,M1,0.5,A2,True,advanced,written,advanced,
+1202,510680740.783794,M1,0.5,A3,True,advanced,written,advanced,
+1203,510680740.783794,M1,0.5,A4,False,advanced,written,advanced,
+1204,510680740.783794,M2,1.0,A1,False,advanced,written,advanced,
+1205,510680740.783794,M2,1.0,A2,False,advanced,written,advanced,
+1206,510680740.783794,M2,1.0,A3,False,advanced,written,advanced,
+1207,510680740.783794,M2,1.0,A4,False,advanced,written,advanced,
+1208,510680740.783794,M3,0.5,A1,True,advanced,written,advanced,
+1209,510680740.783794,M3,0.5,A2,False,advanced,written,advanced,
+1210,510680740.783794,M3,0.5,A3,False,advanced,written,advanced,
+1211,510680740.783794,M3,0.5,A4,True,advanced,written,advanced,
+1212,510680740.783794,M4,0.75,A1,True,advanced,written,advanced,
+1213,510680740.783794,M4,0.75,A2,False,advanced,written,advanced,
+1214,510680740.783794,M4,0.75,A3,False,advanced,written,advanced,
+1215,510680740.783794,M4,0.75,A4,False,advanced,written,advanced,
+1216,510680740.783794,M6,0.75,A1,False,advanced,written,advanced,
+1217,510680740.783794,M6,0.75,A2,True,advanced,written,advanced,
+1218,510680740.783794,M6,0.75,A3,False,advanced,written,advanced,
+1219,510680740.783794,M6,0.75,A4,False,advanced,written,advanced,
+1220,510680740.783794,M7,0.5,A1,True,advanced,written,advanced,
+1221,510680740.783794,M7,0.5,A2,False,advanced,written,advanced,
+1222,510680740.783794,M7,0.5,A3,False,advanced,written,advanced,
+1223,510680740.783794,M7,0.5,A4,True,advanced,written,advanced,
+1224,510680925.874971,T1,1.0,A1,False,advanced,beginner,beginner,
+1225,510680925.874971,T1,1.0,A2,False,advanced,beginner,beginner,
+1226,510680925.874971,T1,1.0,A3,False,advanced,beginner,beginner,
+1227,510680925.874971,T1,1.0,A4,False,advanced,beginner,beginner,
+1228,510680925.874971,T2,0.25,A1,True,advanced,beginner,beginner,
+1229,510680925.874971,T2,0.25,A2,False,advanced,beginner,beginner,
+1230,510680925.874971,T2,0.25,A3,True,advanced,beginner,beginner,
+1231,510680925.874971,T2,0.25,A4,True,advanced,beginner,beginner,
+1232,510680925.874971,T3,0.5,A1,True,advanced,beginner,beginner,
+1233,510680925.874971,T3,0.5,A2,False,advanced,beginner,beginner,
+1234,510680925.874971,T3,0.5,A3,False,advanced,beginner,beginner,
+1235,510680925.874971,T3,0.5,A4,True,advanced,beginner,beginner,
+1236,510680925.874971,M1,0.75,A1,False,advanced,beginner,beginner,
+1237,510680925.874971,M1,0.75,A2,False,advanced,beginner,beginner,
+1238,510680925.874971,M1,0.75,A3,False,advanced,beginner,beginner,
+1239,510680925.874971,M1,0.75,A4,True,advanced,beginner,beginner,
+1240,510680925.874971,M2,0.75,A1,True,advanced,beginner,beginner,
+1241,510680925.874971,M2,0.75,A2,False,advanced,beginner,beginner,
+1242,510680925.874971,M2,0.75,A3,False,advanced,beginner,beginner,
+1243,510680925.874971,M2,0.75,A4,False,advanced,beginner,beginner,
+1244,510680925.874971,M3,0.5,A1,True,advanced,beginner,beginner,
+1245,510680925.874971,M3,0.5,A2,False,advanced,beginner,beginner,
+1246,510680925.874971,M3,0.5,A3,False,advanced,beginner,beginner,
+1247,510680925.874971,M3,0.5,A4,True,advanced,beginner,beginner,
+1248,510680925.874971,M4,0.5,A1,False,advanced,beginner,beginner,
+1249,510680925.874971,M4,0.5,A2,False,advanced,beginner,beginner,
+1250,510680925.874971,M4,0.5,A3,True,advanced,beginner,beginner,
+1251,510680925.874971,M4,0.5,A4,True,advanced,beginner,beginner,
+1252,510680925.874971,M6,0.75,A1,False,advanced,beginner,beginner,
+1253,510680925.874971,M6,0.75,A2,True,advanced,beginner,beginner,
+1254,510680925.874971,M6,0.75,A3,False,advanced,beginner,beginner,
+1255,510680925.874971,M6,0.75,A4,False,advanced,beginner,beginner,
+1256,510680925.874971,M7,0.75,A1,False,advanced,beginner,beginner,
+1257,510680925.874971,M7,0.75,A2,False,advanced,beginner,beginner,
+1258,510680925.874971,M7,0.75,A3,False,advanced,beginner,beginner,
+1259,510680925.874971,M7,0.75,A4,True,advanced,beginner,beginner,
+1260,510680925.874971,,,A1,False,advanced,beginner,beginner,
+1261,510680925.874971,,,A2,False,advanced,beginner,beginner,
+1262,510680925.874971,,,A3,False,advanced,beginner,beginner,
+1263,510680925.874971,,,A4,False,advanced,beginner,beginner,
+1264,510680925.874971,,,A1,False,advanced,beginner,beginner,
+1265,510680925.874971,,,A2,False,advanced,beginner,beginner,
+1266,510680925.874971,,,A3,False,advanced,beginner,beginner,
+1267,510680925.874971,,,A4,False,advanced,beginner,beginner,
+1268,510681486.295608,T1,1.0,A1,False,advanced,advanced,advanced,Good luck with the study.
+1269,510681486.295608,T1,1.0,A2,False,advanced,advanced,advanced,Good luck with the study.
+1270,510681486.295608,T1,1.0,A3,False,advanced,advanced,advanced,Good luck with the study.
+1271,510681486.295608,T1,1.0,A4,False,advanced,advanced,advanced,Good luck with the study.
+1272,510681486.295608,T2,1.0,A1,False,advanced,advanced,advanced,Good luck with the study.
+1273,510681486.295608,T2,1.0,A2,False,advanced,advanced,advanced,Good luck with the study.
+1274,510681486.295608,T2,1.0,A3,False,advanced,advanced,advanced,Good luck with the study.
+1275,510681486.295608,T2,1.0,A4,False,advanced,advanced,advanced,Good luck with the study.
+1276,510681486.295608,T3,0.5,A1,True,advanced,advanced,advanced,Good luck with the study.
+1277,510681486.295608,T3,0.5,A2,False,advanced,advanced,advanced,Good luck with the study.
+1278,510681486.295608,T3,0.5,A3,True,advanced,advanced,advanced,Good luck with the study.
+1279,510681486.295608,T3,0.5,A4,False,advanced,advanced,advanced,Good luck with the study.
+1280,510681486.295608,M1,0.75,A1,True,advanced,advanced,advanced,Good luck with the study.
+1281,510681486.295608,M1,0.75,A2,False,advanced,advanced,advanced,Good luck with the study.
+1282,510681486.295608,M1,0.75,A3,False,advanced,advanced,advanced,Good luck with the study.
+1283,510681486.295608,M1,0.75,A4,False,advanced,advanced,advanced,Good luck with the study.
+1284,510681486.295608,M2,0.5,A1,False,advanced,advanced,advanced,Good luck with the study.
+1285,510681486.295608,M2,0.5,A2,False,advanced,advanced,advanced,Good luck with the study.
+1286,510681486.295608,M2,0.5,A3,True,advanced,advanced,advanced,Good luck with the study.
+1287,510681486.295608,M2,0.5,A4,True,advanced,advanced,advanced,Good luck with the study.
+1288,510681486.295608,M3,0.75,A1,False,advanced,advanced,advanced,Good luck with the study.
+1289,510681486.295608,M3,0.75,A2,False,advanced,advanced,advanced,Good luck with the study.
+1290,510681486.295608,M3,0.75,A3,True,advanced,advanced,advanced,Good luck with the study.
+1291,510681486.295608,M3,0.75,A4,False,advanced,advanced,advanced,Good luck with the study.
+1292,510681486.295608,M4,1.0,A1,False,advanced,advanced,advanced,Good luck with the study.
+1293,510681486.295608,M4,1.0,A2,False,advanced,advanced,advanced,Good luck with the study.
+1294,510681486.295608,M4,1.0,A3,False,advanced,advanced,advanced,Good luck with the study.
+1295,510681486.295608,M4,1.0,A4,False,advanced,advanced,advanced,Good luck with the study.
+1296,510681486.295608,M6,1.0,A1,False,advanced,advanced,advanced,Good luck with the study.
+1297,510681486.295608,M6,1.0,A2,False,advanced,advanced,advanced,Good luck with the study.
+1298,510681486.295608,M6,1.0,A3,False,advanced,advanced,advanced,Good luck with the study.
+1299,510681486.295608,M6,1.0,A4,False,advanced,advanced,advanced,Good luck with the study.
+1300,510681486.295608,M7,0.75,A1,False,advanced,advanced,advanced,Good luck with the study.
+1301,510681486.295608,M7,0.75,A2,False,advanced,advanced,advanced,Good luck with the study.
+1302,510681486.295608,M7,0.75,A3,False,advanced,advanced,advanced,Good luck with the study.
+1303,510681486.295608,M7,0.75,A4,True,advanced,advanced,advanced,Good luck with the study.
+1304,510682068.87275,T1,0.25,A1,True,advanced,run,,
+1305,510682068.87275,T1,0.25,A2,True,advanced,run,,
+1306,510682068.87275,T1,0.25,A3,False,advanced,run,,
+1307,510682068.87275,T1,0.25,A4,True,advanced,run,,
+1308,510682068.87275,T2,0.5,A1,True,advanced,run,,
+1309,510682068.87275,T2,0.5,A2,False,advanced,run,,
+1310,510682068.87275,T2,0.5,A3,True,advanced,run,,
+1311,510682068.87275,T2,0.5,A4,False,advanced,run,,
+1312,510682068.87275,T3,0.75,A1,False,advanced,run,,
+1313,510682068.87275,T3,0.75,A2,False,advanced,run,,
+1314,510682068.87275,T3,0.75,A3,True,advanced,run,,
+1315,510682068.87275,T3,0.75,A4,False,advanced,run,,
+1316,510682068.87275,M1,0.5,A1,False,advanced,run,,
+1317,510682068.87275,M1,0.5,A2,True,advanced,run,,
+1318,510682068.87275,M1,0.5,A3,True,advanced,run,,
+1319,510682068.87275,M1,0.5,A4,False,advanced,run,,
+1320,510682068.87275,M2,1.0,A1,False,advanced,run,,
+1321,510682068.87275,M2,1.0,A2,False,advanced,run,,
+1322,510682068.87275,M2,1.0,A3,False,advanced,run,,
+1323,510682068.87275,M2,1.0,A4,False,advanced,run,,
+1324,510682068.87275,M3,0.5,A1,True,advanced,run,,
+1325,510682068.87275,M3,0.5,A2,False,advanced,run,,
+1326,510682068.87275,M3,0.5,A3,True,advanced,run,,
+1327,510682068.87275,M3,0.5,A4,False,advanced,run,,
+1328,510682068.87275,M4,0.75,A1,True,advanced,run,,
+1329,510682068.87275,M4,0.75,A2,False,advanced,run,,
+1330,510682068.87275,M4,0.75,A3,False,advanced,run,,
+1331,510682068.87275,M4,0.75,A4,False,advanced,run,,
+1332,510682068.87275,M6,0.75,A1,False,advanced,run,,
+1333,510682068.87275,M6,0.75,A2,True,advanced,run,,
+1334,510682068.87275,M6,0.75,A3,False,advanced,run,,
+1335,510682068.87275,M6,0.75,A4,False,advanced,run,,
+1336,510682068.87275,M7,0.5,A1,False,advanced,run,,
+1337,510682068.87275,M7,0.5,A2,True,advanced,run,,
+1338,510682068.87275,M7,0.5,A3,False,advanced,run,,
+1339,510682068.87275,M7,0.5,A4,True,advanced,run,,
+1340,510682686.68209,T1,0.5,A1,True,beginner,none,,Great study! Thanks!
+1341,510682686.68209,T1,0.5,A2,False,beginner,none,,Great study! Thanks!
+1342,510682686.68209,T1,0.5,A3,False,beginner,none,,Great study! Thanks!
+1343,510682686.68209,T1,0.5,A4,True,beginner,none,,Great study! Thanks!
+1344,510682686.68209,T2,0.25,A1,False,beginner,none,,Great study! Thanks!
+1345,510682686.68209,T2,0.25,A2,True,beginner,none,,Great study! Thanks!
+1346,510682686.68209,T2,0.25,A3,True,beginner,none,,Great study! Thanks!
+1347,510682686.68209,T2,0.25,A4,True,beginner,none,,Great study! Thanks!
+1348,510682686.68209,T3,0.25,A1,True,beginner,none,,Great study! Thanks!
+1349,510682686.68209,T3,0.25,A2,False,beginner,none,,Great study! Thanks!
+1350,510682686.68209,T3,0.25,A3,True,beginner,none,,Great study! Thanks!
+1351,510682686.68209,T3,0.25,A4,True,beginner,none,,Great study! Thanks!
+1352,510682686.68209,M1,0.5,A1,False,beginner,none,,Great study! Thanks!
+1353,510682686.68209,M1,0.5,A2,False,beginner,none,,Great study! Thanks!
+1354,510682686.68209,M1,0.5,A3,True,beginner,none,,Great study! Thanks!
+1355,510682686.68209,M1,0.5,A4,True,beginner,none,,Great study! Thanks!
+1356,510682686.68209,M2,0.5,A1,True,beginner,none,,Great study! Thanks!
+1357,510682686.68209,M2,0.5,A2,False,beginner,none,,Great study! Thanks!
+1358,510682686.68209,M2,0.5,A3,True,beginner,none,,Great study! Thanks!
+1359,510682686.68209,M2,0.5,A4,False,beginner,none,,Great study! Thanks!
+1360,510682686.68209,M3,0.5,A1,True,beginner,none,,Great study! Thanks!
+1361,510682686.68209,M3,0.5,A2,False,beginner,none,,Great study! Thanks!
+1362,510682686.68209,M3,0.5,A3,True,beginner,none,,Great study! Thanks!
+1363,510682686.68209,M3,0.5,A4,False,beginner,none,,Great study! Thanks!
+1364,510682686.68209,M4,0.25,A1,True,beginner,none,,Great study! Thanks!
+1365,510682686.68209,M4,0.25,A2,True,beginner,none,,Great study! Thanks!
+1366,510682686.68209,M4,0.25,A3,True,beginner,none,,Great study! Thanks!
+1367,510682686.68209,M4,0.25,A4,False,beginner,none,,Great study! Thanks!
+1368,510682686.68209,M6,0.75,A1,False,beginner,none,,Great study! Thanks!
+1369,510682686.68209,M6,0.75,A2,True,beginner,none,,Great study! Thanks!
+1370,510682686.68209,M6,0.75,A3,False,beginner,none,,Great study! Thanks!
+1371,510682686.68209,M6,0.75,A4,False,beginner,none,,Great study! Thanks!
+1372,510682686.68209,M7,0.75,A1,False,beginner,none,,Great study! Thanks!
+1373,510682686.68209,M7,0.75,A2,False,beginner,none,,Great study! Thanks!
+1374,510682686.68209,M7,0.75,A3,False,beginner,none,,Great study! Thanks!
+1375,510682686.68209,M7,0.75,A4,True,beginner,none,,Great study! Thanks!
+1376,510683548.281635,T1,0.75,A1,False,intermediate,beginner,intermediate,I enjoyed this. Are you familiar with Raven's Matrices tests? These are pattern matching IQ tests allegedly free of cultural bias. They are considered to be a reasonable test of mathematical ability. Yours somehow remind me of these.
+1377,510683548.281635,T1,0.75,A2,False,intermediate,beginner,intermediate,I enjoyed this. Are you familiar with Raven's Matrices tests? These are pattern matching IQ tests allegedly free of cultural bias. They are considered to be a reasonable test of mathematical ability. Yours somehow remind me of these.
+1378,510683548.281635,T1,0.75,A3,True,intermediate,beginner,intermediate,I enjoyed this. Are you familiar with Raven's Matrices tests? These are pattern matching IQ tests allegedly free of cultural bias. They are considered to be a reasonable test of mathematical ability. Yours somehow remind me of these.
+1379,510683548.281635,T1,0.75,A4,False,intermediate,beginner,intermediate,I enjoyed this. Are you familiar with Raven's Matrices tests? These are pattern matching IQ tests allegedly free of cultural bias. They are considered to be a reasonable test of mathematical ability. Yours somehow remind me of these.
+1380,510683548.281635,T2,0.75,A1,False,intermediate,beginner,intermediate,I enjoyed this. Are you familiar with Raven's Matrices tests? These are pattern matching IQ tests allegedly free of cultural bias. They are considered to be a reasonable test of mathematical ability. Yours somehow remind me of these.
+1381,510683548.281635,T2,0.75,A2,True,intermediate,beginner,intermediate,I enjoyed this. Are you familiar with Raven's Matrices tests? These are pattern matching IQ tests allegedly free of cultural bias. They are considered to be a reasonable test of mathematical ability. Yours somehow remind me of these.
+1382,510683548.281635,T2,0.75,A3,False,intermediate,beginner,intermediate,I enjoyed this. Are you familiar with Raven's Matrices tests? These are pattern matching IQ tests allegedly free of cultural bias. They are considered to be a reasonable test of mathematical ability. Yours somehow remind me of these.
+1383,510683548.281635,T2,0.75,A4,False,intermediate,beginner,intermediate,I enjoyed this. Are you familiar with Raven's Matrices tests? These are pattern matching IQ tests allegedly free of cultural bias. They are considered to be a reasonable test of mathematical ability. Yours somehow remind me of these.
+1384,510683548.281635,T3,0.75,A1,False,intermediate,beginner,intermediate,I enjoyed this. Are you familiar with Raven's Matrices tests? These are pattern matching IQ tests allegedly free of cultural bias. They are considered to be a reasonable test of mathematical ability. Yours somehow remind me of these.
+1385,510683548.281635,T3,0.75,A2,True,intermediate,beginner,intermediate,I enjoyed this. Are you familiar with Raven's Matrices tests? These are pattern matching IQ tests allegedly free of cultural bias. They are considered to be a reasonable test of mathematical ability. Yours somehow remind me of these.
+1386,510683548.281635,T3,0.75,A3,False,intermediate,beginner,intermediate,I enjoyed this. Are you familiar with Raven's Matrices tests? These are pattern matching IQ tests allegedly free of cultural bias. They are considered to be a reasonable test of mathematical ability. Yours somehow remind me of these.
+1387,510683548.281635,T3,0.75,A4,False,intermediate,beginner,intermediate,I enjoyed this. Are you familiar with Raven's Matrices tests? These are pattern matching IQ tests allegedly free of cultural bias. They are considered to be a reasonable test of mathematical ability. Yours somehow remind me of these.
+1388,510683548.281635,M1,0.75,A1,True,intermediate,beginner,intermediate,I enjoyed this. Are you familiar with Raven's Matrices tests? These are pattern matching IQ tests allegedly free of cultural bias. They are considered to be a reasonable test of mathematical ability. Yours somehow remind me of these.
+1389,510683548.281635,M1,0.75,A2,False,intermediate,beginner,intermediate,I enjoyed this. Are you familiar with Raven's Matrices tests? These are pattern matching IQ tests allegedly free of cultural bias. They are considered to be a reasonable test of mathematical ability. Yours somehow remind me of these.
+1390,510683548.281635,M1,0.75,A3,False,intermediate,beginner,intermediate,I enjoyed this. Are you familiar with Raven's Matrices tests? These are pattern matching IQ tests allegedly free of cultural bias. They are considered to be a reasonable test of mathematical ability. Yours somehow remind me of these.
+1391,510683548.281635,M1,0.75,A4,False,intermediate,beginner,intermediate,I enjoyed this. Are you familiar with Raven's Matrices tests? These are pattern matching IQ tests allegedly free of cultural bias. They are considered to be a reasonable test of mathematical ability. Yours somehow remind me of these.
+1392,510683548.281635,M2,0.75,A1,False,intermediate,beginner,intermediate,I enjoyed this. Are you familiar with Raven's Matrices tests? These are pattern matching IQ tests allegedly free of cultural bias. They are considered to be a reasonable test of mathematical ability. Yours somehow remind me of these.
+1393,510683548.281635,M2,0.75,A2,False,intermediate,beginner,intermediate,I enjoyed this. Are you familiar with Raven's Matrices tests? These are pattern matching IQ tests allegedly free of cultural bias. They are considered to be a reasonable test of mathematical ability. Yours somehow remind me of these.
+1394,510683548.281635,M2,0.75,A3,False,intermediate,beginner,intermediate,I enjoyed this. Are you familiar with Raven's Matrices tests? These are pattern matching IQ tests allegedly free of cultural bias. They are considered to be a reasonable test of mathematical ability. Yours somehow remind me of these.
+1395,510683548.281635,M2,0.75,A4,True,intermediate,beginner,intermediate,I enjoyed this. Are you familiar with Raven's Matrices tests? These are pattern matching IQ tests allegedly free of cultural bias. They are considered to be a reasonable test of mathematical ability. Yours somehow remind me of these.
+1396,510683548.281635,M3,0.5,A1,False,intermediate,beginner,intermediate,I enjoyed this. Are you familiar with Raven's Matrices tests? These are pattern matching IQ tests allegedly free of cultural bias. They are considered to be a reasonable test of mathematical ability. Yours somehow remind me of these.
+1397,510683548.281635,M3,0.5,A2,False,intermediate,beginner,intermediate,I enjoyed this. Are you familiar with Raven's Matrices tests? These are pattern matching IQ tests allegedly free of cultural bias. They are considered to be a reasonable test of mathematical ability. Yours somehow remind me of these.
+1398,510683548.281635,M3,0.5,A3,True,intermediate,beginner,intermediate,I enjoyed this. Are you familiar with Raven's Matrices tests? These are pattern matching IQ tests allegedly free of cultural bias. They are considered to be a reasonable test of mathematical ability. Yours somehow remind me of these.
+1399,510683548.281635,M3,0.5,A4,True,intermediate,beginner,intermediate,I enjoyed this. Are you familiar with Raven's Matrices tests? These are pattern matching IQ tests allegedly free of cultural bias. They are considered to be a reasonable test of mathematical ability. Yours somehow remind me of these.
+1400,510683548.281635,M4,1.0,A1,False,intermediate,beginner,intermediate,I enjoyed this. Are you familiar with Raven's Matrices tests? These are pattern matching IQ tests allegedly free of cultural bias. They are considered to be a reasonable test of mathematical ability. Yours somehow remind me of these.
+1401,510683548.281635,M4,1.0,A2,False,intermediate,beginner,intermediate,I enjoyed this. Are you familiar with Raven's Matrices tests? These are pattern matching IQ tests allegedly free of cultural bias. They are considered to be a reasonable test of mathematical ability. Yours somehow remind me of these.
+1402,510683548.281635,M4,1.0,A3,False,intermediate,beginner,intermediate,I enjoyed this. Are you familiar with Raven's Matrices tests? These are pattern matching IQ tests allegedly free of cultural bias. They are considered to be a reasonable test of mathematical ability. Yours somehow remind me of these.
+1403,510683548.281635,M4,1.0,A4,False,intermediate,beginner,intermediate,I enjoyed this. Are you familiar with Raven's Matrices tests? These are pattern matching IQ tests allegedly free of cultural bias. They are considered to be a reasonable test of mathematical ability. Yours somehow remind me of these.
+1404,510683548.281635,M6,1.0,A1,False,intermediate,beginner,intermediate,I enjoyed this. Are you familiar with Raven's Matrices tests? These are pattern matching IQ tests allegedly free of cultural bias. They are considered to be a reasonable test of mathematical ability. Yours somehow remind me of these.
+1405,510683548.281635,M6,1.0,A2,False,intermediate,beginner,intermediate,I enjoyed this. Are you familiar with Raven's Matrices tests? These are pattern matching IQ tests allegedly free of cultural bias. They are considered to be a reasonable test of mathematical ability. Yours somehow remind me of these.
+1406,510683548.281635,M6,1.0,A3,False,intermediate,beginner,intermediate,I enjoyed this. Are you familiar with Raven's Matrices tests? These are pattern matching IQ tests allegedly free of cultural bias. They are considered to be a reasonable test of mathematical ability. Yours somehow remind me of these.
+1407,510683548.281635,M6,1.0,A4,False,intermediate,beginner,intermediate,I enjoyed this. Are you familiar with Raven's Matrices tests? These are pattern matching IQ tests allegedly free of cultural bias. They are considered to be a reasonable test of mathematical ability. Yours somehow remind me of these.
+1408,510683548.281635,M7,0.75,A1,False,intermediate,beginner,intermediate,I enjoyed this. Are you familiar with Raven's Matrices tests? These are pattern matching IQ tests allegedly free of cultural bias. They are considered to be a reasonable test of mathematical ability. Yours somehow remind me of these.
+1409,510683548.281635,M7,0.75,A2,False,intermediate,beginner,intermediate,I enjoyed this. Are you familiar with Raven's Matrices tests? These are pattern matching IQ tests allegedly free of cultural bias. They are considered to be a reasonable test of mathematical ability. Yours somehow remind me of these.
+1410,510683548.281635,M7,0.75,A3,False,intermediate,beginner,intermediate,I enjoyed this. Are you familiar with Raven's Matrices tests? These are pattern matching IQ tests allegedly free of cultural bias. They are considered to be a reasonable test of mathematical ability. Yours somehow remind me of these.
+1411,510683548.281635,M7,0.75,A4,True,intermediate,beginner,intermediate,I enjoyed this. Are you familiar with Raven's Matrices tests? These are pattern matching IQ tests allegedly free of cultural bias. They are considered to be a reasonable test of mathematical ability. Yours somehow remind me of these.
+1412,510684415.794389,T1,0.75,A1,False,beginner,none,,
+1413,510684415.794389,T1,0.75,A2,False,beginner,none,,
+1414,510684415.794389,T1,0.75,A3,True,beginner,none,,
+1415,510684415.794389,T1,0.75,A4,False,beginner,none,,
+1416,510684415.794389,T2,1.0,A1,False,beginner,none,,
+1417,510684415.794389,T2,1.0,A2,False,beginner,none,,
+1418,510684415.794389,T2,1.0,A3,False,beginner,none,,
+1419,510684415.794389,T2,1.0,A4,False,beginner,none,,
+1420,510684415.794389,T3,0.25,A1,True,beginner,none,,
+1421,510684415.794389,T3,0.25,A2,True,beginner,none,,
+1422,510684415.794389,T3,0.25,A3,True,beginner,none,,
+1423,510684415.794389,T3,0.25,A4,False,beginner,none,,
+1424,510684415.794389,M1,0.75,A1,True,beginner,none,,
+1425,510684415.794389,M1,0.75,A2,False,beginner,none,,
+1426,510684415.794389,M1,0.75,A3,False,beginner,none,,
+1427,510684415.794389,M1,0.75,A4,False,beginner,none,,
+1428,510684415.794389,M2,0.75,A1,False,beginner,none,,
+1429,510684415.794389,M2,0.75,A2,True,beginner,none,,
+1430,510684415.794389,M2,0.75,A3,False,beginner,none,,
+1431,510684415.794389,M2,0.75,A4,False,beginner,none,,
+1432,510684415.794389,M3,0.25,A1,True,beginner,none,,
+1433,510684415.794389,M3,0.25,A2,True,beginner,none,,
+1434,510684415.794389,M3,0.25,A3,False,beginner,none,,
+1435,510684415.794389,M3,0.25,A4,True,beginner,none,,
+1436,510684415.794389,M4,0.75,A1,True,beginner,none,,
+1437,510684415.794389,M4,0.75,A2,False,beginner,none,,
+1438,510684415.794389,M4,0.75,A3,False,beginner,none,,
+1439,510684415.794389,M4,0.75,A4,False,beginner,none,,
+1440,510684415.794389,M6,0.75,A1,False,beginner,none,,
+1441,510684415.794389,M6,0.75,A2,False,beginner,none,,
+1442,510684415.794389,M6,0.75,A3,False,beginner,none,,
+1443,510684415.794389,M6,0.75,A4,True,beginner,none,,
+1444,510684415.794389,M7,1.0,A1,False,beginner,none,,
+1445,510684415.794389,M7,1.0,A2,False,beginner,none,,
+1446,510684415.794389,M7,1.0,A3,False,beginner,none,,
+1447,510684415.794389,M7,1.0,A4,False,beginner,none,,
+1448,510687249.083479,T1,0.5,A1,True,advanced,intermediate,intermediate,"Should have state if we should pick more than one chart.I thought it was only one, but one some I was able to select multiple"
+1449,510687249.083479,T1,0.5,A2,False,advanced,intermediate,intermediate,"Should have state if we should pick more than one chart.I thought it was only one, but one some I was able to select multiple"
+1450,510687249.083479,T1,0.5,A3,False,advanced,intermediate,intermediate,"Should have state if we should pick more than one chart.I thought it was only one, but one some I was able to select multiple"
+1451,510687249.083479,T1,0.5,A4,True,advanced,intermediate,intermediate,"Should have state if we should pick more than one chart.I thought it was only one, but one some I was able to select multiple"
+1452,510687249.083479,T2,0.75,A1,False,advanced,intermediate,intermediate,"Should have state if we should pick more than one chart.I thought it was only one, but one some I was able to select multiple"
+1453,510687249.083479,T2,0.75,A2,False,advanced,intermediate,intermediate,"Should have state if we should pick more than one chart.I thought it was only one, but one some I was able to select multiple"
+1454,510687249.083479,T2,0.75,A3,False,advanced,intermediate,intermediate,"Should have state if we should pick more than one chart.I thought it was only one, but one some I was able to select multiple"
+1455,510687249.083479,T2,0.75,A4,True,advanced,intermediate,intermediate,"Should have state if we should pick more than one chart.I thought it was only one, but one some I was able to select multiple"
+1456,510687249.083479,T3,0.75,A1,False,advanced,intermediate,intermediate,"Should have state if we should pick more than one chart.I thought it was only one, but one some I was able to select multiple"
+1457,510687249.083479,T3,0.75,A2,False,advanced,intermediate,intermediate,"Should have state if we should pick more than one chart.I thought it was only one, but one some I was able to select multiple"
+1458,510687249.083479,T3,0.75,A3,True,advanced,intermediate,intermediate,"Should have state if we should pick more than one chart.I thought it was only one, but one some I was able to select multiple"
+1459,510687249.083479,T3,0.75,A4,False,advanced,intermediate,intermediate,"Should have state if we should pick more than one chart.I thought it was only one, but one some I was able to select multiple"
+1460,510687249.083479,M1,1.0,A1,False,advanced,intermediate,intermediate,"Should have state if we should pick more than one chart.I thought it was only one, but one some I was able to select multiple"
+1461,510687249.083479,M1,1.0,A2,False,advanced,intermediate,intermediate,"Should have state if we should pick more than one chart.I thought it was only one, but one some I was able to select multiple"
+1462,510687249.083479,M1,1.0,A3,False,advanced,intermediate,intermediate,"Should have state if we should pick more than one chart.I thought it was only one, but one some I was able to select multiple"
+1463,510687249.083479,M1,1.0,A4,False,advanced,intermediate,intermediate,"Should have state if we should pick more than one chart.I thought it was only one, but one some I was able to select multiple"
+1464,510687249.083479,M2,0.75,A1,False,advanced,intermediate,intermediate,"Should have state if we should pick more than one chart.I thought it was only one, but one some I was able to select multiple"
+1465,510687249.083479,M2,0.75,A2,True,advanced,intermediate,intermediate,"Should have state if we should pick more than one chart.I thought it was only one, but one some I was able to select multiple"
+1466,510687249.083479,M2,0.75,A3,False,advanced,intermediate,intermediate,"Should have state if we should pick more than one chart.I thought it was only one, but one some I was able to select multiple"
+1467,510687249.083479,M2,0.75,A4,False,advanced,intermediate,intermediate,"Should have state if we should pick more than one chart.I thought it was only one, but one some I was able to select multiple"
+1468,510687249.083479,M3,0.5,A1,True,advanced,intermediate,intermediate,"Should have state if we should pick more than one chart.I thought it was only one, but one some I was able to select multiple"
+1469,510687249.083479,M3,0.5,A2,False,advanced,intermediate,intermediate,"Should have state if we should pick more than one chart.I thought it was only one, but one some I was able to select multiple"
+1470,510687249.083479,M3,0.5,A3,False,advanced,intermediate,intermediate,"Should have state if we should pick more than one chart.I thought it was only one, but one some I was able to select multiple"
+1471,510687249.083479,M3,0.5,A4,True,advanced,intermediate,intermediate,"Should have state if we should pick more than one chart.I thought it was only one, but one some I was able to select multiple"
+1472,510687249.083479,M4,0.75,A1,False,advanced,intermediate,intermediate,"Should have state if we should pick more than one chart.I thought it was only one, but one some I was able to select multiple"
+1473,510687249.083479,M4,0.75,A2,False,advanced,intermediate,intermediate,"Should have state if we should pick more than one chart.I thought it was only one, but one some I was able to select multiple"
+1474,510687249.083479,M4,0.75,A3,True,advanced,intermediate,intermediate,"Should have state if we should pick more than one chart.I thought it was only one, but one some I was able to select multiple"
+1475,510687249.083479,M4,0.75,A4,False,advanced,intermediate,intermediate,"Should have state if we should pick more than one chart.I thought it was only one, but one some I was able to select multiple"
+1476,510687249.083479,M6,0.75,A1,False,advanced,intermediate,intermediate,"Should have state if we should pick more than one chart.I thought it was only one, but one some I was able to select multiple"
+1477,510687249.083479,M6,0.75,A2,False,advanced,intermediate,intermediate,"Should have state if we should pick more than one chart.I thought it was only one, but one some I was able to select multiple"
+1478,510687249.083479,M6,0.75,A3,False,advanced,intermediate,intermediate,"Should have state if we should pick more than one chart.I thought it was only one, but one some I was able to select multiple"
+1479,510687249.083479,M6,0.75,A4,True,advanced,intermediate,intermediate,"Should have state if we should pick more than one chart.I thought it was only one, but one some I was able to select multiple"
+1480,510687249.083479,M7,1.0,A1,False,advanced,intermediate,intermediate,"Should have state if we should pick more than one chart.I thought it was only one, but one some I was able to select multiple"
+1481,510687249.083479,M7,1.0,A2,False,advanced,intermediate,intermediate,"Should have state if we should pick more than one chart.I thought it was only one, but one some I was able to select multiple"
+1482,510687249.083479,M7,1.0,A3,False,advanced,intermediate,intermediate,"Should have state if we should pick more than one chart.I thought it was only one, but one some I was able to select multiple"
+1483,510687249.083479,M7,1.0,A4,False,advanced,intermediate,intermediate,"Should have state if we should pick more than one chart.I thought it was only one, but one some I was able to select multiple"
+1484,510688051.038611,T1,1.0,A1,False,intermediate,run,intermediate,
+1485,510688051.038611,T1,1.0,A2,False,intermediate,run,intermediate,
+1486,510688051.038611,T1,1.0,A3,False,intermediate,run,intermediate,
+1487,510688051.038611,T1,1.0,A4,False,intermediate,run,intermediate,
+1488,510688051.038611,T2,0.75,A1,False,intermediate,run,intermediate,
+1489,510688051.038611,T2,0.75,A2,False,intermediate,run,intermediate,
+1490,510688051.038611,T2,0.75,A3,True,intermediate,run,intermediate,
+1491,510688051.038611,T2,0.75,A4,False,intermediate,run,intermediate,
+1492,510688051.038611,T3,0.75,A1,True,intermediate,run,intermediate,
+1493,510688051.038611,T3,0.75,A2,False,intermediate,run,intermediate,
+1494,510688051.038611,T3,0.75,A3,False,intermediate,run,intermediate,
+1495,510688051.038611,T3,0.75,A4,False,intermediate,run,intermediate,
+1496,510688051.038611,M1,1.0,A1,False,intermediate,run,intermediate,
+1497,510688051.038611,M1,1.0,A2,False,intermediate,run,intermediate,
+1498,510688051.038611,M1,1.0,A3,False,intermediate,run,intermediate,
+1499,510688051.038611,M1,1.0,A4,False,intermediate,run,intermediate,
+1500,510688051.038611,M2,1.0,A1,False,intermediate,run,intermediate,
+1501,510688051.038611,M2,1.0,A2,False,intermediate,run,intermediate,
+1502,510688051.038611,M2,1.0,A3,False,intermediate,run,intermediate,
+1503,510688051.038611,M2,1.0,A4,False,intermediate,run,intermediate,
+1504,510688051.038611,M3,0.5,A1,False,intermediate,run,intermediate,
+1505,510688051.038611,M3,0.5,A2,False,intermediate,run,intermediate,
+1506,510688051.038611,M3,0.5,A3,True,intermediate,run,intermediate,
+1507,510688051.038611,M3,0.5,A4,True,intermediate,run,intermediate,
+1508,510688051.038611,M4,0.5,A1,True,intermediate,run,intermediate,
+1509,510688051.038611,M4,0.5,A2,False,intermediate,run,intermediate,
+1510,510688051.038611,M4,0.5,A3,True,intermediate,run,intermediate,
+1511,510688051.038611,M4,0.5,A4,False,intermediate,run,intermediate,
+1512,510688051.038611,M6,0.75,A1,False,intermediate,run,intermediate,
+1513,510688051.038611,M6,0.75,A2,True,intermediate,run,intermediate,
+1514,510688051.038611,M6,0.75,A3,False,intermediate,run,intermediate,
+1515,510688051.038611,M6,0.75,A4,False,intermediate,run,intermediate,
+1516,510688051.038611,M7,1.0,A1,False,intermediate,run,intermediate,
+1517,510688051.038611,M7,1.0,A2,False,intermediate,run,intermediate,
+1518,510688051.038611,M7,1.0,A3,False,intermediate,run,intermediate,
+1519,510688051.038611,M7,1.0,A4,False,intermediate,run,intermediate,
+1520,510693301.969495,T1,1.0,A1,False,advanced,intermediate,intermediate,I (may have) messed up the first few because I didn't realize that I could select more than one.
+1521,510693301.969495,T1,1.0,A2,False,advanced,intermediate,intermediate,I (may have) messed up the first few because I didn't realize that I could select more than one.
+1522,510693301.969495,T1,1.0,A3,False,advanced,intermediate,intermediate,I (may have) messed up the first few because I didn't realize that I could select more than one.
+1523,510693301.969495,T1,1.0,A4,False,advanced,intermediate,intermediate,I (may have) messed up the first few because I didn't realize that I could select more than one.
+1524,510693301.969495,T2,0.75,A1,False,advanced,intermediate,intermediate,I (may have) messed up the first few because I didn't realize that I could select more than one.
+1525,510693301.969495,T2,0.75,A2,False,advanced,intermediate,intermediate,I (may have) messed up the first few because I didn't realize that I could select more than one.
+1526,510693301.969495,T2,0.75,A3,True,advanced,intermediate,intermediate,I (may have) messed up the first few because I didn't realize that I could select more than one.
+1527,510693301.969495,T2,0.75,A4,False,advanced,intermediate,intermediate,I (may have) messed up the first few because I didn't realize that I could select more than one.
+1528,510693301.969495,T3,0.75,A1,False,advanced,intermediate,intermediate,I (may have) messed up the first few because I didn't realize that I could select more than one.
+1529,510693301.969495,T3,0.75,A2,False,advanced,intermediate,intermediate,I (may have) messed up the first few because I didn't realize that I could select more than one.
+1530,510693301.969495,T3,0.75,A3,True,advanced,intermediate,intermediate,I (may have) messed up the first few because I didn't realize that I could select more than one.
+1531,510693301.969495,T3,0.75,A4,False,advanced,intermediate,intermediate,I (may have) messed up the first few because I didn't realize that I could select more than one.
+1532,510693301.969495,M1,1.0,A1,False,advanced,intermediate,intermediate,I (may have) messed up the first few because I didn't realize that I could select more than one.
+1533,510693301.969495,M1,1.0,A2,False,advanced,intermediate,intermediate,I (may have) messed up the first few because I didn't realize that I could select more than one.
+1534,510693301.969495,M1,1.0,A3,False,advanced,intermediate,intermediate,I (may have) messed up the first few because I didn't realize that I could select more than one.
+1535,510693301.969495,M1,1.0,A4,False,advanced,intermediate,intermediate,I (may have) messed up the first few because I didn't realize that I could select more than one.
+1536,510693301.969495,M2,1.0,A1,False,advanced,intermediate,intermediate,I (may have) messed up the first few because I didn't realize that I could select more than one.
+1537,510693301.969495,M2,1.0,A2,False,advanced,intermediate,intermediate,I (may have) messed up the first few because I didn't realize that I could select more than one.
+1538,510693301.969495,M2,1.0,A3,False,advanced,intermediate,intermediate,I (may have) messed up the first few because I didn't realize that I could select more than one.
+1539,510693301.969495,M2,1.0,A4,False,advanced,intermediate,intermediate,I (may have) messed up the first few because I didn't realize that I could select more than one.
+1540,510693301.969495,M3,0.75,A1,True,advanced,intermediate,intermediate,I (may have) messed up the first few because I didn't realize that I could select more than one.
+1541,510693301.969495,M3,0.75,A2,False,advanced,intermediate,intermediate,I (may have) messed up the first few because I didn't realize that I could select more than one.
+1542,510693301.969495,M3,0.75,A3,False,advanced,intermediate,intermediate,I (may have) messed up the first few because I didn't realize that I could select more than one.
+1543,510693301.969495,M3,0.75,A4,False,advanced,intermediate,intermediate,I (may have) messed up the first few because I didn't realize that I could select more than one.
+1544,510693301.969495,M4,1.0,A1,False,advanced,intermediate,intermediate,I (may have) messed up the first few because I didn't realize that I could select more than one.
+1545,510693301.969495,M4,1.0,A2,False,advanced,intermediate,intermediate,I (may have) messed up the first few because I didn't realize that I could select more than one.
+1546,510693301.969495,M4,1.0,A3,False,advanced,intermediate,intermediate,I (may have) messed up the first few because I didn't realize that I could select more than one.
+1547,510693301.969495,M4,1.0,A4,False,advanced,intermediate,intermediate,I (may have) messed up the first few because I didn't realize that I could select more than one.
+1548,510693301.969495,M6,1.0,A1,False,advanced,intermediate,intermediate,I (may have) messed up the first few because I didn't realize that I could select more than one.
+1549,510693301.969495,M6,1.0,A2,False,advanced,intermediate,intermediate,I (may have) messed up the first few because I didn't realize that I could select more than one.
+1550,510693301.969495,M6,1.0,A3,False,advanced,intermediate,intermediate,I (may have) messed up the first few because I didn't realize that I could select more than one.
+1551,510693301.969495,M6,1.0,A4,False,advanced,intermediate,intermediate,I (may have) messed up the first few because I didn't realize that I could select more than one.
+1552,510693301.969495,M7,0.75,A1,False,advanced,intermediate,intermediate,I (may have) messed up the first few because I didn't realize that I could select more than one.
+1553,510693301.969495,M7,0.75,A2,False,advanced,intermediate,intermediate,I (may have) messed up the first few because I didn't realize that I could select more than one.
+1554,510693301.969495,M7,0.75,A3,False,advanced,intermediate,intermediate,I (may have) messed up the first few because I didn't realize that I could select more than one.
+1555,510693301.969495,M7,0.75,A4,True,advanced,intermediate,intermediate,I (may have) messed up the first few because I didn't realize that I could select more than one.
+1556,510696345.809956,T1,1.0,A1,False,intermediate,advanced,intermediate,
+1557,510696345.809956,T1,1.0,A2,False,intermediate,advanced,intermediate,
+1558,510696345.809956,T1,1.0,A3,False,intermediate,advanced,intermediate,
+1559,510696345.809956,T1,1.0,A4,False,intermediate,advanced,intermediate,
+1560,510696345.809956,T2,0.75,A1,False,intermediate,advanced,intermediate,
+1561,510696345.809956,T2,0.75,A2,False,intermediate,advanced,intermediate,
+1562,510696345.809956,T2,0.75,A3,False,intermediate,advanced,intermediate,
+1563,510696345.809956,T2,0.75,A4,True,intermediate,advanced,intermediate,
+1564,510696345.809956,T3,0.75,A1,True,intermediate,advanced,intermediate,
+1565,510696345.809956,T3,0.75,A2,False,intermediate,advanced,intermediate,
+1566,510696345.809956,T3,0.75,A3,False,intermediate,advanced,intermediate,
+1567,510696345.809956,T3,0.75,A4,False,intermediate,advanced,intermediate,
+1568,510696345.809956,M1,1.0,A1,False,intermediate,advanced,intermediate,
+1569,510696345.809956,M1,1.0,A2,False,intermediate,advanced,intermediate,
+1570,510696345.809956,M1,1.0,A3,False,intermediate,advanced,intermediate,
+1571,510696345.809956,M1,1.0,A4,False,intermediate,advanced,intermediate,
+1572,510696345.809956,M2,0.5,A1,True,intermediate,advanced,intermediate,
+1573,510696345.809956,M2,0.5,A2,True,intermediate,advanced,intermediate,
+1574,510696345.809956,M2,0.5,A3,False,intermediate,advanced,intermediate,
+1575,510696345.809956,M2,0.5,A4,False,intermediate,advanced,intermediate,
+1576,510696345.809956,M3,0.5,A1,True,intermediate,advanced,intermediate,
+1577,510696345.809956,M3,0.5,A2,False,intermediate,advanced,intermediate,
+1578,510696345.809956,M3,0.5,A3,False,intermediate,advanced,intermediate,
+1579,510696345.809956,M3,0.5,A4,True,intermediate,advanced,intermediate,
+1580,510696345.809956,M4,0.75,A1,True,intermediate,advanced,intermediate,
+1581,510696345.809956,M4,0.75,A2,False,intermediate,advanced,intermediate,
+1582,510696345.809956,M4,0.75,A3,False,intermediate,advanced,intermediate,
+1583,510696345.809956,M4,0.75,A4,False,intermediate,advanced,intermediate,
+1584,510696345.809956,M6,0.5,A1,False,intermediate,advanced,intermediate,
+1585,510696345.809956,M6,0.5,A2,True,intermediate,advanced,intermediate,
+1586,510696345.809956,M6,0.5,A3,False,intermediate,advanced,intermediate,
+1587,510696345.809956,M6,0.5,A4,True,intermediate,advanced,intermediate,
+1588,510696345.809956,M7,0.75,A1,False,intermediate,advanced,intermediate,
+1589,510696345.809956,M7,0.75,A2,False,intermediate,advanced,intermediate,
+1590,510696345.809956,M7,0.75,A3,False,intermediate,advanced,intermediate,
+1591,510696345.809956,M7,0.75,A4,True,intermediate,advanced,intermediate,
+1592,510701146.9327738,T1,1.0,A1,False,advanced,advanced,advanced,
+1593,510701146.9327738,T1,1.0,A2,False,advanced,advanced,advanced,
+1594,510701146.9327738,T1,1.0,A3,False,advanced,advanced,advanced,
+1595,510701146.9327738,T1,1.0,A4,False,advanced,advanced,advanced,
+1596,510701146.9327738,T2,0.75,A1,False,advanced,advanced,advanced,
+1597,510701146.9327738,T2,0.75,A2,False,advanced,advanced,advanced,
+1598,510701146.9327738,T2,0.75,A3,True,advanced,advanced,advanced,
+1599,510701146.9327738,T2,0.75,A4,False,advanced,advanced,advanced,
+1600,510701146.9327738,T3,0.25,A1,True,advanced,advanced,advanced,
+1601,510701146.9327738,T3,0.25,A2,True,advanced,advanced,advanced,
+1602,510701146.9327738,T3,0.25,A3,True,advanced,advanced,advanced,
+1603,510701146.9327738,T3,0.25,A4,False,advanced,advanced,advanced,
+1604,510701146.9327738,M1,1.0,A1,False,advanced,advanced,advanced,
+1605,510701146.9327738,M1,1.0,A2,False,advanced,advanced,advanced,
+1606,510701146.9327738,M1,1.0,A3,False,advanced,advanced,advanced,
+1607,510701146.9327738,M1,1.0,A4,False,advanced,advanced,advanced,
+1608,510701146.9327738,M2,1.0,A1,False,advanced,advanced,advanced,
+1609,510701146.9327738,M2,1.0,A2,False,advanced,advanced,advanced,
+1610,510701146.9327738,M2,1.0,A3,False,advanced,advanced,advanced,
+1611,510701146.9327738,M2,1.0,A4,False,advanced,advanced,advanced,
+1612,510701146.9327738,M3,0.5,A1,True,advanced,advanced,advanced,
+1613,510701146.9327738,M3,0.5,A2,False,advanced,advanced,advanced,
+1614,510701146.9327738,M3,0.5,A3,False,advanced,advanced,advanced,
+1615,510701146.9327738,M3,0.5,A4,True,advanced,advanced,advanced,
+1616,510701146.9327738,M4,0.75,A1,True,advanced,advanced,advanced,
+1617,510701146.9327738,M4,0.75,A2,False,advanced,advanced,advanced,
+1618,510701146.9327738,M4,0.75,A3,False,advanced,advanced,advanced,
+1619,510701146.9327738,M4,0.75,A4,False,advanced,advanced,advanced,
+1620,510701146.9327738,M6,1.0,A1,False,advanced,advanced,advanced,
+1621,510701146.9327738,M6,1.0,A2,False,advanced,advanced,advanced,
+1622,510701146.9327738,M6,1.0,A3,False,advanced,advanced,advanced,
+1623,510701146.9327738,M6,1.0,A4,False,advanced,advanced,advanced,
+1624,510701146.9327738,M7,1.0,A1,False,advanced,advanced,advanced,
+1625,510701146.9327738,M7,1.0,A2,False,advanced,advanced,advanced,
+1626,510701146.9327738,M7,1.0,A3,False,advanced,advanced,advanced,
+1627,510701146.9327738,M7,1.0,A4,False,advanced,advanced,advanced,
+1628,510702060.111809,T1,0.5,A1,True,intermediate,intermediate,intermediate,No...but this is a very interesting study
+1629,510702060.111809,T1,0.5,A2,True,intermediate,intermediate,intermediate,No...but this is a very interesting study
+1630,510702060.111809,T1,0.5,A3,False,intermediate,intermediate,intermediate,No...but this is a very interesting study
+1631,510702060.111809,T1,0.5,A4,False,intermediate,intermediate,intermediate,No...but this is a very interesting study
+1632,510702060.111809,T2,0.25,A1,False,intermediate,intermediate,intermediate,No...but this is a very interesting study
+1633,510702060.111809,T2,0.25,A2,True,intermediate,intermediate,intermediate,No...but this is a very interesting study
+1634,510702060.111809,T2,0.25,A3,True,intermediate,intermediate,intermediate,No...but this is a very interesting study
+1635,510702060.111809,T2,0.25,A4,True,intermediate,intermediate,intermediate,No...but this is a very interesting study
+1636,510702060.111809,T3,0.25,A1,True,intermediate,intermediate,intermediate,No...but this is a very interesting study
+1637,510702060.111809,T3,0.25,A2,False,intermediate,intermediate,intermediate,No...but this is a very interesting study
+1638,510702060.111809,T3,0.25,A3,True,intermediate,intermediate,intermediate,No...but this is a very interesting study
+1639,510702060.111809,T3,0.25,A4,True,intermediate,intermediate,intermediate,No...but this is a very interesting study
+1640,510702060.111809,M1,0.75,A1,True,intermediate,intermediate,intermediate,No...but this is a very interesting study
+1641,510702060.111809,M1,0.75,A2,False,intermediate,intermediate,intermediate,No...but this is a very interesting study
+1642,510702060.111809,M1,0.75,A3,False,intermediate,intermediate,intermediate,No...but this is a very interesting study
+1643,510702060.111809,M1,0.75,A4,False,intermediate,intermediate,intermediate,No...but this is a very interesting study
+1644,510702060.111809,M2,0.5,A1,True,intermediate,intermediate,intermediate,No...but this is a very interesting study
+1645,510702060.111809,M2,0.5,A2,False,intermediate,intermediate,intermediate,No...but this is a very interesting study
+1646,510702060.111809,M2,0.5,A3,False,intermediate,intermediate,intermediate,No...but this is a very interesting study
+1647,510702060.111809,M2,0.5,A4,True,intermediate,intermediate,intermediate,No...but this is a very interesting study
+1648,510702060.111809,M3,0.25,A1,True,intermediate,intermediate,intermediate,No...but this is a very interesting study
+1649,510702060.111809,M3,0.25,A2,False,intermediate,intermediate,intermediate,No...but this is a very interesting study
+1650,510702060.111809,M3,0.25,A3,True,intermediate,intermediate,intermediate,No...but this is a very interesting study
+1651,510702060.111809,M3,0.25,A4,True,intermediate,intermediate,intermediate,No...but this is a very interesting study
+1652,510702060.111809,M4,0.75,A1,True,intermediate,intermediate,intermediate,No...but this is a very interesting study
+1653,510702060.111809,M4,0.75,A2,False,intermediate,intermediate,intermediate,No...but this is a very interesting study
+1654,510702060.111809,M4,0.75,A3,False,intermediate,intermediate,intermediate,No...but this is a very interesting study
+1655,510702060.111809,M4,0.75,A4,False,intermediate,intermediate,intermediate,No...but this is a very interesting study
+1656,510702060.111809,M6,1.0,A1,False,intermediate,intermediate,intermediate,No...but this is a very interesting study
+1657,510702060.111809,M6,1.0,A2,False,intermediate,intermediate,intermediate,No...but this is a very interesting study
+1658,510702060.111809,M6,1.0,A3,False,intermediate,intermediate,intermediate,No...but this is a very interesting study
+1659,510702060.111809,M6,1.0,A4,False,intermediate,intermediate,intermediate,No...but this is a very interesting study
+1660,510702060.111809,M7,0.75,A1,False,intermediate,intermediate,intermediate,No...but this is a very interesting study
+1661,510702060.111809,M7,0.75,A2,False,intermediate,intermediate,intermediate,No...but this is a very interesting study
+1662,510702060.111809,M7,0.75,A3,False,intermediate,intermediate,intermediate,No...but this is a very interesting study
+1663,510702060.111809,M7,0.75,A4,True,intermediate,intermediate,intermediate,No...but this is a very interesting study
+1664,510703415.719926,T1,1.0,A1,False,intermediate,advanced,intermediate,no
+1665,510703415.719926,T1,1.0,A2,False,intermediate,advanced,intermediate,no
+1666,510703415.719926,T1,1.0,A3,False,intermediate,advanced,intermediate,no
+1667,510703415.719926,T1,1.0,A4,False,intermediate,advanced,intermediate,no
+1668,510703415.719926,T2,0.75,A1,False,intermediate,advanced,intermediate,no
+1669,510703415.719926,T2,0.75,A2,False,intermediate,advanced,intermediate,no
+1670,510703415.719926,T2,0.75,A3,True,intermediate,advanced,intermediate,no
+1671,510703415.719926,T2,0.75,A4,False,intermediate,advanced,intermediate,no
+1672,510703415.719926,T3,0.75,A1,False,intermediate,advanced,intermediate,no
+1673,510703415.719926,T3,0.75,A2,False,intermediate,advanced,intermediate,no
+1674,510703415.719926,T3,0.75,A3,True,intermediate,advanced,intermediate,no
+1675,510703415.719926,T3,0.75,A4,False,intermediate,advanced,intermediate,no
+1676,510703415.719926,M1,1.0,A1,False,intermediate,advanced,intermediate,no
+1677,510703415.719926,M1,1.0,A2,False,intermediate,advanced,intermediate,no
+1678,510703415.719926,M1,1.0,A3,False,intermediate,advanced,intermediate,no
+1679,510703415.719926,M1,1.0,A4,False,intermediate,advanced,intermediate,no
+1680,510703415.719926,M2,0.5,A1,True,intermediate,advanced,intermediate,no
+1681,510703415.719926,M2,0.5,A2,True,intermediate,advanced,intermediate,no
+1682,510703415.719926,M2,0.5,A3,False,intermediate,advanced,intermediate,no
+1683,510703415.719926,M2,0.5,A4,False,intermediate,advanced,intermediate,no
+1684,510703415.719926,M3,0.5,A1,True,intermediate,advanced,intermediate,no
+1685,510703415.719926,M3,0.5,A2,False,intermediate,advanced,intermediate,no
+1686,510703415.719926,M3,0.5,A3,False,intermediate,advanced,intermediate,no
+1687,510703415.719926,M3,0.5,A4,True,intermediate,advanced,intermediate,no
+1688,510703415.719926,M4,0.75,A1,False,intermediate,advanced,intermediate,no
+1689,510703415.719926,M4,0.75,A2,False,intermediate,advanced,intermediate,no
+1690,510703415.719926,M4,0.75,A3,True,intermediate,advanced,intermediate,no
+1691,510703415.719926,M4,0.75,A4,False,intermediate,advanced,intermediate,no
+1692,510703415.719926,M6,0.75,A1,False,intermediate,advanced,intermediate,no
+1693,510703415.719926,M6,0.75,A2,True,intermediate,advanced,intermediate,no
+1694,510703415.719926,M6,0.75,A3,False,intermediate,advanced,intermediate,no
+1695,510703415.719926,M6,0.75,A4,False,intermediate,advanced,intermediate,no
+1696,510703415.719926,M7,0.5,A1,False,intermediate,advanced,intermediate,no
+1697,510703415.719926,M7,0.5,A2,True,intermediate,advanced,intermediate,no
+1698,510703415.719926,M7,0.5,A3,False,intermediate,advanced,intermediate,no
+1699,510703415.719926,M7,0.5,A4,True,intermediate,advanced,intermediate,no
+1700,510704581.349194,T1,1.0,A1,False,intermediate,intermediate,intermediate,
+1701,510704581.349194,T1,1.0,A2,False,intermediate,intermediate,intermediate,
+1702,510704581.349194,T1,1.0,A3,False,intermediate,intermediate,intermediate,
+1703,510704581.349194,T1,1.0,A4,False,intermediate,intermediate,intermediate,
+1704,510704581.349194,T2,0.75,A1,False,intermediate,intermediate,intermediate,
+1705,510704581.349194,T2,0.75,A2,False,intermediate,intermediate,intermediate,
+1706,510704581.349194,T2,0.75,A3,True,intermediate,intermediate,intermediate,
+1707,510704581.349194,T2,0.75,A4,False,intermediate,intermediate,intermediate,
+1708,510704581.349194,T3,0.25,A1,True,intermediate,intermediate,intermediate,
+1709,510704581.349194,T3,0.25,A2,True,intermediate,intermediate,intermediate,
+1710,510704581.349194,T3,0.25,A3,True,intermediate,intermediate,intermediate,
+1711,510704581.349194,T3,0.25,A4,False,intermediate,intermediate,intermediate,
+1712,510704581.349194,M1,0.5,A1,True,intermediate,intermediate,intermediate,
+1713,510704581.349194,M1,0.5,A2,True,intermediate,intermediate,intermediate,
+1714,510704581.349194,M1,0.5,A3,False,intermediate,intermediate,intermediate,
+1715,510704581.349194,M1,0.5,A4,False,intermediate,intermediate,intermediate,
+1716,510704581.349194,M2,1.0,A1,False,intermediate,intermediate,intermediate,
+1717,510704581.349194,M2,1.0,A2,False,intermediate,intermediate,intermediate,
+1718,510704581.349194,M2,1.0,A3,False,intermediate,intermediate,intermediate,
+1719,510704581.349194,M2,1.0,A4,False,intermediate,intermediate,intermediate,
+1720,510704581.349194,M3,0.5,A1,True,intermediate,intermediate,intermediate,
+1721,510704581.349194,M3,0.5,A2,False,intermediate,intermediate,intermediate,
+1722,510704581.349194,M3,0.5,A3,False,intermediate,intermediate,intermediate,
+1723,510704581.349194,M3,0.5,A4,True,intermediate,intermediate,intermediate,
+1724,510704581.349194,M4,0.75,A1,True,intermediate,intermediate,intermediate,
+1725,510704581.349194,M4,0.75,A2,False,intermediate,intermediate,intermediate,
+1726,510704581.349194,M4,0.75,A3,False,intermediate,intermediate,intermediate,
+1727,510704581.349194,M4,0.75,A4,False,intermediate,intermediate,intermediate,
+1728,510704581.349194,M6,1.0,A1,False,intermediate,intermediate,intermediate,
+1729,510704581.349194,M6,1.0,A2,False,intermediate,intermediate,intermediate,
+1730,510704581.349194,M6,1.0,A3,False,intermediate,intermediate,intermediate,
+1731,510704581.349194,M6,1.0,A4,False,intermediate,intermediate,intermediate,
+1732,510704581.349194,M7,0.5,A1,False,intermediate,intermediate,intermediate,
+1733,510704581.349194,M7,0.5,A2,True,intermediate,intermediate,intermediate,
+1734,510704581.349194,M7,0.5,A3,False,intermediate,intermediate,intermediate,
+1735,510704581.349194,M7,0.5,A4,True,intermediate,intermediate,intermediate,

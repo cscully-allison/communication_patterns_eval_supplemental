@@ -1,0 +1,89 @@
+First save demo at:2017-11-13 17:47:29.860472
+consent : consent
+gender : Female
+email : 
+years : 40
+exper : beginner
+hpc : none
+--
+session : 1510624049.8592849.txt
+state : tutorial
+boxes : ['false', 'true', 'true', 'false']
+question_num : 0
+answer_order : ['3', '2', '0', '1']
+question : 0
+start : 1510624139339
+finish : 1510624193121
+--
+session : 1510624049.8592849.txt
+state : tutorial
+boxes : ['true', 'false', 'true', 'false']
+question_num : 1
+answer_order : ['2', '0', '3', '1']
+question : 1
+start : 1510624193125
+finish : 1510624220914
+--
+session : 1510624049.8592849.txt
+state : tutorial
+boxes : ['true', 'true', 'false', 'false']
+question_num : 2
+answer_order : ['2', '0', '3', '1']
+question : 2
+start : 1510624220915
+finish : 1510624345716
+--
+session : 1510624049.8592849.txt
+state : multi
+boxes : ['true', 'true', 'false', 'true']
+question_num : 2
+answer_order : ['2', '3', '1', '0']
+question : m3
+start : 1510624345718
+finish : 1510624433482
+--
+session : 1510624049.8592849.txt
+state : multi
+boxes : ['false', 'false', 'true', 'false']
+question_num : 4
+answer_order : ['3', '0', '1', '2']
+question : m6
+start : 1510624433483
+finish : 1510624465105
+--
+session : 1510624049.8592849.txt
+state : multi
+boxes : ['false', 'false', 'true', 'false']
+question_num : 5
+answer_order : ['0', '1', '3', '2']
+question : m7
+start : 1510624465106
+finish : 1510624534157
+--
+session : 1510624049.8592849.txt
+state : multi
+boxes : ['false', 'true', 'true', 'false']
+question_num : 1
+answer_order : ['1', '3', '0', '2']
+question : m2
+start : 1510624534158
+finish : 1510624573892
+--
+session : 1510624049.8592849.txt
+state : multi
+boxes : ['false', 'false', 'true', 'true']
+question_num : 0
+answer_order : ['3', '1', '2', '0']
+question : m1
+start : 1510624573893
+finish : 1510624593711
+--
+session : 1510624049.8592849.txt
+state : multi
+boxes : ['true', 'false', 'false', 'true']
+question_num : 3
+answer_order : ['0', '3', '1', '2']
+question : m4
+start : 1510624593712
+finish : 1510624626829
+End study at:2017-11-13 17:57:06.842095

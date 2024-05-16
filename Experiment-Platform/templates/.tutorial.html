@@ -1,0 +1,71 @@
+<html>
+    <head>
+      <link rel="stylesheet" type="text/css" href="static/study.css" />
+      <script src="static/libs/d3.v4.min.js"></script>
+      <script src="static/libs/jquery-1.11.0.min.js"></script>
+    </head>
+    <body>
+	    <div class="tutorial">
+
+<center><h4>Tutorial</h4></center>
+
+<p>In this study, you will be asked to interpret Gantt charts, a visualization
+commonly used to explore execution traces. We briefly describe the charts
+here.</p>
+
+<p>We start with a timeline of a single processing element (e.g. MPI rank,
+    CPU). The horizontal axis represents <b>time</b>. The colored boxes
+represent the state of the processing element. In the below example, the
+processing element is in the <i>computation</i> state first and then a
+<i>communication</i> state.</p>
+
+<center><img src="static/img/oneprocess.png" width=750></center>
+
+<p>Instead of continous time, like the above example, we can also show
+activity in terms of discrete time steps. As shown below, the processing
+element is in a <i>computation</i> (gray) state at timesteps 1 and 3, the
+    <i>communication</i> (blue) state at timestep 2. No boxes indicate the
+element is not participating in the timestep. In this example, the process
+does not participate in timestemps 4 through 7.</p>
+
+    <center><img src="static/img/onelinetimesteps.png" width=750></center>
+
+<p>The remainder of this study will use time steps.</p>
+
+<p>Gantt charts show multiple timelines in parallel. In the below example, PE1
+and PE2 are in at <i>communicaton</i> state at timestep 2 but PE3 and P4 are not participating in that timestep.</p>
+
+    <center><img src="static/img/nolinetimesteps.png" width=750></center>
+
+<p>When one processing element affects another, it is represented with a line.
+    In the below example, PE1 sends a message to PE3 at timestep2 and PE3
+receives the message at timestep 4.
+
+    <center><img src="static/img/fulltimesteps.png" width=750></center>
+
+    <p>When there are many processing elements, we may not be able to draw all of
+the timelines on screen. For the remainder of this study, we will draw only
+the first few timelines. For example, rather than drawing all the timelines of
+the chart on the left, we will instead draw the chart on the right.</p>
+
+    <div class="sidebyside">
+    <div class="leftimg">
+      Full Drawing<br/>
+      <img src="static/img/full-simple.png" width=168>
+    </div>
+
+    <div class="rightimg">
+      Partial Drawing<br/>
+      <img src="static/img/partial-simple.png" width=168></center>
+    </div>
+    </div>
+
+	    <form action="{{ url_for('advanceTutorial') }}" method="post">
+		<input type="hidden" id="session" name="session" value="{{ session }}" />
+		<div class="formfield">
+		    <input type="submit" value="Proceed" />
+		</div>
+	    </form>
+	    </div>
+    </body>
+</html>

@@ -1,0 +1,4 @@
+Full	Full	50
+Full	Grouped	6
+Offset	Grouped	1
+Offset	Offset	7

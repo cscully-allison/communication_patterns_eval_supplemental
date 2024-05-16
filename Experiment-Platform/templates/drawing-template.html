@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>pattern_drawing_study</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" type="text/css" href="static/study.css" />
+    <script src="static/libs/d3.v4.min.js"></script>
+    <script src="static/libs/jquery-1.11.0.min.js"></script>
+    <script src="static/minimalist_designs.js"></script>
+    <script src="static/drawing_study.js"></script>
+    <style>
+        #error-message {
+            display: none
+        }
+    </style>
+</head>
+
+<body>
+
+  <div class="paper-study-container">
+    <!-- <div id="notification-band" class="hidden">
+      <div class="band-content-area">
+        <h2>This has concluded the tutorial phase.</h2>
+        <h3>In the main phase of this experiment, you <span class="emphasis"> will not</span> be told if your response is correct or incorrect. You <span class="emphasis">will not</span> be asked to confirm your selection, clicking "yes" or "no" will immediately take you to the next question. Please click this button to acknowledge your understanding. </h3>
+        <input class="button" type="button" id="acknowledge-button" value="I understand.">
+      </div>
+    </div> -->
+    <!-- question area -->
+    <div id="q-div" class="paper-question-text">
+        <p id="q-para"></p>
+    </div>
+    <!-- question drawing area -->
+    <div class="question-grid">
+      <div id="q-grid-container" class="q-container">
+          <div id="grid-q-div" class="grid"></div>
+      </div>
+    </div>
+    <!-- yes-no response area -->
+    <div class="answer-select" hidden>
+      <div id="check-divs">
+          <div id="check-a-div" class="checkdiv">
+              <!-- <input type="hidden" id="myfile" name="session" value="{{ session }}" />
+              <input class="confirm button" type="button" value="Yes" checked />
+              <input class="confirm button" type="button" value="No" /> -->
+          </div>
+      </div>
+    </div>
+    <div class="answer-verify">
+      <div id="tut-verify-content"></div>
+      <div class="button" id="tut-next"></div>
+    </div>
+
+    <!-- answer drawing -->
+    <div class="answer-draw-area" style="padding-top:40px;">
+        <div id="grid-a-div" class="grid"></div>
+    </div>
+
+    <div class="ranked-scale-a">
+      <p>Please rate the difficulty of this question from least (1) to most (5) difficult.</p>
+      <div class="scale">
+        <div class="number-box">1.</div>
+        <div class="number-box">2.</div>
+        <div class="number-box">3.</div>
+        <div class="number-box">4.</div>
+        <div class="number-box">5.</div>
+      </div>
+    </div>
+    <div class="ranked-scale-b">
+      <p>Please rate your confidence that you are correct on a scale from least (1) to most (5) confident.</p>
+      <div class="scale">
+        <div class="number-box">1.</div>
+        <div class="number-box">2.</div>
+        <div class="number-box">3.</div>
+        <div class="number-box">4.</div>
+        <div class="number-box">5.</div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- NOTE: Added error message -->
+  <div id="error-message">
+          <p>"Please choose yes or no before clicking submit."</p>
+  </div>
+
+</body>
+
+</html>

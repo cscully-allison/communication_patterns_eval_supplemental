@@ -1,0 +1,178 @@
+,0,1,2,3,4,5,6
+comparison,21.0,13.0,10.0,14.0,16.0,11.0,19.0
+line angle,17.0,,5.0,6.0,9.0,4.0,14.0
+uncertainty,16.0,13.0,11.0,4.0,10.0,4.0,10.0
+certainty,8.0,6.0,1.0,6.0,2.0,4.0,10.0
+line direction,7.0,,7.0,4.0,6.0,2.0,5.0
+background,6.0,3.0,13.0,14.0,2.0,4.0,7.0
+same pattern,5.0,5.0,5.0,2.0,4.0,1.0,7.0
+line destination,5.0,,,,6.0,,2.0
+different pattern,4.0,2.0,,1.0,,,
+cells,4.0,1.0,5.0,6.0,1.0,1.0,2.0
+pattern extrapolation,4.0,1.0,1.0,,,,1.0
+line crossing,4.0,,,,1.0,,4.0
+profession,3.0,,,4.0,2.0,1.0,
+line grouping,3.0,,,1.0,1.0,2.0,
+horizontal symmetry,3.0,,,,1.0,,
+columns,3.0,,,,,,2.0
+connected lines,3.0,,,,,,
+differences,3.0,,,,,,
+partial representation,3.0,,,,,,
+symmetry,3.0,,,,,,
+line density,2.0,8.0,4.0,2.0,6.0,,3.0
+fragment/whole,2.0,,,,,,4.0
+incomplete representation,2.0,,,,,,
+separate lines,2.0,,,,,,
+different patterns,1.0,3.0,4.0,2.0,2.0,4.0,
+similarities,1.0,1.0,,,,,
+direction,1.0,,2.0,,1.0,,
+line origin,1.0,,,2.0,7.0,,3.0
+one line (ring),1.0,,,2.0,2.0,3.0,1.0
+bars,1.0,,,1.0,,,
+lines relative to background,1.0,,,,1.0,,
+difference,1.0,,,,,,4.0
+C++,1.0,,,,,,
+Java,1.0,,,,,,
+Python,1.0,,,,,,
+UA,1.0,,,,,,
+coding,1.0,,,,,,
+counting lines,1.0,,,,,,
+different chart,1.0,,,,,,
+exact same pattern,1.0,,,,,,
+important,1.0,,,,,,
+insufficient information,1.0,,,,,,
+line desnity,1.0,,,,,,
+line in reference to line,1.0,,,,,,
+missing information,1.0,,,,,,
+no HPC exprience,1.0,,,,,,
+number of lines,1.0,,,,,,
+same characteristics,1.0,,,,,,
+same chart,1.0,,,,,,
+whole chart,1.0,,,,,,
+transformation,,14.0,1.0,,2.0,,10.0
+offset,,13.0,6.0,,,,1.0
+grouped offset,,8.0,,,,,
+angle,,6.0,4.0,,,,
+conditional,,3.0,1.0,,1.0,,
+critical property,,3.0,,,,,
+rotation,,2.0,1.0,,,,5.0
+learning effect,,2.0,1.0,,,,
+length,,2.0,,,,,
+networking,,2.0,,,,,
+unknown characteristic,,2.0,,,,,
+vector,,2.0,,,,,
+ring,,1.0,8.0,1.0,,,
+color,,1.0,1.0,9.0,3.0,,1.0
+compression,,1.0,,,,,1.0
+C/C++,,1.0,,,,,
+complicated,,1.0,,,,,
+distance,,1.0,,,,,
+flip,,1.0,,,,,
+inconsistent pattern,,1.0,,,,,
+missing lines,,1.0,,,,,
+partial,,1.0,,,,,
+partial/full,,1.0,,,,,
+partial/partial,,1.0,,,,,
+rotate,,1.0,,,,,
+router coordination,,1.0,,,,,
+same characteristic,,1.0,,,,,
+simple description,,1.0,,,,,
+stretch,,1.0,,,,,
+uncertainty ,,1.0,,,,,
+line thickness,,,4.0,2.0,,1.0,1.0
+underlying data,,,4.0,,,,6.0
+association between columns,,,4.0,,,,
+parallel,,,3.0,,6.0,,1.0
+lines relative to cells,,,2.0,,,,
+machine learning,,,2.0,,,,
+python,,,2.0,,,,
+slope,,,1.0,1.0,,,
+density,,,1.0,,1.0,,1.0
+vertical,,,1.0,,,4.0,2.0
+alternate perspective,,,1.0,,,,
+data focused,,,1.0,,,,
+embarrassingly parallel,,,1.0,,,,
+full,,,1.0,,,,
+julia,,,1.0,,,,
+line frequency,,,1.0,,,,
+line origin in cell,,,1.0,,,,
+little HPC,,,1.0,,,,
+little HPC experience,,,1.0,,,,
+little profiling,,,1.0,,,,
+mathematician,,,1.0,,,,
+model selection,,,1.0,,,,
+obfuscation,,,1.0,,,,
+parallel lines,,,1.0,,,,
+performance,,,1.0,,,,
+question comparisons,,,1.0,,,,
+supercomputers,,,1.0,,,,
+visceral response,,,1.0,,,,
+counting line offset,,,,8.0,,,
+line relative to background,,,,5.0,,,
+pattern,,,,3.0,1.0,2.0,
+location,,,,3.0,1.0,,
+dimensions,,,,3.0,,,
+ratio,,,,2.0,,,
+line color,,,,1.0,1.0,,
+mirror,,,,1.0,,,2.0
+HPC,,,,1.0,,,
+alternate,,,,1.0,,,
+alternating,,,,1.0,,,
+cloud computing,,,,1.0,,,
+containers,,,,1.0,,,
+line curvature,,,,1.0,,,
+outline,,,,1.0,,,
+research computing,,,,1.0,,,
+solutions architect,,,,1.0,,,
+sysadmin,,,,1.0,,,
+complexity,,,,,3.0,2.0,
+difficulty,,,,,3.0,,
+befuddlement,,,,,2.0,,
+differentiating characteristics,,,,,2.0,,
+line separation,,,,,2.0,,
+scale differences,,,,,2.0,,
+line quantity,,,,,1.0,7.0,2.0
+surprise,,,,,1.0,1.0,
+multiple lines (ring),,,,,1.0,,3.0
+continuous line,,,,,1.0,,1.0
+bisection,,,,,1.0,,
+inversion,,,,,1.0,,
+line angle ,,,,,1.0,,
+line count,,,,,1.0,,
+line destiation,,,,,1.0,,
+line distance,,,,,1.0,,
+line intersection,,,,,1.0,,
+multiple lines(ring),,,,,1.0,,
+no profiling experience,,,,,1.0,,
+relative,,,,,1.0,,
+revision,,,,,1.0,,
+similar,,,,,1.0,,
+simplified,,,,,1.0,,
+supercomputing,,,,,1.0,,
+technologist,,,,,1.0,,
+vertical symmerty ,,,,,1.0,,
+vertical symmetry,,,,,1.0,,
+zig zag,,,,,1.0,,
+vertical line,,,,,,2.0,
+horizontal,,,,,,1.0,1.0
+high level appearance,,,,,,1.0,
+line location,,,,,,1.0,
+one line (stencil),,,,,,1.0,
+production manager,,,,,,1.0,
+x,,,,,,1.0,
+line connection,,,,,,,6.0
+high level description,,,,,,,3.0
+relation,,,,,,,3.0
+zoom,,,,,,,3.0
+color value,,,,,,,2.0
+confusion,,,,,,,2.0
+logical zoom,,,,,,,2.0
+uniformity,,,,,,,2.0
+background cells,,,,,,,1.0
+line depth,,,,,,,1.0
+line length,,,,,,,1.0
+merge,,,,,,,1.0
+same,,,,,,,1.0
+similarity,,,,,,,1.0
+triangular pattern,,,,,,,1.0
+visual depth,,,,,,,1.0

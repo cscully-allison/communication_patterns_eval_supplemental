@@ -1,0 +1,8 @@
+altair
+pandas
+numpy
+statsmodels
+scipy
+matplotlib
+bioinfokit
+scikit-posthocs

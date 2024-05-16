@@ -1,0 +1,111 @@
+First save demo at:2017-11-15 16:57:35.921147
+consent : consent
+gender : male
+email : 
+years : 32
+exper : beginner
+hpc : none
+analyzed : beginner
+--
+session : 1510790255.920911.txt
+state : tutorial
+boxes : ['false', 'true', 'false', 'false']
+question_num : 0
+answer_order : ['0', '2', '1', '3']
+question : 0
+start : 1510790319831
+finish : 1510790327121
+--
+session : 1510790255.920911.txt
+state : tutorial
+boxes : ['false', 'false', 'true', 'false']
+question_num : 1
+answer_order : ['2', '3', '1', '0']
+question : 1
+start : 1510790327123
+finish : 1510790336376
+--
+session : 1510790255.920911.txt
+state : tutorial
+boxes : ['true', 'false', 'false', 'false']
+question_num : 2
+answer_order : ['0', '3', '2', '1']
+question : 2
+start : 1510790336377
+finish : 1510790345047
+--
+session : 1510790255.920911.txt
+state : multi
+boxes : ['false', 'true', 'false', 'false']
+question_num : 7
+answer_order : ['3', '0', '1', '2']
+question : m9
+start : 1510790345048
+finish : 1510790351311
+--
+session : 1510790255.920911.txt
+state : multi
+boxes : ['false', 'false', 'true', 'false']
+question_num : 1
+answer_order : ['1', '0', '3', '2']
+question : m2
+start : 1510790351313
+finish : 1510790357504
+--
+session : 1510790255.920911.txt
+state : multi
+boxes : ['true', 'false', 'false', 'false']
+question_num : 4
+answer_order : ['1', '2', '0', '3']
+question : m6
+start : 1510790357505
+finish : 1510790363623
+--
+session : 1510790255.920911.txt
+state : multi
+boxes : ['true', 'false', 'false', 'false']
+question_num : 5
+answer_order : ['0', '1', '3', '2']
+question : m7
+start : 1510790363624
+finish : 1510790368407
+--
+session : 1510790255.920911.txt
+state : multi
+boxes : ['false', 'false', 'false', 'true']
+question_num : 0
+answer_order : ['0', '3', '1', '2']
+question : m1
+start : 1510790368408
+finish : 1510790373703
+--
+session : 1510790255.920911.txt
+state : multi
+boxes : ['true', 'false', 'false', 'false']
+question_num : 6
+answer_order : ['0', '2', '3', '1']
+question : m8
+start : 1510790373705
+finish : 1510790377679
+--
+session : 1510790255.920911.txt
+state : multi
+boxes : ['true', 'false', 'false', 'false']
+question_num : 2
+answer_order : ['0', '1', '2', '3']
+question : m3
+start : 1510790377680
+finish : 1510790382783
+--
+session : 1510790255.920911.txt
+state : multi
+boxes : ['false', 'true', 'false', 'false']
+question_num : 3
+answer_order : ['3', '0', '2', '1']
+question : m4
+start : 1510790382784
+finish : 1510790389127
+End multi at:2017-11-15 16:59:49.137015
+session : 1510790255.920911.txt
+comments : 
+End study at:2017-11-15 16:59:54.778761

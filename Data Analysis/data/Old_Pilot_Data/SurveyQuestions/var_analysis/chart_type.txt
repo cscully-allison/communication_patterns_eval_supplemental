@@ -1,0 +1,6 @@
+Exchange	Exchange	8
+Offset	Offset	40
+Offset	Ring	4
+Ring	Offset	3
+Ring	Ring	9
+Stencil	Stencil	16

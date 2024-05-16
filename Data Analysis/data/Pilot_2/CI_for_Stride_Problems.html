@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.8.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"mark": {"type": "errorbar", "extent": "ci"}, "encoding": {"x": {"type": "quantitative", "axis": {"format": "%", "title": "Accuracy"}, "field": "accuracy", "scale": {"zero": false}}, "y": {"type": "nominal", "axis": {"title": "IV Levels"}, "field": "experiment_levels"}}, "title": "data/Pilot_2_Electric_Boogalo/CI_for_Stride_Problems"}, {"mark": {"type": "point", "color": "black", "filled": true}, "encoding": {"x": {"type": "quantitative", "aggregate": "mean", "field": "accuracy"}, "y": {"type": "nominal", "field": "experiment_levels"}}}], "data": {"name": "data-313eb5fa33664d1a8597c86a3ed10d30"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-313eb5fa33664d1a8597c86a3ed10d30": [{"experiment_levels": "Full Representation", "accuracy": 0.7272727272727273}, {"experiment_levels": "Full Representation", "accuracy": 0.75}, {"experiment_levels": "Full Representation", "accuracy": 0.5833333333333334}, {"experiment_levels": "Full Representation", "accuracy": 0.7272727272727273}, {"experiment_levels": "Full Representation", "accuracy": 0.6666666666666666}, {"experiment_levels": "Full Representation", "accuracy": 0.5833333333333334}, {"experiment_levels": "Full Representation", "accuracy": 0.75}, {"experiment_levels": "Full Representation", "accuracy": 0.4166666666666667}, {"experiment_levels": "Full Representation", "accuracy": 0.5833333333333334}, {"experiment_levels": "Full Representation", "accuracy": 0.5}, {"experiment_levels": "Partial Representation", "accuracy": 0.6363636363636364}, {"experiment_levels": "Partial Representation", "accuracy": 0.4166666666666667}, {"experiment_levels": "Partial Representation", "accuracy": 0.6666666666666666}, {"experiment_levels": "Partial Representation", "accuracy": 0.36363636363636365}, {"experiment_levels": "Partial Representation", "accuracy": 0.4166666666666667}, {"experiment_levels": "Partial Representation", "accuracy": 0.4166666666666667}, {"experiment_levels": "Partial Representation", "accuracy": 0.5}, {"experiment_levels": "Partial Representation", "accuracy": 0.5}, {"experiment_levels": "Partial Representation", "accuracy": 0.5}, {"experiment_levels": "Partial Representation", "accuracy": 0.5833333333333334}, {"experiment_levels": "New Representation", "accuracy": 0.6363636363636364}, {"experiment_levels": "New Representation", "accuracy": 0.5}, {"experiment_levels": "New Representation", "accuracy": 0.5833333333333334}, {"experiment_levels": "New Representation", "accuracy": 0.6363636363636364}, {"experiment_levels": "New Representation", "accuracy": 0.5833333333333334}, {"experiment_levels": "New Representation", "accuracy": 0.5}, {"experiment_levels": "New Representation", "accuracy": 0.5833333333333334}, {"experiment_levels": "New Representation", "accuracy": 0.5}, {"experiment_levels": "New Representation", "accuracy": 0.5833333333333334}, {"experiment_levels": "New Representation", "accuracy": 0.4166666666666667}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

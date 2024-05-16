@@ -1,0 +1,7 @@
+Exchange	Exchange	Offset	Grouped	1
+Exchange	Exchange	Offset	Offset	7
+Offset	Offset	Full	Full	34
+Offset	Offset	Full	Grouped	6
+Offset	Ring	Full	Full	4
+Ring	Offset	Full	Full	3
+Ring	Ring	Full	Full	9

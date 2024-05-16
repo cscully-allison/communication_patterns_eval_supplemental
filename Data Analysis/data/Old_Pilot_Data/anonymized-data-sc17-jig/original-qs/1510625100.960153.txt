@@ -1,0 +1,90 @@
+First save demo at:2017-11-13 18:05:00.960765
+consent : consent
+gender : Female
+email : 
+years : 59
+exper : advanced
+hpc : run
+analyzed : advanced
+--
+session : 1510625100.960153.txt
+state : tutorial
+boxes : ['false', 'true', 'false', 'false']
+question_num : 0
+answer_order : ['3', '0', '2', '1']
+question : 0
+start : 1510625170579
+finish : 1510625183592
+--
+session : 1510625100.960153.txt
+state : tutorial
+boxes : ['false', 'true', 'true', 'false']
+question_num : 1
+answer_order : ['0', '2', '3', '1']
+question : 1
+start : 1510625183596
+finish : 1510625204973
+--
+session : 1510625100.960153.txt
+state : tutorial
+boxes : ['false', 'false', 'false', 'false']
+question_num : 2
+answer_order : ['2', '0', '1', '3']
+question : 2
+start : 1510625204975
+finish : 1510625228006
+--
+session : 1510625100.960153.txt
+state : multi
+boxes : ['false', 'false', 'false', 'false']
+question_num : 3
+answer_order : ['3', '1', '0', '2']
+question : m4
+start : 1510625228007
+finish : 1510625260518
+--
+session : 1510625100.960153.txt
+state : multi
+boxes : ['true', 'true', 'true', 'false']
+question_num : 4
+answer_order : ['1', '0', '3', '2']
+question : m6
+start : 1510625260519
+finish : 1510625277647
+--
+session : 1510625100.960153.txt
+state : multi
+boxes : ['false', 'true', 'false', 'true']
+question_num : 1
+answer_order : ['2', '3', '1', '0']
+question : m2
+start : 1510625277648
+finish : 1510625295720
+--
+session : 1510625100.960153.txt
+state : multi
+boxes : ['false', 'false', 'false', 'false']
+question_num : 2
+answer_order : ['1', '3', '2', '0']
+question : m3
+start : 1510625295721
+finish : 1510625307244
+--
+session : 1510625100.960153.txt
+state : multi
+boxes : ['true', 'true', 'false', 'false']
+question_num : 0
+answer_order : ['2', '0', '1', '3']
+question : m1
+start : 1510625307245
+finish : 1510625329233
+--
+session : 1510625100.960153.txt
+state : multi
+boxes : ['false', 'false', 'false', 'false']
+question_num : 5
+answer_order : ['3', '0', '2', '1']
+question : m7
+start : 1510625329234
+finish : 1510625340514
+End study at:2017-11-13 18:09:00.527083

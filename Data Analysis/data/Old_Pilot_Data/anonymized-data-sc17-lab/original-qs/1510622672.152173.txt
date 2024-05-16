@@ -1,0 +1,91 @@
+First save demo at:2017-11-13 18:24:32.152399
+consent : consent
+gender : m
+email : 
+years : old
+exper : advanced
+hpc : written
+written : advanced
+analyzed : advanced
+--
+session : 1510622672.152173.txt
+state : tutorial
+boxes : ['false', 'true', 'false', 'false']
+question_num : 0
+answer_order : ['3', '0', '1', '2']
+question : 0
+start : 1510622982073
+finish : 1510623025238
+--
+session : 1510622672.152173.txt
+state : tutorial
+boxes : ['true', 'false', 'false', 'true']
+question_num : 1
+answer_order : ['2', '1', '0', '3']
+question : 1
+start : 1510623025240
+finish : 1510623055421
+--
+session : 1510622672.152173.txt
+state : tutorial
+boxes : ['false', 'false', 'false', 'true']
+question_num : 2
+answer_order : ['1', '0', '3', '2']
+question : 2
+start : 1510623055423
+finish : 1510623088679
+--
+session : 1510622672.152173.txt
+state : multi
+boxes : ['false', 'true', 'false', 'false']
+question_num : 3
+answer_order : ['1', '2', '3', '0']
+question : m4
+start : 1510623088680
+finish : 1510623104983
+--
+session : 1510622672.152173.txt
+state : multi
+boxes : ['false', 'false', 'true', 'false']
+question_num : 0
+answer_order : ['3', '2', '0', '1']
+question : m1
+start : 1510623104984
+finish : 1510623164730
+--
+session : 1510622672.152173.txt
+state : multi
+boxes : ['true', 'false', 'false', 'false']
+question_num : 2
+answer_order : ['2', '3', '0', '1']
+question : m3
+start : 1510623164731
+finish : 1510623179034
+--
+session : 1510622672.152173.txt
+state : multi
+boxes : ['false', 'true', 'false', 'true']
+question_num : 4
+answer_order : ['0', '1', '2', '3']
+question : m6
+start : 1510623179035
+finish : 1510623229044
+--
+session : 1510622672.152173.txt
+state : multi
+boxes : ['false', 'true', 'false', 'false']
+question_num : 5
+answer_order : ['1', '0', '3', '2']
+question : m7
+start : 1510623229045
+finish : 1510623252349
+--
+session : 1510622672.152173.txt
+state : multi
+boxes : ['false', 'true', 'false', 'false']
+question_num : 1
+answer_order : ['1', '0', '3', '2']
+question : m2
+start : 1510623252350
+finish : 1510623272614
+End study at:2017-11-13 18:34:32.623343

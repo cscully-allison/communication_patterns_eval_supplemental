@@ -1,0 +1,92 @@
+First save demo at:2017-11-14 10:15:28.847555
+consent : consent
+gender : m
+years : 60
+exper : advanced
+hpc : run
+written : intermediate
+--
+session : 1510679728.846724.txt
+state : tutorial
+boxes : ['false', 'false', 'true', 'false']
+question_num : 0
+answer_order : ['2', '1', '0', '3']
+question : 0
+start : 1510679906781
+finish : 1510679943728
+--
+session : 1510679728.846724.txt
+state : tutorial
+boxes : ['false', 'true', 'false', 'true']
+question_num : 1
+answer_order : ['0', '2', '1', '3']
+question : 1
+start : 1510679943731
+finish : 1510679990531
+--
+session : 1510679728.846724.txt
+state : tutorial
+boxes : ['false', 'false', 'false', 'false']
+question_num : 2
+answer_order : ['2', '0', '3', '1']
+question : 2
+start : 1510679990532
+finish : 1510680056735
+--
+session : 1510679728.846724.txt
+state : multi
+boxes : ['true', 'false', 'true', 'false']
+question_num : 1
+answer_order : ['1', '2', '0', '3']
+question : m2
+start : 1510680056736
+finish : 1510680123787
+--
+session : 1510679728.846724.txt
+state : multi
+boxes : ['false', 'false', 'false', 'false']
+question_num : 5
+answer_order : ['2', '3', '0', '1']
+question : m7
+start : 1510680123788
+finish : 1510680192960
+--
+session : 1510679728.846724.txt
+state : multi
+boxes : ['false', 'true', 'false', 'false']
+question_num : 4
+answer_order : ['2', '1', '3', '0']
+question : m6
+start : 1510680192961
+finish : 1510680258968
+--
+session : 1510679728.846724.txt
+state : multi
+boxes : ['false', 'true', 'true', 'true']
+question_num : 2
+answer_order : ['1', '3', '2', '0']
+question : m3
+start : 1510680258969
+finish : 1510680345773
+--
+session : 1510679728.846724.txt
+state : multi
+boxes : ['true', 'false', 'true', 'false']
+question_num : 3
+answer_order : ['2', '3', '0', '1']
+question : m4
+start : 1510680345775
+finish : 1510680408515
+--
+session : 1510679728.846724.txt
+state : multi
+boxes : ['false', 'false', 'false', 'true']
+question_num : 0
+answer_order : ['0', '1', '3', '2']
+question : m1
+start : 1510680408516
+finish : 1510680436651
+End multi at:2017-11-14 10:27:16.659768
+session : 1510679728.846724.txt
+comments : didn't notice the text regarding partial and full on the right. I think I started with assuming they rights were full till  mid stream. 
+End study at:2017-11-14 10:28:24.194285

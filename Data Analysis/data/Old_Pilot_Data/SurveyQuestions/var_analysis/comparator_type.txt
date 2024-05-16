@@ -1,0 +1,4 @@
+Exchange	8
+Offset	43
+Ring	13
+Stencil	16

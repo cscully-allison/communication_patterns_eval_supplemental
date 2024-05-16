@@ -1,0 +1,444 @@
+<html>
+    <head>
+      <link rel="stylesheet" type="text/css" href="static/study.css" />
+      <script src="static/libs/d3.v4.min.js"></script>
+      <script src="static/libs/jquery-1.11.0.min.js"></script>
+      
+    </head>
+    <body>
+        <!-- <input id="back-button" class="proceed-button" type="button" value="< Back"> -->
+	    <div class="tutorial-container">
+            <div class="tutorial-content">
+                <div id="context">
+                    <center><h2>Introduction</h2></center>
+
+                    <p>In this study, you will be asked to interpret Gantt charts, a visualization
+                        commonly used to explore execution traces. We briefly describe the charts
+                        here.</p>
+                    
+                    <center><h4>Showing Computation and Communication in a Program</h4></center>
+
+                    <p> 
+                        At the most basic level, a computer (or more specifically a CPU) can only do one thing at a time.
+                        It can be computing something, like the addition of two numbers. It can store or access something from
+                        main memory. It can communicate with other parts of the computer. When a program, running on a CPU, 
+                        is engaged in one of these activities it is said to be in certain <i>state</i>. 
+                    </p>
+                    <p>
+                        By grouping a program's activities into <i>states</i> like this, we can identify what a program is doing at a given time.
+                        When calculating something, we say that it is in a <i>computation state</i>. When communicating 
+                        with another part of the computer, like a program on a second CPU, we say that is in a <i>communication state</i>.
+                    </p>
+
+                    <p>Most modern computers do not have just one CPU, they have several.
+                        When we run programs on more than one CPU, keeping track of the <i>states</i> of programs can become difficult. 
+                        To better understand what <i>states</i> our program is in when running on multiple CPUs, we use a 
+                        type of visualization called a Gantt chart.
+                    </p>
+
+                    <p>To construct a Gantt chart, we start with a timeline of a single processing element PE.
+                        A PE is a more general term that includes CPUs.
+                        The horizontal axis represents <b>time</b>. The colored boxes
+                        represent the state of the processing element. In the below example, the
+                        processing element is in the <i>computation</i> state first and then a
+                        <i>communication</i> state.</p>
+
+                    <center><img src="static/img/oneprocess.png" width=750></center>
+
+                    <p> The above example shows real, continuous, wall clock time. We can also show
+                        activity in terms of discrete time steps. As shown below, the processing
+                        element is in a <i>computation</i> (gray) state at timestep 1, the
+                        <i>communication</i> (blue) state at timestep 2. When there are no boxes drawn,
+                        that indicates the element is not participating in the timestep. In this example, the process
+                        does not participate in timesteps 3 through 7.</p>
+
+                        <center><img src="static/img/onelinetimesteps.png" width=750></center>
+
+                    <p>The remainder of this study will use time steps.</p>
+
+                    <center><h4>Showing Parallel Computation and Communication with a Gantt Chart</h4></center>
+
+                    <p>Gantt charts show multiple timelines in parallel. In the below example, the first two
+                        processing elements (PE) are in the <i>communicaton</i> state at timestep 2 but the third and fourth PE are not participating at that timestep.</p>
+
+                        <center><img src="static/img/nolinetimesteps.png" width=750></center>
+
+                    <p>When one processing element sends a message to another, it is represented with a line.
+                        In the below example, PE 1 sends a message to PE 3 at timestep 2 and PE 3
+                        receives the message at timestep 4.</p>
+
+                    <center><img src="static/img/fulltimesteps.png" width=750></center>
+
+                    <p>For the rest of this study we will only be looking at patterns of communication between two adjacent timesteps.</p>
+
+                    <center><h4>Partial and Full Representations of Charts</h4></center>
+                             
+                    <p>When there are many processing elements, sometimes only part of the chart will fit on the screen.
+                        To emulate these cases, we may draw only a few of the timelines and
+                        cut off the rest of the chart. The ragged edges on the top or bottom of the chart 
+                        will show you that this is a partial chart and indicate where it was taken from. 
+                        For example, in the following image, the right chart (labeled "Partial Drawing") 
+                        was taken from the middle of the left chart. This is shown with ragged edges on the top and bottom of the chart.
+                    </p>
+
+                    <center>
+                        <div class="sidebyside">
+                            <div class="leftimg">
+                                Full Drawing<br/>
+                                <img src="static/img/full.png" width=168>
+                            </div>
+
+                            <div class="rightimg">
+                                Partial Drawing<br/>
+                                <img src="static/img/partial.png" width=168>
+                            </div>
+                        </div>
+                    </center>
+
+                    <center><input id="next-button" class="proceed-button" type="button" value="Proceed" /></center>
+
+                </div>
+         
+
+                <div id="patterns">
+                    <center><h2>Part 1/2 - Patterns and Grouping</h2></center>
+
+                    <center><h4>Patterns</h4></center>
+                    <p> Certain patterns emerge from the confluence of individual lines drawn in discrete tilmestep Gantt charts. These patterns can tell us general information about how our program communicates and moves data. In a real computing environment, there are many possible patterns of interest to programmers; however, we will only focus on three for the purposes of this study: </p>
+                    <ul>
+                        <li> <b>Offsets</b> </li>
+                        <li> <b>Rings</b> </li>
+                        <li> <b>Exchanges</b> </li>
+                    </ul>
+
+                    <br/>
+                    <br/>
+
+                    <h4>Offsets</h4>
+
+                    <p> <b>Offsets</b> occur when information is sent, in order, to adjacent processing elements with some number of processes skipped.
+                        This number of skipped processes is called <i>stride</i>. </p>
+                    
+                    </p>The following images show an offset communication pattern with a <i>stride</i> of one:</p>
+                    
+                    <center>
+                        <div class="sidebyside">
+                            <div class="leftimg">
+                                <center>CPU Layout</center><br/>
+                                <img src="static/img/offset-layout-colored.png" width=250>
+                            </div>
+                            <div class="rightimg">
+                                <center>Layout on chart</center><br/>
+                                <img src="static/img/offset-example-colored.png" width=250>
+                            </div>
+                        </div>
+                    </center>
+
+                    And here is an example with a stride of two:
+                    <center>
+                        <div class="sidebyside">
+                            <div class="leftimg">
+                                <center>CPU Layout</center><br/>
+                                <img src="static/img/offset-layout-colored-2.png" width=250>
+                            </div>
+                            <div class="rightimg">
+                                <center>Layout on chart</center><br/>
+                                <img src="static/img/offset-example-colored-2.png" width=250>
+                            </div>
+                        </div>
+                    </center>
+
+                    <br/>
+                    <br/>
+
+                    <h4>Rings</h4>
+
+                    <p> Similar to offsets, <b>rings</b> occur when information is sent, in-order, to adjacent processing elements with some number of processes skipped.
+                        They are different in that the process(es) at the end of the line send back to the first processes; thus forming a <b>ring</b> of communication.</p>
+
+                    <p>This image shows a ring communication with a <i>stride</i> of one:</p>
+                    <center>
+                        <div class="sidebyside">
+                            <div class="leftimg">
+                                <center>CPU Layout</center><br/>
+                                <img src="static/img/ring-layout-colored.png" width=250>
+                            </div>
+                            <div class="rightimg">
+                                <center>Layout on chart</center><br/>
+                                <img src="static/img/ring-example-colored.png" width=250>
+                            </div>
+                        </div>
+                    </center>
+
+                    <br/>
+                    <br/>
+
+                    <h4>Exchanges</h4>
+
+                    <p> <b>Exchanges</b> occur when processing elements exchange information with each other in specified pairs.
+                        Exchanges will always have an X shape to them and the number of lines criss crossing eachother will be equal.
+                    </p>
+                    
+                    <p>Here is an example of an exchange commuincation pattern with a <i>stride</i> of one:</p>
+                    <center>
+                        <div class="sidebyside">
+                            <div class="leftimg">
+                                <center>CPU Layout</center><br/>
+                                <img src="static/img/exchange-layout-colored-1.png" width=250>
+                            </div>
+                            <div class="rightimg">
+                                <center>Layout on chart</center><br/>
+                                <img src="static/img/exchange-example-colored-1.png" width=250
+                            </div>
+                        </div>
+                    </center>
+
+                    And here is an example with a stride of two:
+                    <center>
+                        <div class="sidebyside">
+                            <div class="leftimg">
+                                <center>CPU Layout</center><br/>
+                                <img src="static/img/exchange-layout-colored.png" width=250>
+                            </div>
+                            <div class="rightimg">
+                                <center>Layout on chart</center><br/>
+                                <img src="static/img/exchange-example-colored.png" width=250>
+                            </div>
+                        </div>
+                    </center>
+
+                    
+                    <br/>
+                    <br/>
+
+                    <center><h4>New Designs</h4></center>
+
+                    <p>
+                        In the following image you can see a critical probelm which occurs when we try to show communications of a program running on thousands of CPUs,
+                        we cannot make out any meaningful patterns or information. The criss-crossing becomes too dense and we can no longer see individual lines they merge
+                        together into a black "hairball." 
+                    </p>
+
+                    
+                    <center><img src="static/img/very-dense.png" height=500 width=250></center>
+                    <center>A "full" chart with more than 1000 rows</center><br/>
+
+                    <p>
+                        In order to solve this problem we have introduced a suite of abstraction depictions. 
+                        We refer to these as the “new designs.” 
+                        These new designs do not draw all of the communication lines directly. 
+                        Instead, the design overlays the abstract depiction onto chart. 
+                        For this part of the study we will explain how the design conveys two details about the underlying pattern: 
+                        the pattern classification and the grouping factor of pattern.
+                    </p>
+                    
+                    
+                    <p>These symbols show 2 key pieces of information about the underlying pattern which are relevant to this portion of the 
+                        study. Both are explained below: </p>
+                    
+                    <center>
+                        Pattern
+
+                        <p>
+                            Below we show the normal Gantt drawing on the left and the new design on the right. 
+                            All new designs blur the boxes representing exact timestep-state pairs. 
+                            The lines no longer start and end at specific states.
+                        </p>
+
+                        <div class="sidebyside">
+                            <div class="leftimg">
+                                <center><img src="static/img/basic_offset.png" width=250></center>
+                            </div>
+                            <div class="rightimg">   
+                                <center><img src="static/img/basic_offset_abstract.png" width=250></center>
+                            </div>
+                        </div>
+                        <p>
+                            The offset pattern is drawn with parallel diagonal lines. 
+                        </p>
+
+                        <div class="sidebyside">
+                            <div class="leftimg">
+                                <center><img src="static/img/basic_ring.png" width=250></center>
+                            </div>
+                            <div class="rightimg">   
+                                <center><img src="static/img/basic_ring_abstract.png" width=250></center>
+                            </div>
+                        </div>
+                        <p>
+                            The offset pattern is drawn with parallel diagonal lines. 
+                        </p>
+
+                        <div class="sidebyside">
+                            <div class="leftimg">
+                                <center><img src="static/img/basic_exchange.png" width=250></center>
+                            </div>
+                            <div class="rightimg">
+                                <center><img src="static/img/basic_exchange_abstract.png" width=250></center>
+                            </div>
+                        </div>
+
+                        <p>
+                            In the exchange pattern, the number of crossing lines is equal. 
+                            In other words, the number of up-slanting lines is equal to the number of down slanting lines. 
+                            Furthermore, multiple copies of the basic design are shown as exchange patterns tends to form small groups.
+                            We will talk more about grouping below. 
+                        </p>
+                    </center>
+
+                    <center>
+                        Grouping
+                        <div class="sidebyside">
+                            <div class="leftimg">
+                                <center><img src="static/img/basic_grouping.png" width=250></center>
+                            </div>
+                            <div class="rightimg">   
+                                <center><img src="static/img/basic_grouping_abstract.png" width=250></center>
+                            </div>
+                        </div>
+                        <p class="caption"> Sometimes patterns repeat at regular intervals and create small groups of patterns.
+                            In this experiment we refer to this as <b>grouping</b> and say that an overall pattern is <i>grouped</i> if
+                            this repeat occurs. If there is no repeat, we call the pattern <i>continuous</i>. In the example above, in the left
+                            image we see that this pattern is grouped because the communication lines are on for two rows, off for two rows, and on again for another two.
+                            In the right image, with the new design, we show grouping by repeting the offset symbol explained above. If there is no repeat of the symbol,
+                            as we saw with the prior examples, then the pattern is continuous.
+                        </p>
+                    </center>
+
+                    <center>
+                        <h4> Tutorial Quiz </h4>
+                        <p>
+                            In the following tutorial quiz, you will be presented with questions which use either full, partial or new design
+                            representations of these charts to demonstrate your understanding of patterns and grouping.
+                        </p>
+                    </center>
+
+                    <form action="{{ url_for('tutorialQuestions') }}" method="post">
+                        <input type="hidden" id="session" name="session" value="{{ session }}" />
+                        <center>
+                            <div class="formfield">
+                                <input class="proceed-button" type="submit" value="Proceed" />
+                            </div>
+                        </center>
+                    </form>
+                </div>
+
+                <div id="stride">
+                    <center><h2>Part 2/2 - Stride</h2></center>
+
+                    <center><h4>Stride</h4></center>
+
+                    <p>In the previous tutorial, we mentioned the concept of stride. 
+                        The stride of a particular pattern indicates how many processes we skip when passing information between processors. 
+                        This portion of the study will focus on stride.
+                    </p>
+
+                    <p>Recall the following image: </p>
+
+                    <center>
+                        <div class="sidebyside">
+                            <div class="leftimg">
+                                <center>CPU Layout</center><br/>
+                                <img src="static/img/offset-layout-colored.png" width=250>
+                            </div>
+                            <div class="rightimg">
+                                <center>Layout on chart</center><br/>
+                                <img src="static/img/offset-example-colored.png" width=250>
+                            </div>
+                        </div>
+                    </center>
+
+                    </p> 
+                    In this image, we see that each process passes to its immediate neighbor process and that gives us a stride of one. 
+                    To expand on this, if each process passed to its neighbor's neighbor that would be over two processes and give us a stride of two. Going further,
+                    if we skip over two processes and pass to the third neighbor that yields a stride of three. 
+                    </p>
+
+
+                    <!-- <center>
+                        Pattern Continuation
+                        <div class="sidebyside">
+                            <div class="leftimg">
+                                <center><img src="static/img/basic_partial.png" width=250></center>
+                            </div>
+                            <div class="rightimg">   
+                                <center><img src="static/img/basic_partial_abstract.png" width=250></center>
+                            </div>
+                        </div>
+                        <p class="caption"> Commonly, a pattern is too large to draw to the screen in its entirety. 
+                            When that happens, we need to cut a part of it off. To show that the pattern has been cut off on our symbols
+                            we make it transparent in the direction of the cut off edge. In this case, we have cut off both top and bottom
+                            so the transparency can be seen on both the top and bottom of our symbol.
+                        </p>
+                    </center> -->
+
+                    <center>
+                        <h4>New Designs</h4>
+                        
+                        <p>
+                            The new designs show the stride by changing the angle of the lines making up our pattern symbols.
+                             A larger stride produces denser and more steeply angled lines than a smaller stride.
+                            The following figures illustrates how this is reflected in the final designs.
+                        </p>
+
+                        <div class="sidebyside">
+                            <div class="leftimg">
+                                <center><img src="static/img/basic_offset.png" width=250></center>
+                                <center><img src="static/img/basic_offset_4.png" width=250></center>
+                                <center><img src="static/img/basic_offset_6.png" width=250></center>
+                            </div>
+                            <div class="rightimg">   
+                                <center><img src="static/img/basic_offset_abstract.png" width=250></center>
+                                <center><img src="static/img/basic_offset_4_abstract.png" width=250></center>
+                                <center><img src="static/img/basic_offset_6_abstract.png" width=250></center>
+                            </div>
+                        </div>
+
+                        <p class="caption"> 
+                            On the left, we show the standard Gantt chart. 
+                            On the right we show the new design. 
+                            The left shows increasing stride from 2, to 4, to 6. 
+                            In the new designs, these are approximated by varying the angle and density of the lines drawing. 
+                            A pattern with a large offset will have more sharply angled lines than one with a small offset.
+
+                            We do not match the angle to match directly as very large strides can produce very steep angles and very dense lines.
+                        </p>
+                    </center>
+
+                    <center>
+                        <h4> Tutorial Quiz </h4>
+                        <p> In the following tutorial quiz, you will be presented with questions which ask you to compare the stride of two charts. </p>
+                    </center>
+
+                    <form action="{{ url_for('tutorialQuestions') }}" method="post">
+                        <input type="hidden" id="session" name="session" value="{{ session }}" />
+                        <center>
+                            <div class="formfield">
+                                <input class="proceed-button" type="submit" value="Proceed" />
+                            </div>
+                        </center>
+                    </form>
+                </div>
+
+                <div id="final-acknowledgement">
+                    <div id="notification-band">
+                            <h2>This has concluded the tutorial.</h2>
+                                    <h3>In the main phase of this study, you <span class="emphasis"> will not</span> be told if your response is correct or incorrect. You <span class="emphasis">will not</span> be asked to confirm your selection, clicking "yes" or "no" will immediately take you to the next question. Please click this button to continue to the main questions. </h3>
+                                    <h3>When answering try to answer each question within 15 seconds. Try to avoid meticilous counting and go with your intial instincts.</h3>
+                            <form action="{{ url_for('questions') }}" method="post">
+                                <input type="hidden" id="session" name="session" value="{{ session }}" />
+                                <center>
+                                    <div class="formfield">
+                                        <input class="proceed-button" id="acknowledge-button" type="submit" value="Proceed" />
+                                    </div>
+                                </center>
+                            </form>
+                    </div>
+                </div>
+
+            </div>
+	    </div>
+    </body>
+
+    <script src='static/tutorial.js'></script>
+</html>

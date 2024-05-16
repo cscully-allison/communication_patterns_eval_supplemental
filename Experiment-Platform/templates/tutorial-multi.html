@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Gantt Chart Execution Trace Study</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" type="text/css" href="static/study.css" />
+    <script src="static/libs/d3.v4.min.js"></script>
+    <script src="static/libs/jquery-1.11.0.min.js"></script>
+    <script src="static/minimalist_designs.js"></script>
+    <script>
+      tutorial_active = true;
+    </script>
+    <script src="static/study.js"></script>
+    <style>
+        #error-message {
+            display: none
+        }
+    </style>
+</head>
+
+<body>
+  <div class="study-container">
+    <div id="progress-bar-area">
+      <div>Progress</div>
+      <div id="progress-bar">
+        <div id="meter"></div>
+      </div>
+    </div>
+
+    <!-- question area -->
+    <div id="q-div" class="question-text">
+        <p id="q-para"></p>
+    </div>
+    <!-- question drawing area -->
+    <div class="question-grid">
+      <div id="q-grid-container" class="q-container">
+          <div id="grid-q-div" class="grid"></div>
+      </div>
+    </div>
+    <!-- yes-no response area -->
+    <div class="answer-select">
+      <div id="check-divs">
+          <div id="check-a-div" class="checkdiv">
+              <input type="hidden" id="myfile" name="session" value="{{ session }}" />
+              <input class="confirm button" type="button" value="Yes" />
+              <input class="confirm button" type="button" value="No" />
+          </div>
+      </div>
+    </div>
+
+    <!-- answer drawing -->
+    <div class="answer-draw-area">
+        <ul id="multi-choice-pattern">
+          <li><input class="confirm button" type="button" value="Offset" /></li>
+          <li><input class="confirm button" type="button" value="Ring" /></li>
+          <li><input class="confirm button" type="button" value="Exchange" /></li>
+        </ul>
+        <ul id="multi-choice-grouping">
+          <li><input class="confirm button" type="button" value="Grouped" /></li>
+          <li><input class="confirm button" type="button" value="Continuous" /></li>
+        </ul>
+        <div id="grid-a-div" class="grid"></div>
+    </div>
+    
+    <div class="answer-verify hidden">
+      <div id="tut-verify-content"></div>
+      <input class="hidden button" id="tut-next" type="button" value="Continue >" />
+    </div>
+  </div>
+
+</body>
+
+</html>

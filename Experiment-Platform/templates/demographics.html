@@ -1,0 +1,212 @@
+<html>
+    <head>
+      <link rel="stylesheet" type="text/css" href="static/study.css" />
+      <script src="static/libs/d3.v4.min.js"></script>
+      <script src="static/libs/jquery-1.11.0.min.js"></script>
+    </head>
+    <script>
+		
+		localStorage.removeItem('state');
+		localStorage.removeItem('eot');
+
+		px_width = screen.width;
+		px_height = screen.height;
+
+		var checkGroup = function (group) {
+			var members = document.getElementsByName(group);
+
+			for (var i = 0; i < members.length; i++) {
+				if (members[i].checked) {
+					return true;
+				}
+			}
+			return false;
+		};
+
+		$(document).ready(function() {
+			$("#demosubmit").prop("disabled", true);
+
+			if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+				alert("We apologize but this study does not support mobile devices. Please switch to a desktop computer if you would like to continue.")
+			} else {
+
+				console.log(px_width, px_height);
+				$("#screen_height").val(px_width);
+				$("#screen_width").val(px_height);
+
+				$("#theform").on('input change', function() {
+					if (document.getElementById('consent').checked
+						&& checkGroup('exper') && checkGroup('hpc')
+						&& document.getElementById('gender').value.length !== 0
+						&& document.getElementById('age').value.length !== 0) {
+						$("#demosubmit").prop("disabled", false);
+					}
+
+				});
+			}
+		});
+
+    </script>
+    <body>
+		<div class="demo-container">
+			<div class="demo-left">
+				<div class="myform">
+					<form action="{{ url_for('saveDemo') }}" id="theform" method="post">
+						<div class="formfield">
+						<input type="checkbox" id="consent" name="consent" value="consent"/>
+						<label for="consent">I have read the consent statement (right) and agree to participate.</label>
+						</div>
+						<!-- <div class="formfield">
+						Full Name: <input type="text" id="name" name="name" />
+						</div> -->
+						<div class="formfield">
+						Gender: <input type="text" id="gender" name="gender" />
+						</div>
+						<div class="formfield">
+						E-mail (optional): <input type="text" name="email" />
+						</div>
+						<div class="formfield">
+						Age (years): <input type="text" id="age" name="years" />
+						</div>
+						<div class="formfield">
+						Programming Experience: <br />
+						<input type="radio" id="exper1" name="exper" value="none"/>
+						<label for="exper1">None</label> <br />
+
+						<input type="radio" id="exper2" name="exper" value="beginner"/>
+						<label for="exper2">Beginner</label> <br />
+
+						<input type="radio" id="exper3" name="exper" value="intermediate"/>
+						<label for="exper3">Intermediate</label> <br />
+
+						<input type="radio" id="exper4" name="exper" value="advanced"/>
+						<label for="exper4">Advanced</label> <br />
+						</div>
+						<div class="formfield">
+							Familiarity with Parallel Programming: <br />
+							<input type="checkbox" id="hpc1" name="hpc" value="none"/>
+							<label for="hpc1">None</label> <br />
+
+							<input type="checkbox" id="hpc2" name="hpc" value="run"/>
+							<label for="hpc2">Have run parallel code</label> <br />
+
+							<input type="checkbox" id="hpc3" name="hpc" value="written"/>
+							<label for="hpc3">Have written parallel code</label>
+							<ul>
+								<li>
+								<input type="radio" id="written1" name="written" value="beginner"/>
+								<label for="written1">Beginner</label> <br />
+								</li>
+
+								<li>
+								<input type="radio" id="written2" name="written" value="intermediate"/>
+								<label for="written2">Intermediate</label> <br />
+								</li>
+
+								<li>
+								<input type="radio" id="written3" name="written" value="advanced"/>
+								<label for="written3">Advanced</label> <br />
+								</li>
+							</ul>
+
+							<input type="checkbox" id="hpc4" name="hpc" value="analyzed"/>
+							<label for="hpc4">Have analyzed parallel code</label>
+							<ul>
+								<li>
+								<input type="radio" id="analyzed1" name="analyzed" value="beginner"/>
+								<label for="analyzed1">Beginner</label> <br />
+								</li>
+
+								<li>
+								<input type="radio" id="analyzed2" name="analyzed" value="intermediate"/>
+								<label for="analyzed2">Intermediate</label> <br />
+								</li>
+
+								<li>
+								<input type="radio" id="analyzed3" name="analyzed" value="advanced"/>
+								<label for="analyzed3">Advanced</label> <br />
+								</li>
+							</ul>
+						</div>
+
+						<div class="formfield">
+							<input type=hidden id=csp_id name=csp_id value="{{csp_id}}" />
+							<input type=hidden id=screen_height name=screen_height />
+							<input type=hidden id=screen_width name=screen_width />
+						</div>
+
+						<div class="formfield">
+							<input type="submit" id="demosubmit" value="Submit & Continue" />
+						</div>
+					</form>
+				</div>
+			</div>
+			
+			<div class="demo-right">
+				<div class="consent">
+					<center><h4>Consent</h4></center>
+
+					<p>You are invited to participate in a research study investigating how well
+					visual designs represent dependencies in computing data. You were selected
+					because you are a student at the University of Arizona or you are a user of the
+					Prolific crowdsourcing platform.  We ask that you read this form and 
+					ask any questions you may have before agreeing to be in the study.</p>
+
+					<h4>INFORMATION</h4>
+
+					<p>If you agree to be in the study, you will first be asked some basic
+					questions regarding your demographics and familiarity with parallel computing.
+					You will then be introduced to some visualizations and given
+					practice questions. Once practice is finished, you will be shown a series of
+					visualizations and asked questions about them. We expect 
+					the average participant to complete the entire process in 20 minutes.</p>
+
+					<h4>RISKS</h4>
+
+					<p>There are no known risks involved in participation in this study.</p>
+
+					<h4>CONFIDENTIALITY</h4>
+
+					<p>Results of this study will be reported using aggregated statistics. An
+					anonymized version of the data will be made available publicly and linked from
+					http://hdc.cs.arizona.edu/people/kisaacs/. This version will not include 
+					any demographic information from which your identity could be
+					inferred.  Sufficiently general demographic information may be shared. The
+					full dataset with your name will only be available to the researchers,
+					Connor Scully-Allison and Katherine Isaacs. The dataset may be subject to further analyses during
+					potential future research.</p>
+
+					<h4>CONTACT</h4>
+
+					<p>For further information about the study or the procedures, you can contact
+					the researcher, Connor Scully-Allison, at Gould-Simpson Building 1040 E. 4th Street
+					Tucson, AZ at cscullyallison@email.arizona.edu.</p>
+
+					<p>If the experiment did not conform to the description in this form, or you
+					feel that your rights as a participant in research have been violated during
+					the course of this project, you may contact the Human Subjects Protection
+					Program at (520) 626-6721.</p>
+
+					<h4>PARTICIPATION</h4>
+
+					<p>Your participation in this study is voluntary; you may refuse to
+					participate at any time and for any reason. You may choose to withdraw data
+					collected during your participation for up to one week after the fact
+					regardless of whether you completed the study or not. Participants in this
+					study do not need to incur any cost.</p>
+
+					<h4>CONSENT</h4>
+
+					<p>By submitting the demographics form (left), you agree you have read this form.
+					You have had all your questions answered to your satisfaction. You agree
+					to take part in this study. If you disagree, simply stop participating
+					here.<p>
+
+					<p>Click the submit button to consent. If you do not wish to consent, simply
+					stop here.</p>
+
+				</div>
+			</div>
+		</div>
+    </body>
+</html>

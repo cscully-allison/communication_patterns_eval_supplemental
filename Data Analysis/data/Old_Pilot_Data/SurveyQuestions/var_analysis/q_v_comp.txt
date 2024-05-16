@@ -1,0 +1,4 @@
+Full	Full	24
+Full	Partial	20
+Partial	Full	20
+Partial	Partial	16

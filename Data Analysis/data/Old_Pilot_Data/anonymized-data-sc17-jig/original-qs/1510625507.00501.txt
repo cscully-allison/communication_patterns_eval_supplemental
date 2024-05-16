@@ -1,0 +1,90 @@
+First save demo at:2017-11-13 18:11:47.006113
+consent : consent
+gender : Female
+years : 27
+exper : intermediate
+hpc : run
+written : beginner
+analyzed : beginner
+--
+session : 1510625507.00501.txt
+state : tutorial
+boxes : ['false', 'false', 'false', 'false']
+question_num : 0
+answer_order : ['0', '1', '2', '3']
+question : 0
+start : 1510625647632
+finish : 1510625689920
+--
+session : 1510625507.00501.txt
+state : tutorial
+boxes : ['false', 'false', 'false', 'true']
+question_num : 1
+answer_order : ['0', '3', '1', '2']
+question : 1
+start : 1510625689923
+finish : 1510625718241
+--
+session : 1510625507.00501.txt
+state : tutorial
+boxes : ['false', 'false', 'false', 'false']
+question_num : 2
+answer_order : ['3', '2', '0', '1']
+question : 2
+start : 1510625718242
+finish : 1510625736963
+--
+session : 1510625507.00501.txt
+state : multi
+boxes : ['false', 'false', 'false', 'false']
+question_num : 2
+answer_order : ['0', '2', '3', '1']
+question : m3
+start : 1510625736965
+finish : 1510625760007
+--
+session : 1510625507.00501.txt
+state : multi
+boxes : ['true', 'false', 'false', 'false']
+question_num : 4
+answer_order : ['0', '2', '3', '1']
+question : m6
+start : 1510625760008
+finish : 1510625797613
+--
+session : 1510625507.00501.txt
+state : multi
+boxes : ['false', 'false', 'false', 'false']
+question_num : 5
+answer_order : ['1', '3', '2', '0']
+question : m7
+start : 1510625797614
+finish : 1510625811831
+--
+session : 1510625507.00501.txt
+state : multi
+boxes : ['false', 'false', 'false', 'false']
+question_num : 3
+answer_order : ['2', '1', '0', '3']
+question : m4
+start : 1510625811832
+finish : 1510625827692
+--
+session : 1510625507.00501.txt
+state : multi
+boxes : ['false', 'false', 'true', 'false']
+question_num : 0
+answer_order : ['0', '2', '1', '3']
+question : m1
+start : 1510625827693
+finish : 1510625848172
+--
+session : 1510625507.00501.txt
+state : multi
+boxes : ['false', 'false', 'false', 'false']
+question_num : 1
+answer_order : ['2', '1', '0', '3']
+question : m2
+start : 1510625848173
+finish : 1510625875237
+End study at:2017-11-13 18:17:55.250681

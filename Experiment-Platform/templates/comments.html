@@ -1,0 +1,272 @@
+<html>
+    <head>
+	  <link rel="stylesheet" type="text/css" href="static/study.css" />
+      <script src="static/libs/d3.v4.min.js"></script>
+      <script src="static/libs/jquery-1.11.0.min.js"></script>
+    </head>
+    <body>
+		<form action="{{ url_for('processComments') }}" method="post">
+			<div class="comments-container">
+				<div class="likert">
+					<p class="likert-text">On a scale from "Not helpful at all" to "Very helpful", please indicate how helpful you found the tutorial explanation.</p>
+					<input type="radio" id="likert1" name="tutorial-helpful" value="1"/>
+					<label id="likert-val-1" for="likert1">Not helpful at all</label>
+					<input type="radio" id="likert2" name="tutorial-helpful" value="2"/>
+					<input type="radio" id="likert3" name="tutorial-helpful" value="3"/>
+					<label id="likert-val-3" for="likert5">Moderately helpful</label>
+					<input type="radio" id="likert4" name="tutorial-helpful" value="4"/>
+					<input type="radio" id="likert5" name="tutorial-helpful" value="5"/>
+					<label id="likert-val-5" for="likert5">Very helpful</label>
+				</div>
+			
+				<div class="tutorial-text">
+					<p>Please put any additional thoughts you may haven about the tutorial here.</p>
+					<textarea id="tutorial-comments" name="tutorial-comments" cols=80 rows=20></textarea>
+				</div>
+
+				<div class="prefrerence-area">
+					<p class="prefrerence-area-text">
+						Among the three representations (partial, full, and new designs) we showed you, please click on the picture of the one you liked the most.
+					</p>
+					<label class="left-option-img">
+						<input type="radio" id="rp1" name="representation-prefrence" value="full"/>
+						<img src="{{url_for('static', filename='img/very-dense.png')}}" alt="An image of a very dense exchange.">
+					</label>
+					<p class="left-option-label">Full</p>
+
+					<label class="mid-option-img">
+						<input type="radio" id="rp2" name="representation-prefrence" value="partial"/>
+						<img src="{{url_for('static', filename='img/partial.png')}}" alt="An partial image of an offset.">
+					</label>
+					<p class="mid-option-label">Partial</p>
+					
+					<label class="right-option-img">
+						<input type="radio" id="rp3" name="representation-prefrence" value="new"/>
+						<img src="{{url_for('static', filename='img/basic_ring_abstract.png')}}" alt="A new design representation of a continious ring.">
+					</label>
+					<p class="right-option-label">New Designs</p>
+					
+				</div>
+
+				<div class="overall-comments">
+					<p>Do you have any other comments or remarks about the study? Please type them here.</p>
+					<textarea id="other-comments" name="other-comments" cols=80 rows=20></textarea>	
+				</div>
+
+				<div class="button-area">
+					<input type="hidden" id="session" name="session" value="{{ session }}" />
+					<div class="formfield">
+						<input class="proceed-button" type="submit" value="Proceed" />
+					</div>
+				</div>
+			
+			</div>
+		</form>
+	</body>
+	
+	<style>
+
+		/* Makes the images work as radio buttons.
+		Pulled from stackoverflow: https://stackoverflow.com/questions/17541614/use-images-instead-of-radio-buttons/17541916 */
+		.prefrerence-area > label > [type=radio] { 
+			position: absolute;
+			opacity: 0;
+			width: 0;
+			height: 0;
+		}
+
+		/* IMAGE STYLES */
+		.prefrerence-area > label >[type=radio] + img {
+			cursor: pointer;
+		}
+
+		/* CHECKED STYLES */
+		.prefrerence-area > label > [type=radio]:checked + img {
+			outline: 2px solid #3cae68;
+		}
+
+
+		body{
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: large;
+		}
+
+		textarea {
+			height: 4em;
+		}
+
+		.comments-container{
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			grid-template-rows: fit-content(20%) fit-content(20%) fit-content(50%) fit-content(20%);
+		}
+
+		.likert{
+			display:grid;
+			text-align: center;
+			grid-column: 2;
+			grid-row: 1;
+
+			border: 2px solid #505050;
+			padding: 1em;
+
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			grid-template-rows: fit-content(20%) 50px fit-content();
+		}
+
+		.likert-text{
+			grid-column: 1/-1;
+			grid-row: 1;
+		}
+
+		#likert1{
+			grid-column: 1;
+			grid-row: 2;
+		}
+		#likert2{
+			grid-column: 2;
+			grid-row: 2;
+		}
+		#likert3{
+			grid-column: 3;
+			grid-row: 2;
+		}
+		#likert4{
+			grid-column: 4;
+			grid-row: 2;
+		}
+		#likert5{
+			grid-column: 5;
+			grid-row: 2;
+		}
+
+		#likert-val-1{
+			grid-column: 1;
+			grid-row: 3;
+		}
+		#likert-val-2{
+			grid-column: 2;
+			grid-row: 3;
+		}
+		#likert-val-3{
+			grid-column: 3;
+			grid-row: 3;
+		}
+		#likert-val-4{
+			grid-column: 4;
+			grid-row: 3;
+		}
+		#likert-val-5{
+			grid-column: 5;
+			grid-row: 3;
+		}
+
+		[type=radio] { 
+			margin-top:0;
+			margin-left: auto;
+			margin-right: auto;
+			
+		}
+
+		.tutorial-text{
+			border: 2px solid #505050;
+			padding: 1em;
+
+			margin-top: 2em;
+			text-align: center;
+			grid-column: 2;
+			grid-row: 2;
+		}
+
+		.prefrerence-area{
+			border: 2px solid #505050;
+			padding: 1em;
+
+			margin-top: 2em;
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+			grid-template-rows: fit-content() 1fr fit-content();
+
+			grid-column: 2;
+			grid-row:  3;
+		}
+
+		.prefrerence-area-text{
+			text-align: center;
+			grid-row: 1;
+			grid-column: 1/-1;
+		}
+
+		.left-option-img{
+			padding-right: 10px;
+			grid-row: 2;
+			grid-column: 1;
+		}
+
+		.mid-option-img{
+			padding-left: 5px;
+			padding-right: 5px;
+			margin-top: auto;
+			grid-row: 2;
+			grid-column: 2;
+		}
+
+		.right-option-img{
+			padding-left: 10px;
+			margin-top: auto;
+			grid-row: 2;
+			grid-column: 3;
+		}
+
+		
+		.left-option-label{
+			font-size: large;
+			text-align: center;
+			grid-row: 3;
+			grid-column: 1;
+		}
+
+		.mid-option-label{
+			font-size: large;
+			text-align: center;
+			grid-row: 3;
+			grid-column: 2;
+		}
+
+		.right-option-label{
+			font-size: large;
+			text-align: center;
+			grid-row: 3;
+			grid-column: 3;
+		}
+
+
+		.overall-comments{
+
+			border: 2px solid #505050;
+			padding: 1em;
+
+			margin-top: 2em;
+			text-align: center;
+			grid-column: 2;
+			grid-row: 4;
+		}
+
+		.button-area{
+			grid-column: 2;
+			grid-row: 5;
+			margin-top: 40px;
+			margin-bottom: 40px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.proceed-button {
+			height: 3em;
+			min-width: 12em;
+			font-size: 20;
+			background-color: #3cae68;
+		}
+
+	</style>
+</html>

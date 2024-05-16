@@ -1,0 +1,10 @@
+QN,A1,A2,A3,A4
+0,True,False,True,False
+1,False,False,True,True
+2,False,True,False,False
+m1,True,False,True,False
+m2,True,True,False,False
+m3,False,True,True,False
+m4,False,False,True,False
+m6,True,True,False,True
+m7,False,False,True,True

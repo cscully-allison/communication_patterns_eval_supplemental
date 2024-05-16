@@ -1,0 +1,92 @@
+First save demo at:2017-11-14 10:08:09.168061
+consent : consent
+gender : Male
+email : 
+years : 36
+exper : advanced
+hpc : run
+--
+session : 1510679289.167242.txt
+state : tutorial
+boxes : ['false', 'false', 'true', 'false']
+question_num : 0
+answer_order : ['3', '2', '0', '1']
+question : 0
+start : 1510679340525
+finish : 1510679366227
+--
+session : 1510679289.167242.txt
+state : tutorial
+boxes : ['false', 'true', 'true', 'false']
+question_num : 1
+answer_order : ['0', '3', '2', '1']
+question : 1
+start : 1510679366231
+finish : 1510679377930
+--
+session : 1510679289.167242.txt
+state : tutorial
+boxes : ['true', 'true', 'false', 'true']
+question_num : 2
+answer_order : ['0', '2', '3', '1']
+question : 2
+start : 1510679377931
+finish : 1510679419483
+--
+session : 1510679289.167242.txt
+state : multi
+boxes : ['true', 'false', 'true', 'true']
+question_num : 4
+answer_order : ['3', '2', '1', '0']
+question : m6
+start : 1510679419485
+finish : 1510679443997
+--
+session : 1510679289.167242.txt
+state : multi
+boxes : ['false', 'true', 'false', 'true']
+question_num : 0
+answer_order : ['1', '2', '3', '0']
+question : m1
+start : 1510679443998
+finish : 1510679460413
+--
+session : 1510679289.167242.txt
+state : multi
+boxes : ['false', 'true', 'false', 'false']
+question_num : 5
+answer_order : ['3', '2', '0', '1']
+question : m7
+start : 1510679460415
+finish : 1510679533041
+--
+session : 1510679289.167242.txt
+state : multi
+boxes : ['false', 'false', 'true', 'true']
+question_num : 1
+answer_order : ['1', '2', '3', '0']
+question : m2
+start : 1510679533042
+finish : 1510679556930
+--
+session : 1510679289.167242.txt
+state : multi
+boxes : ['true', 'false', 'true', 'false']
+question_num : 3
+answer_order : ['0', '3', '2', '1']
+question : m4
+start : 1510679556931
+finish : 1510679581811
+--
+session : 1510679289.167242.txt
+state : multi
+boxes : ['false', 'true', 'true', 'true']
+question_num : 2
+answer_order : ['1', '0', '2', '3']
+question : m3
+start : 1510679581812
+finish : 1510679604788
+End multi at:2017-11-14 10:13:24.799499
+session : 1510679289.167242.txt
+comments : Very interesting
+End study at:2017-11-14 10:13:32.486908

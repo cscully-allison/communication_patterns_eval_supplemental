@@ -1,0 +1,33 @@
+First save demo at:2017-11-14 10:29:59.722630
+consent : consent
+gender : F
+years : 30
+exper : advanced
+hpc : written
+--
+session : 1510680599.7215009.txt
+state : tutorial
+boxes : ['false', 'false', 'true', 'false']
+question_num : 0
+answer_order : ['3', '1', '0', '2']
+question : 0
+start : 1510680655815
+finish : 1510680670213
+--
+session : 1510680599.7215009.txt
+state : tutorial
+boxes : ['true', 'false', 'false', 'false']
+question_num : 1
+answer_order : ['3', '1', '0', '2']
+question : 1
+start : 1510680670215
+finish : 1510680684892
+--
+session : 1510680599.7215009.txt
+state : tutorial
+boxes : ['false', 'false', 'false', 'true']
+question_num : 2
+answer_order : ['0', '2', '3', '1']
+question : 2
+start : 1510680684893
+finish : 1510680710303

@@ -1,0 +1,5 @@
+Exchange	Grouped	1
+Exchange	Offset	7
+Offset	Full	37
+Offset	Grouped	6
+Ring	Full	13

@@ -1,0 +1,1830 @@
+{
+    "tutorial" : [
+	{
+	    "question_id": "tm1A",
+	    "question_type" : "multi",
+	    "choices" : [
+		{
+		    "grid_size" : [ 8, 2 ],
+		    "off_cells" : [ 1, 14 ],
+		    "correct" : "yes",
+		    "messages" : [
+			[ 0, 3 ],
+			[ 2, 5 ],
+			[ 4, 7 ],
+			[ 6, 9 ],
+			[ 8, 11 ],
+			[ 10, 13 ],
+			[ 12, 15 ]
+		    ]
+		}
+	    ],
+	    "note" : "one-offset non-ring",
+	    "question_max_rows" : 8,
+	    "question_text" : "Can the full charts on the right be depicted by the partial drawing below?",
+	    "question_sample" : {
+		"grid_size" : [ 4, 2 ],
+		"off_cells" : [ 1 ],
+		"messages" : [
+		    [ 0, 3 ],
+		    [ 2, 5 ],
+		    [ 4, 7 ],
+		    [ 6, 9 ]
+		]
+	    }
+	},
+	{
+	    "question_id": "tm1B",
+	    "question_type" : "multi",
+	    "choices" : [
+		{
+		    "grid_size" : [ 8, 2 ],
+		    "off_cells" : [ 1, 3, 12, 14 ],
+		    "correct" : "no",
+		    "messages" : [
+			[ 0, 5 ],
+			[ 2, 7 ],
+			[ 4, 9 ],
+			[ 6, 11 ],
+			[ 8, 13 ],
+			[ 10, 15 ]
+		    ]
+		}
+	    ],
+	    "note" : "one-offset non-ring",
+	    "question_max_rows" : 8,
+	    "question_text" : "Can the full charts on the right be depicted by the partial drawing below?",
+	    "question_sample" : {
+		"grid_size" : [ 4, 2 ],
+		"off_cells" : [ 1 ],
+		"messages" : [
+		    [ 0, 3 ],
+		    [ 2, 5 ],
+		    [ 4, 7 ],
+		    [ 6, 9 ]
+		]
+	    }
+	},
+	{
+	    "question_id": "tm1C",
+	    "question_type" : "multi",
+	    "choices" : [
+		{
+			"grid_size" : [ 4, 2 ],
+			"off_cells" : [ 1, 6 ],
+			"correct" : "no",
+			"messages" : [
+			[ 0, 3 ],
+			[ 2, 5 ],
+			[ 4, 7 ]
+			]
+		}
+	    ],
+	    "note" : "one-offset non-ring",
+	    "question_max_rows" : 8,
+	    "question_text" : "Can the full charts on the right be depicted by the partial drawing below?",
+	    "question_sample" : {
+		"grid_size" : [ 4, 2 ],
+		"off_cells" : [ 1 ],
+		"messages" : [
+		    [ 0, 3 ],
+		    [ 2, 5 ],
+		    [ 4, 7 ],
+		    [ 6, 9 ]
+		]
+	    }
+	},
+	{
+	    "question_id": "tm1D",
+	    "question_type" : "multi",
+	    "choices" : [
+		{
+			"grid_size" : [ 6, 2 ],
+			"off_cells" : [ ],
+			"correct" : "no",
+			"messages" : [
+			[ 0, 3 ],
+			[ 2, 5 ],
+			[ 4, 7 ],
+			[ 6, 9 ],
+			[ 8, 11 ],
+			[ 10, 1 ]
+			]
+		}
+	    ],
+	    "note" : "one-offset non-ring",
+	    "question_max_rows" : 8,
+	    "question_text" : "Can the full charts on the right be depicted by the partial drawing below?",
+	    "question_sample" : {
+		"grid_size" : [ 4, 2 ],
+		"off_cells" : [ 1 ],
+		"messages" : [
+		    [ 0, 3 ],
+		    [ 2, 5 ],
+		    [ 4, 7 ],
+		    [ 6, 9 ]
+		]
+	    }
+	},
+	{
+	    "question_id": "tm2A",
+	    "question_type" : "multi",
+	    "choices" : [
+		{
+		    "grid_size" : [ 4, 2 ],
+		    "off_cells" : [ ],
+		    "correct" : "no",
+		    "messages" : [
+			[ 0, 3 ],
+			[ 2, 1 ],
+			[ 4, 7 ],
+			[ 6, 5 ]
+		    ]
+		}
+	    ],
+	    "note" : "Simple crosses",
+	    "question_max_rows" : 10,
+	    "question_text" : "Example Question: Which of the full charts on the right can be depicted by the partial drawing below?",
+	    "question_sample" : {
+		"grid_size" : [ 5, 2 ],
+		"off_cells" : [ ],
+		"messages" : [
+		    [ 0, 3 ],
+		    [ 2, 1 ],
+		    [ 4, 7 ],
+		    [ 6, 5 ],
+		    [ 8, 11 ],
+		    [ 10, 9 ]
+		]
+	    }
+	},
+	{
+	    "question_id": "tm2B",
+	    "question_type" : "multi",
+	    "choices" : [
+		{
+		    "grid_size" : [ 8, 2 ],
+		    "off_cells" : [ 0, 1, 14, 15],
+		    "correct" : "no",
+		    "messages" : [
+			[ 2, 5 ],
+			[ 4, 3 ],
+			[ 6, 9 ],
+			[ 8, 7 ],
+			[ 10, 13 ],
+			[ 12, 11 ]
+		    ]
+		}
+	    ],
+	    "note" : "Simple crosses",
+	    "question_max_rows" : 10,
+	    "question_text" : "Example Question: Which of the full charts on the right can be depicted by the partial drawing below?",
+	    "question_sample" : {
+		"grid_size" : [ 5, 2 ],
+		"off_cells" : [ ],
+		"messages" : [
+		    [ 0, 3 ],
+		    [ 2, 1 ],
+		    [ 4, 7 ],
+		    [ 6, 5 ],
+		    [ 8, 11 ],
+		    [ 10, 9 ]
+		]
+	    }
+	},
+	{
+	    "question_id": "tm2C",
+	    "question_type" : "multi",
+	    "choices" : [
+		{
+		    "grid_size" : [ 6, 2 ],
+		    "off_cells" : [  ],
+		    "correct" : "yes",
+		    "messages" : [
+			[ 0, 3 ],
+			[ 2, 1 ],
+			[ 4, 7 ],
+			[ 6, 5 ],
+			[ 8, 11 ],
+			[ 10, 9 ]
+		    ]
+		}
+	    ],
+	    "note" : "Simple crosses",
+	    "question_max_rows" : 10,
+	    "question_text" : "Example Question: Which of the full charts on the right can be depicted by the partial drawing below?",
+	    "question_sample" : {
+		"grid_size" : [ 5, 2 ],
+		"off_cells" : [ ],
+		"messages" : [
+		    [ 0, 3 ],
+		    [ 2, 1 ],
+		    [ 4, 7 ],
+		    [ 6, 5 ],
+		    [ 8, 11 ],
+		    [ 10, 9 ]
+		]
+	    }
+	},
+	{
+	    "question_id": "tm2D",
+	    "question_type" : "multi",
+	    "choices" : [
+		{
+		    "grid_size" : [ 10, 2 ],
+		    "off_cells" : [ ],
+		    "correct" : "yes",
+		    "messages" : [
+			[ 0, 3 ],
+			[ 2, 1 ],
+			[ 4, 7 ],
+			[ 6, 5 ],
+			[ 8, 11 ],
+			[ 10, 9 ],
+			[ 12, 15 ],
+			[ 14, 13 ],
+			[ 16, 19 ],
+			[ 18, 17 ]
+		    ]
+		}
+	    ],
+	    "note" : "Simple crosses",
+	    "question_max_rows" : 10,
+	    "question_text" : "Example Question: Which of the full charts on the right can be depicted by the partial drawing below?",
+	    "question_sample" : {
+		"grid_size" : [ 5, 2 ],
+		"off_cells" : [ ],
+		"messages" : [
+		    [ 0, 3 ],
+		    [ 2, 1 ],
+		    [ 4, 7 ],
+		    [ 6, 5 ],
+		    [ 8, 11 ],
+		    [ 10, 9 ]
+		]
+	    }
+	},
+	{
+	    "question_id": "tm3A",
+	    "question_type" : "multi",
+	    "choices" : [
+		{
+		    "grid_size" : [ 8, 2 ],
+		    "off_cells" : [ ],
+		    "correct" : "yes",
+		    "messages" : [
+			[ -4, 1 ],
+			[ -2, 3 ],
+			[ 0, 5 ],
+			[ 2, 7 ],
+			[ 4, 9 ],
+			[ 6, 11 ],
+			[ 8, 13 ],
+			[ 10, 15],
+			[ 12, 17 ],
+			[ 14, 19 ]
+		    ]
+		}
+	    ],
+	    "note" : "two-offset non-ring",
+	    "question_max_rows" : 8,
+	    "question_text" : "Example Question: Which of the <b>partial</b> charts on the right could be from a full chart depicted by the partial drawing below?",
+	    "question_sample" : {
+		"grid_size" : [ 4, 2 ],
+		"off_cells" : [ 1, 3 ],
+		"messages" : [
+		    [ 0, 5 ],
+		    [ 2, 7 ],
+		    [ 4, 9 ],
+		    [ 6, 11 ]
+		]
+	    }
+	},
+	{
+	    "question_id": "tm3B",
+	    "question_type" : "multi",
+	    "choices" : [
+		{
+		    "grid_size" : [ 6, 2 ],
+		    "off_cells" : [ 4, 9 ],
+		    "correct" : "no",
+		    "messages" : [
+			[ -4, 1 ],
+			[ -2, 3 ],
+			[ 0, 5 ],
+			[ 2, 7 ],
+			[ 6, 11 ],
+			[ 8, 13 ],
+			[ 10, 15 ]
+		    ]
+		}
+	    ],
+	    "note" : "two-offset non-ring",
+	    "question_max_rows" : 8,
+	    "question_text" : "Example Question: Which of the <b>partial</b> charts on the right could be from a full chart depicted by the partial drawing below?",
+	    "question_sample" : {
+		"grid_size" : [ 4, 2 ],
+		"off_cells" : [ 1, 3 ],
+		"messages" : [
+		    [ 0, 5 ],
+		    [ 2, 7 ],
+		    [ 4, 9 ],
+		    [ 6, 11 ]
+		]
+	    }
+	},
+	{
+	    "question_id": "tm3C",
+	    "question_type" : "multi",
+	    "choices" : [
+		{
+		    "grid_size" : [ 4, 2 ],
+		    "off_cells" : [ ],
+		    "correct" : "yes",
+		    "messages" : [
+			[ -4, 1 ],
+			[ -2, 3 ],
+			[ 0, 5 ],
+			[ 2, 7 ],
+			[ 4, 9 ],
+			[ 6, 11 ]
+		    ]
+		}
+	    ],
+	    "note" : "two-offset non-ring",
+	    "question_max_rows" : 8,
+	    "question_text" : "Example Question: Which of the <b>partial</b> charts on the right could be from a full chart depicted by the partial drawing below?",
+	    "question_sample" : {
+		"grid_size" : [ 4, 2 ],
+		"off_cells" : [ 1, 3 ],
+		"messages" : [
+		    [ 0, 5 ],
+		    [ 2, 7 ],
+		    [ 4, 9 ],
+		    [ 6, 11 ]
+		]
+	    }
+	},
+	{
+	    "question_id": "tm3D",
+	    "question_type" : "multi",
+	    "choices" : [
+		{
+		    "grid_size" : [ 6, 2 ],
+		    "off_cells" : [ ],
+		    "correct" : "no",
+		    "messages" : [
+			[ -2, 1 ],
+			[ 0, 3 ],
+			[ 2, 5 ],
+			[ 4, 7 ],
+			[ 6, 9 ],
+			[ 8, 11 ],
+			[ 10, 13 ]
+		    ]
+		}
+	    ],
+	    "note" : "two-offset non-ring",
+	    "question_max_rows" : 8,
+	    "question_text" : "Example Question: Which of the <b>partial</b> charts on the right could be from a full chart depicted by the partial drawing below?",
+	    "question_sample" : {
+		"grid_size" : [ 4, 2 ],
+		"off_cells" : [ 1, 3 ],
+		"messages" : [
+		    [ 0, 5 ],
+		    [ 2, 7 ],
+		    [ 4, 9 ],
+		    [ 6, 11 ]
+		]
+	    }
+	}
+    ],
+    "questions" : [
+	{
+	    "question_id": "m1A",
+	    "question_type" : "multi",
+	    "choices" : [
+		{
+		    "grid_size" : [ 16, 2 ],
+		    "off_cells" : [ 1, 3, 5, 8, 15, 16, 23, 26, 28, 30 ],
+		    "correct" : "no",
+		    "note" : "four patterns of three offsets",
+		    "messages" : [
+			[ 0, 7 ],
+			[ 2, 9 ],
+			[ 4, 11 ],
+			[ 6, 13 ],
+			[ 10, 17 ],
+			[ 12, 19 ],
+			[ 14, 21 ],
+			[ 18, 25 ],
+			[ 20, 27 ],
+			[ 22, 29 ],
+			[ 24, 31 ]
+		    ]
+		}
+	    ],
+	    "question_text" : "Can the full chart on the right can be depicted by the partial drawing below?",
+	    "question_max_rows" : 14,
+	    "note": "offset 3, no ring",
+	    "question_sample" : {
+		"grid_size" : [ 4, 2 ],
+		"off_cells" : [ 1, 3, 5 ],
+		"messages" : [
+		    [ 0, 7 ],
+		    [ 2, 9 ],
+		    [ 4, 11 ],
+		    [ 6, 13 ]
+		]
+	    }
+	},
+	{
+	    "question_id": "m1B",
+	    "question_type" : "multi",
+	    "choices" : [
+		{
+		    "grid_size" : [ 12, 2 ],
+		    "off_cells" : [ 1, 3, 5, 7, 16, 18, 20, 22 ],
+		    "correct" : "no",
+		    "note" : "4 offset",
+		    "messages" : [
+			[ 0, 9 ],
+			[ 2, 11 ],
+			[ 4, 13 ],
+			[ 6, 15 ],
+			[ 8, 17 ],
+			[ 10, 19],
+			[ 12, 21],
+			[ 14, 23]
+		    ]
+		}
+	    ],
+	    "question_text" : "Can the full chart on the right can be depicted by the partial drawing below?",
+	    "question_max_rows" : 14,
+	    "note": "offset 3, no ring",
+	    "question_sample" : {
+		"grid_size" : [ 4, 2 ],
+		"off_cells" : [ 1, 3, 5 ],
+		"messages" : [
+		    [ 0, 7 ],
+		    [ 2, 9 ],
+		    [ 4, 11 ],
+		    [ 6, 13 ]
+		]
+	    }
+	},
+	{
+	    "question_id": "m1C",
+	    "question_type" : "multi",
+	    "choices" : [
+		{
+		    "grid_size" : [ 14, 2 ],
+		    "off_cells" : [ 1, 3, 5, 22, 24, 26 ],
+		    "correct" : "yes",
+		    "messages" : [
+			[ 0, 7 ],
+			[ 2, 9 ],
+			[ 4, 11 ],
+			[ 6, 13 ],
+			[ 8, 15 ],
+			[ 10, 17 ],
+			[ 12, 19 ],
+			[ 14, 21 ],
+			[ 16, 23 ],
+			[ 18, 25 ],
+			[ 20, 27 ]
+		    ]
+		}
+	    ],
+	    "question_text" : "Can the full chart on the right can be depicted by the partial drawing below?",
+	    "question_max_rows" : 14,
+	    "note": "offset 3, no ring",
+	    "question_sample" : {
+		"grid_size" : [ 4, 2 ],
+		"off_cells" : [ 1, 3, 5 ],
+		"messages" : [
+		    [ 0, 7 ],
+		    [ 2, 9 ],
+		    [ 4, 11 ],
+		    [ 6, 13 ]
+		]
+	    }
+	},
+	{
+	    "question_id": "m1D",
+	    "question_type" : "multi",
+	    "choices" : [
+		{
+		    "grid_size" : [ 10, 2 ],
+		    "correct" : "no",
+		    "note" : "one offset",
+		    "off_cells" : [ 1, 18 ],
+		    "messages" : [
+			[ 0, 3 ],
+			[ 2, 5 ],
+			[ 4, 7 ],
+			[ 6, 9 ],
+			[ 8, 11 ],
+			[ 10, 13 ],
+			[ 12, 15 ],
+			[ 14, 17 ],
+			[ 16, 19 ]
+		    ]
+		}
+	    ],
+	    "question_text" : "Can the full chart on the right can be depicted by the partial drawing below?",
+	    "question_max_rows" : 14,
+	    "note": "offset 3, no ring",
+	    "question_sample" : {
+		"grid_size" : [ 4, 2 ],
+		"off_cells" : [ 1, 3, 5 ],
+		"messages" : [
+		    [ 0, 7 ],
+		    [ 2, 9 ],
+		    [ 4, 11 ],
+		    [ 6, 13 ]
+		]
+	    }
+	},
+
+	{
+	    "question_id": "m2A",
+	    "question_type" : "multi",
+	    "choices" : [
+		{
+		    "grid_size" : [ 33, 2 ],
+		    "off_cells" : [ 1, 3, 5, 7, 58, 60, 62, 64 ],
+		    "correct" : "yes",
+		    "note" : "4 offset",
+		    "messages" : [
+			[ 0, 9 ],
+			[ 2, 11 ],
+			[ 4, 13 ],
+			[ 6, 15 ],
+			[ 8, 17 ],
+			[ 10, 19 ],
+			[ 12, 21 ],
+			[ 14, 23 ],
+			[ 16, 25 ],
+			[ 18, 27 ],
+			[ 20, 29 ],
+			[ 22, 31 ],
+			[ 24, 33 ],
+			[ 26, 35 ],
+			[ 28, 37 ],
+			[ 30, 39 ],
+			[ 32, 41 ],
+			[ 34, 43 ],
+			[ 36, 45 ],
+			[ 38, 47 ],
+			[ 40, 49 ],
+			[ 42, 51 ],
+			[ 44, 53 ],
+			[ 46, 55 ],
+			[ 48, 57 ],
+			[ 50, 59 ],
+			[ 52, 61 ],
+			[ 54, 63 ],
+			[ 56, 65 ]
+		    ]
+		},
+		{
+		    "grid_size" : [ 36, 2 ],
+		    "off_cells" : [ 1, 3, 5, 7, 9, 62, 64, 66, 68, 70 ],
+		    "correct" : "no",
+		    "note" : "5 offset",
+		    "messages" : [
+			[ 0, 11 ],
+			[ 2, 13 ],
+			[ 4, 15 ],
+			[ 6, 17 ],
+			[ 8, 19 ],
+			[ 10, 21 ],
+			[ 12, 23 ],
+			[ 14, 25 ],
+			[ 16, 27 ],
+			[ 18, 29 ],
+			[ 20, 31 ],
+			[ 22, 33 ],
+			[ 24, 35 ],
+			[ 26, 37 ],
+			[ 28, 39 ],
+			[ 30, 41 ],
+			[ 32, 43 ],
+			[ 34, 45 ],
+			[ 36, 47 ],
+			[ 38, 49 ],
+			[ 40, 51 ],
+			[ 42, 53 ],
+			[ 44, 55 ],
+			[ 46, 57 ],
+			[ 48, 59 ],
+			[ 50, 61 ],
+			[ 52, 63 ],
+			[ 54, 65 ],
+			[ 56, 67 ],
+			[ 58, 69 ],
+			[ 60, 71 ]
+		    ]
+		},
+		{
+		    "grid_size" : [ 36, 2 ],
+		    "off_cells" : [ ],
+		    "correct" : "no",
+		    "note" : "5 offset ring",
+		    "messages" : [
+			[ 0, 11 ],
+			[ 2, 13 ],
+			[ 4, 15 ],
+			[ 6, 17 ],
+			[ 8, 19 ],
+			[ 10, 21 ],
+			[ 12, 23 ],
+			[ 14, 25 ],
+			[ 16, 27 ],
+			[ 18, 29 ],
+			[ 20, 31 ],
+			[ 22, 33 ],
+			[ 24, 35 ],
+			[ 26, 37 ],
+			[ 28, 39 ],
+			[ 30, 41 ],
+			[ 32, 43 ],
+			[ 34, 45 ],
+			[ 36, 47 ],
+			[ 38, 49 ],
+			[ 40, 51 ],
+			[ 42, 53 ],
+			[ 44, 55 ],
+			[ 46, 57 ],
+			[ 48, 59 ],
+			[ 50, 61 ],
+			[ 52, 63 ],
+			[ 54, 65 ],
+			[ 56, 67 ],
+			[ 58, 69 ],
+			[ 60, 71 ],
+			[ 62, 1 ],
+			[ 64, 3 ],
+			[ 66, 5 ],
+			[ 68, 7 ],
+			[ 70, 9 ]
+		    ]
+		},
+		{
+		    "grid_size" : [ 33, 2 ],
+		    "off_cells" : [ 1, 3, 5, 7, 28, 37, 58, 60, 62, 64 ],
+		    "correct" : "no",
+		    "note" : "four offset three groups?",
+		    "messages" : [
+			[ 0, 9 ],
+			[ 2, 11 ],
+			[ 4, 13 ],
+			[ 6, 15 ],
+			[ 8, 17 ],
+			[ 10, 19 ],
+			[ 12, 21 ],
+			[ 14, 23 ],
+			[ 16, 25 ],
+			[ 18, 27 ],
+			[ 20, 29 ],
+			[ 22, 31 ],
+			[ 24, 33 ],
+			[ 26, 35 ],
+			[ 30, 39 ],
+			[ 32, 41 ],
+			[ 34, 43 ],
+			[ 36, 45 ],
+			[ 38, 47 ],
+			[ 40, 49 ],
+			[ 42, 51 ],
+			[ 44, 53 ],
+			[ 46, 55 ],
+			[ 48, 57 ],
+			[ 50, 59 ],
+			[ 52, 61 ],
+			[ 54, 63 ],
+			[ 56, 65 ]
+		    ]
+		}
+	    ],
+	    "question_text" : "Can the full chart on the right can be depicted by the partial drawing below?",
+	    "question_max_rows" : 36,
+	    "note" : "4 offset, bigger stuff in answers",
+	    "question_sample" : {
+		"grid_size" : [ 4, 2 ],
+		"off_cells" : [ 1, 3, 5, 7 ],
+		"messages" : [
+		    [ 0, 9 ],
+		    [ 2, 11 ],
+		    [ 4, 13 ],
+		    [ 6, 15 ]
+		]
+	    }
+	},
+	{
+	    "question_id": "m2B",
+	    "question_type" : "multi",
+	    "choices" : [
+		{
+		    "grid_size" : [ 36, 2 ],
+		    "off_cells" : [ 1, 3, 5, 7, 9, 62, 64, 66, 68, 70 ],
+		    "correct" : "no",
+		    "note" : "5 offset",
+		    "messages" : [
+			[ 0, 11 ],
+			[ 2, 13 ],
+			[ 4, 15 ],
+			[ 6, 17 ],
+			[ 8, 19 ],
+			[ 10, 21 ],
+			[ 12, 23 ],
+			[ 14, 25 ],
+			[ 16, 27 ],
+			[ 18, 29 ],
+			[ 20, 31 ],
+			[ 22, 33 ],
+			[ 24, 35 ],
+			[ 26, 37 ],
+			[ 28, 39 ],
+			[ 30, 41 ],
+			[ 32, 43 ],
+			[ 34, 45 ],
+			[ 36, 47 ],
+			[ 38, 49 ],
+			[ 40, 51 ],
+			[ 42, 53 ],
+			[ 44, 55 ],
+			[ 46, 57 ],
+			[ 48, 59 ],
+			[ 50, 61 ],
+			[ 52, 63 ],
+			[ 54, 65 ],
+			[ 56, 67 ],
+			[ 58, 69 ],
+			[ 60, 71 ]
+		    ]
+		}
+	    ],
+	    "question_text" : "Can the full chart on the right can be depicted by the partial drawing below?",
+	    "question_max_rows" : 36,
+	    "note" : "4 offset, bigger stuff in answers",
+	    "question_sample" : {
+		"grid_size" : [ 4, 2 ],
+		"off_cells" : [ 1, 3, 5, 7 ],
+		"messages" : [
+		    [ 0, 9 ],
+		    [ 2, 11 ],
+		    [ 4, 13 ],
+		    [ 6, 15 ]
+		]
+	    }
+	},
+	{
+	    "question_id": "m2C",
+	    "question_type" : "multi",
+	    "choices" : [
+		{
+		    "grid_size" : [ 36, 2 ],
+		    "off_cells" : [ ],
+		    "correct" : "no",
+		    "note" : "5 offset ring",
+		    "messages" : [
+			[ 0, 11 ],
+			[ 2, 13 ],
+			[ 4, 15 ],
+			[ 6, 17 ],
+			[ 8, 19 ],
+			[ 10, 21 ],
+			[ 12, 23 ],
+			[ 14, 25 ],
+			[ 16, 27 ],
+			[ 18, 29 ],
+			[ 20, 31 ],
+			[ 22, 33 ],
+			[ 24, 35 ],
+			[ 26, 37 ],
+			[ 28, 39 ],
+			[ 30, 41 ],
+			[ 32, 43 ],
+			[ 34, 45 ],
+			[ 36, 47 ],
+			[ 38, 49 ],
+			[ 40, 51 ],
+			[ 42, 53 ],
+			[ 44, 55 ],
+			[ 46, 57 ],
+			[ 48, 59 ],
+			[ 50, 61 ],
+			[ 52, 63 ],
+			[ 54, 65 ],
+			[ 56, 67 ],
+			[ 58, 69 ],
+			[ 60, 71 ],
+			[ 62, 1 ],
+			[ 64, 3 ],
+			[ 66, 5 ],
+			[ 68, 7 ],
+			[ 70, 9 ]
+		    ]
+		}
+	    ],
+	    "question_text" : "Can the full chart on the right can be depicted by the partial drawing below?",
+	    "question_max_rows" : 36,
+	    "note" : "4 offset, bigger stuff in answers",
+	    "question_sample" : {
+		"grid_size" : [ 4, 2 ],
+		"off_cells" : [ 1, 3, 5, 7 ],
+		"messages" : [
+		    [ 0, 9 ],
+		    [ 2, 11 ],
+		    [ 4, 13 ],
+		    [ 6, 15 ]
+		]
+	    }
+	},
+	{
+	    "question_id": "m2D",
+	    "question_type" : "multi",
+	    "choices" : [
+		{
+		    "grid_size" : [ 33, 2 ],
+		    "off_cells" : [ 1, 3, 5, 7, 28, 37, 58, 60, 62, 64 ],
+		    "correct" : "no",
+		    "note" : "four offset three groups?",
+		    "messages" : [
+			[ 0, 9 ],
+			[ 2, 11 ],
+			[ 4, 13 ],
+			[ 6, 15 ],
+			[ 8, 17 ],
+			[ 10, 19 ],
+			[ 12, 21 ],
+			[ 14, 23 ],
+			[ 16, 25 ],
+			[ 18, 27 ],
+			[ 20, 29 ],
+			[ 22, 31 ],
+			[ 24, 33 ],
+			[ 26, 35 ],
+			[ 30, 39 ],
+			[ 32, 41 ],
+			[ 34, 43 ],
+			[ 36, 45 ],
+			[ 38, 47 ],
+			[ 40, 49 ],
+			[ 42, 51 ],
+			[ 44, 53 ],
+			[ 46, 55 ],
+			[ 48, 57 ],
+			[ 50, 59 ],
+			[ 52, 61 ],
+			[ 54, 63 ],
+			[ 56, 65 ]
+		    ]
+		}
+	    ],
+	    "question_text" : "Can the full chart on the right can be depicted by the partial drawing below?",
+	    "question_max_rows" : 36,
+	    "note" : "4 offset, bigger stuff in answers",
+	    "question_sample" : {
+		"grid_size" : [ 4, 2 ],
+		"off_cells" : [ 1, 3, 5, 7 ],
+		"messages" : [
+		    [ 0, 9 ],
+		    [ 2, 11 ],
+		    [ 4, 13 ],
+		    [ 6, 15 ]
+		]
+	    }
+	},
+	{
+	    "question_id": "m3A",
+	    "question_type" : "multi",
+	    "choices" : [
+		{
+		    "grid_size" : [ 4, 2 ],
+		    "off_cells" : [  ],
+		    "correct" : "yes",
+		    "note" : "three offset",
+		    "messages" : [
+			[ -6, 1 ],
+			[ -4, 3 ],
+			[ -2, 5 ],
+			[ 0, 7 ],
+			[ 2, 9 ],
+			[ 4, 11 ]
+		    ]
+		}
+	    ],
+	    "question_text" : "Can the <b>partial</b> chart on the right be from a full chart depicted by the partial drawing below?",
+	    "note": "offset 3, no ring",
+	    "question_max_rows" : 8,
+	    "question_sample" : {
+		"grid_size" : [ 4, 2 ],
+		"off_cells" : [ 1, 3, 5 ],
+		"messages" : [
+		    [ 0, 7 ],
+		    [ 2, 9 ],
+		    [ 4, 11 ],
+		    [ 6, 13 ]
+		]
+	    }
+	},
+	{
+	"question_id": "m3B",
+	"question_type" : "multi",
+	"choices" : [
+	{
+		"grid_size" : [ 8, 2 ],
+		"off_cells" : [  ],
+		"correct" : "no",
+		"note" : "4 offset",
+		"messages" : [
+		[ -8, 1 ],
+		[ -6, 3 ],
+		[ -4, 5 ],
+		[ -2, 7 ],
+		[ 0, 9 ],
+		[ 2, 11 ],
+		[ 4, 13 ],
+		[ 6, 15 ],
+		[ 8, 17 ],
+		[ 10, 19 ],
+		[ 12, 21 ],
+		[ 14, 23 ]
+		]
+	}
+	],
+	"question_text" : "Can the <b>partial</b> chart on the right be from a full chart depicted by the partial drawing below?",
+	"note": "offset 3, no ring",
+	"question_max_rows" : 8,
+	"question_sample" : {
+	"grid_size" : [ 4, 2 ],
+	"off_cells" : [ 1, 3, 5 ],
+	"messages" : [
+		[ 0, 7 ],
+		[ 2, 9 ],
+		[ 4, 11 ],
+		[ 6, 13 ]
+	]
+	}
+},
+{
+ "question_id": "m3C",
+	    "question_type" : "multi",
+	    "choices" : [
+		{
+		    "grid_size" : [ 6, 2 ],
+		    "off_cells" : [ 6, 8, 10 ],
+		    "correct" : "yes",
+		    "note" : "end of three offset",
+		    "messages" : [
+			[ -6, 1 ],
+			[ -4, 3 ],
+			[ -2, 5 ],
+			[ 0, 7 ],
+			[ 2, 9 ],
+			[ 4, 11 ]
+		    ]
+		}
+	    ],
+	    "question_text" : "Can the <b>partial</b> chart on the right be from a full chart depicted by the partial drawing below?",
+	    "note": "offset 3, no ring",
+	    "question_max_rows" : 8,
+	    "question_sample" : {
+		"grid_size" : [ 4, 2 ],
+		"off_cells" : [ 1, 3, 5 ],
+		"messages" : [
+		    [ 0, 7 ],
+		    [ 2, 9 ],
+		    [ 4, 11 ],
+		    [ 6, 13 ]
+		]
+	    }
+	},
+	{
+	"question_id": "m3D",
+	"question_type" : "multi",
+	"choices" : [
+	{
+		"grid_size" : [ 6, 2 ],
+		"correct" : "yes",
+		"note" : "three offset",
+		"off_cells" : [  ],
+		"messages" : [
+		[ -6, 1 ],
+		[ -4, 3 ],
+		[ -2, 5 ],
+		[ 0, 7 ],
+		[ 2, 9 ],
+		[ 4, 11 ],
+		[ 6, 13 ],
+		[ 8, 15 ],
+		[ 10, 17 ]
+		]
+	}
+	],
+	"question_text" : "Can the <b>partial</b> chart on the right be from a full chart depicted by the partial drawing below?",
+	"note": "offset 3, no ring",
+	"question_max_rows" : 8,
+	"question_sample" : {
+	"grid_size" : [ 4, 2 ],
+	"off_cells" : [ 1, 3, 5 ],
+	"messages" : [
+		[ 0, 7 ],
+		[ 2, 9 ],
+		[ 4, 11 ],
+		[ 6, 13 ]
+	]
+	}
+},
+	{
+	    "question_id": "m4A",
+	    "question_type" : "multi",
+	    "choices" : [
+		{
+		    "grid_size" : [ 8, 2 ],
+		    "off_cells" : [  ],
+		    "correct" : "yes",
+		    "note" : "middle of 2 ring",
+		    "messages" : [
+			[ -4, 1 ],
+			[ -2, 3 ],
+			[ 0, 5 ],
+			[ 2, 7 ],
+			[ 4, 9 ],
+			[ 6, 11 ],
+			[ 8, 13 ],
+			[ 10, 15 ],
+			[ 12, 17 ],
+			[ 14, 19 ],
+			[ 18, -13 ],
+			[ 20, -11 ]
+		    ]
+		}
+	    ],
+	    "question_text" : "Can the <b>partial</b> chart on the right be from a full chart depicted by the partial drawing below?",
+	    "note": "2 ring",
+	    "question_max_rows" : 8,
+	    "question_sample" : {
+		"grid_size" : [ 4, 2 ],
+		"off_cells" : [  ],
+		"messages" : [
+		    [ 0, 5 ],
+		    [ 2, 7 ],
+		    [ 4, 9 ],
+		    [ 6, 11 ],
+		    [ 28, 1 ],
+		    [ 30, 3 ]
+		]
+	    }
+	},
+	{
+	    "question_id": "m4B",
+	    "question_type" : "multi",
+	    "choices" : [
+		{
+		    "grid_size" : [ 6, 2 ],
+		    "off_cells" : [  ],
+		    "correct" : "no",
+		    "note" : "top of 2 ring reverse",
+		    "messages" : [
+			[ 0, 13 ],
+			[ 2, 15 ],
+			[ 4, 1 ],
+			[ 6, 3 ],
+			[ 8, 5 ],
+			[ 10, 7 ],
+			[ 12, 9 ],
+			[ 14, 11]
+		    ]
+		}
+	    ],
+	    "question_text" : "Can the <b>partial</b> chart on the right be from a full chart depicted by the partial drawing below?",
+	    "note": "2 ring",
+	    "question_max_rows" : 8,
+	    "question_sample" : {
+		"grid_size" : [ 4, 2 ],
+		"off_cells" : [  ],
+		"messages" : [
+		    [ 0, 5 ],
+		    [ 2, 7 ],
+		    [ 4, 9 ],
+		    [ 6, 11 ],
+		    [ 28, 1 ],
+		    [ 30, 3 ]
+		]
+	    }
+	},
+	{
+	    "question_id": "m4C",
+	    "question_type" : "multi",
+	    "choices" : [
+		{
+		    "grid_size" : [ 6, 2 ],
+		    "off_cells" : [ ],
+		    "correct" : "yes",
+		    "note" : "another middle of 2 ring but different offset",
+		    "messages" : [
+			[ -4, 1 ],
+			[ -2, 3 ],
+			[ 0, 5 ],
+			[ 2, 7 ],
+			[ 4, 9 ],
+			[ 6, 11 ],
+			[ 8, 13 ],
+			[ 10, 15 ],
+			[ 24, -5 ],
+			[ 26, -3 ]
+		    ]
+		}
+	    ],
+	    "question_text" : "Can the <b>partial</b> chart on the right be from a full chart depicted by the partial drawing below?",
+	    "note": "2 ring",
+	    "question_max_rows" : 8,
+	    "question_sample" : {
+		"grid_size" : [ 4, 2 ],
+		"off_cells" : [  ],
+		"messages" : [
+		    [ 0, 5 ],
+		    [ 2, 7 ],
+		    [ 4, 9 ],
+		    [ 6, 11 ],
+		    [ 28, 1 ],
+		    [ 30, 3 ]
+		]
+	    }
+	},
+	{
+	    "question_id": "m4D",
+	    "question_type" : "multi",
+	    "choices" : [
+		{
+		    "grid_size" : [ 6, 2 ],
+		    "correct" : "no",
+		    "note" : "2-ring bottom, missing ring",
+		    "off_cells" : [  8, 10 ],
+		    "messages" : [
+			[ -4, 1 ],
+			[ -2, 3 ],
+			[ 0, 5 ],
+			[ 2, 7 ],
+			[ 4, 9 ],
+			[ 6, 11 ]
+		    ]
+		}
+	    ],
+	    "question_text" : "Can the <b>partial</b> chart on the right be from a full chart depicted by the partial drawing below?",
+	    "note": "2 ring",
+	    "question_max_rows" : 8,
+	    "question_sample" : {
+		"grid_size" : [ 4, 2 ],
+		"off_cells" : [  ],
+		"messages" : [
+		    [ 0, 5 ],
+		    [ 2, 7 ],
+		    [ 4, 9 ],
+		    [ 6, 11 ],
+		    [ 28, 1 ],
+		    [ 30, 3 ]
+		]
+	    }
+	},
+	{
+	    "question_id": "m5A",
+	    "question_type" : "multi",
+	    "choices" : [
+		{
+		    "grid_size" : [ 8, 2 ],
+		    "off_cells" : [  ],
+		    "correct" : "maybe",
+		    "note" : "four by two stencil",
+		    "messages" : [
+			[ 0, 3 ],
+			[ 0, 9 ],
+			[ 0, 11 ],
+			[ 2, 1 ],
+			[ 2, 9 ],
+			[ 2, 11 ],
+			[ 2, 5 ],
+			[ 2, 13 ],
+			[ 4, 3 ],
+			[ 4, 11 ],
+			[ 4, 13 ],
+			[ 4, 15 ],
+			[ 4, 7 ],
+			[ 6, 5 ],
+			[ 6, 13 ],
+			[ 6, 15],
+			[ 8, 1 ],
+			[ 8, 3 ],
+			[ 8, 11 ],
+			[ 10, 9 ],
+			[ 10, 1 ],
+			[ 10, 3 ],
+			[ 10, 5 ],
+			[ 10, 13 ],
+			[ 12, 11 ],
+			[ 12, 3 ],
+			[ 12, 5 ],
+			[ 12, 7 ],
+			[ 12, 15 ],
+			[ 14, 5 ],
+			[ 14, 7 ],
+			[ 14, 13 ]
+		    ]
+		}
+	    ],
+	    "question_text" : "Can the full chart on the right can be depicted by the partial drawing below?",
+	    "note": "6 x 2 stencil",
+	    "question_max_rows" : 12,
+	    "question_sample" : {
+		"grid_size" : [ 4, 2 ],
+		"off_cells" : [  ],
+		"messages" : [
+		    [ 0, 3 ],
+		    [ 0, 13 ],
+		    [ 0, 15 ],
+		    [ 2, 1 ],
+		    [ 2, 13 ],
+		    [ 2, 15 ],
+		    [ 2, 17 ],
+		    [ 2, 5 ],
+		    [ 4, 3 ],
+		    [ 4, 15 ],
+		    [ 4, 17 ],
+		    [ 4, 19 ],
+		    [ 4, 7 ],
+		    [ 6, 5 ],
+		    [ 6, 17 ],
+		    [ 6, 19 ],
+		    [ 6, 21 ],
+		    [ 6, 9 ],
+		    [ 8, 7 ],
+		    [ 12, 1 ],
+		    [ 12, 3 ],
+		    [ 14, 1 ],
+		    [ 14, 3 ],
+		    [ 14, 5 ],
+		    [ 16, 3 ],
+		    [ 16, 5 ],
+		    [ 16, 7 ],
+		    [ 18, 5 ],
+		    [ 18, 7 ],
+		    [ 20, 7 ]
+		]
+	    }
+	},
+	{
+	    "question_id": "m5B",
+	    "question_type" : "multi",
+	    "choices" : [
+		{
+		    "grid_size" : [ 12, 2 ],
+		    "off_cells" : [  ],
+		    "correct" : "yes",
+		    "note" : "6 by two stencil",
+		    "messages" : [
+			[ 0, 3 ],
+			[ 0, 13 ],
+			[ 0, 15 ],
+			[ 2, 1 ],
+			[ 2, 13 ],
+			[ 2, 15 ],
+			[ 2, 17 ],
+			[ 2, 5 ],
+			[ 4, 3 ],
+			[ 4, 15 ],
+			[ 4, 17 ],
+			[ 4, 19 ],
+			[ 4, 7 ],
+			[ 6, 5 ],
+			[ 6, 17 ],
+			[ 6, 19 ],
+			[ 6, 21 ],
+			[ 6, 9 ],
+			[ 8, 7 ],
+			[ 8, 19 ],
+			[ 8, 21 ],
+			[ 8, 23 ],
+			[ 8, 11 ],
+			[ 10, 9 ],
+			[ 10, 21 ],
+			[ 10, 23 ],
+			[ 12, 1 ],
+			[ 12, 3 ],
+			[ 12, 15 ],
+			[ 14, 13 ],
+			[ 14, 1 ],
+			[ 14, 3 ],
+			[ 14, 5 ],
+			[ 14, 17 ],
+			[ 16, 15 ],
+			[ 16, 3 ],
+			[ 16, 5 ],
+			[ 16, 7 ],
+			[ 16, 19 ],
+			[ 18, 17 ],
+			[ 18, 5 ],
+			[ 18, 7 ],
+			[ 18, 9 ],
+			[ 18, 21 ],
+			[ 20, 19 ],
+			[ 20, 7 ],
+			[ 20, 9 ],
+			[ 20, 11 ],
+			[ 20, 23 ],
+			[ 22, 21 ],
+			[ 22, 9 ],
+			[ 22, 11 ]
+		    ]
+		}
+	    ],
+	    "question_text" : "Can the full chart on the right can be depicted by the partial drawing below?",
+	    "note": "6 x 2 stencil",
+	    "question_max_rows" : 12,
+	    "question_sample" : {
+		"grid_size" : [ 4, 2 ],
+		"off_cells" : [  ],
+		"messages" : [
+		    [ 0, 3 ],
+		    [ 0, 13 ],
+		    [ 0, 15 ],
+		    [ 2, 1 ],
+		    [ 2, 13 ],
+		    [ 2, 15 ],
+		    [ 2, 17 ],
+		    [ 2, 5 ],
+		    [ 4, 3 ],
+		    [ 4, 15 ],
+		    [ 4, 17 ],
+		    [ 4, 19 ],
+		    [ 4, 7 ],
+		    [ 6, 5 ],
+		    [ 6, 17 ],
+		    [ 6, 19 ],
+		    [ 6, 21 ],
+		    [ 6, 9 ],
+		    [ 8, 7 ],
+		    [ 12, 1 ],
+		    [ 12, 3 ],
+		    [ 14, 1 ],
+		    [ 14, 3 ],
+		    [ 14, 5 ],
+		    [ 16, 3 ],
+		    [ 16, 5 ],
+		    [ 16, 7 ],
+		    [ 18, 5 ],
+		    [ 18, 7 ],
+		    [ 20, 7 ]
+		]
+	    }
+	},
+	{
+	    "question_id": "m5C",
+	    "question_type" : "multi",
+	    "choices" : [
+		{
+		    "grid_size" : [ 8, 2 ],
+		    "off_cells" : [ ],
+		    "correct" : "no",
+		    "note" : "five point rather than 9 point",
+		    "messages" : [
+			[ 0, 3 ],
+			[ 0, 9 ],
+			[ 2, 1 ],
+			[ 2, 11 ],
+			[ 2, 5 ],
+			[ 4, 3 ],
+			[ 4, 13 ],
+			[ 4, 7 ],
+			[ 6, 5 ],
+			[ 6, 15],
+			[ 8, 1 ],
+			[ 8, 11 ],
+			[ 10, 9 ],
+			[ 10, 3 ],
+			[ 10, 13 ],
+			[ 12, 11 ],
+			[ 12, 5 ],
+			[ 12, 15 ],
+			[ 14, 7 ],
+			[ 14, 13 ]
+		    ]
+		}
+	    ],
+	    "question_text" : "Can the full chart on the right can be depicted by the partial drawing below?",
+	    "note": "6 x 2 stencil",
+	    "question_max_rows" : 12,
+	    "question_sample" : {
+		"grid_size" : [ 4, 2 ],
+		"off_cells" : [  ],
+		"messages" : [
+		    [ 0, 3 ],
+		    [ 0, 13 ],
+		    [ 0, 15 ],
+		    [ 2, 1 ],
+		    [ 2, 13 ],
+		    [ 2, 15 ],
+		    [ 2, 17 ],
+		    [ 2, 5 ],
+		    [ 4, 3 ],
+		    [ 4, 15 ],
+		    [ 4, 17 ],
+		    [ 4, 19 ],
+		    [ 4, 7 ],
+		    [ 6, 5 ],
+		    [ 6, 17 ],
+		    [ 6, 19 ],
+		    [ 6, 21 ],
+		    [ 6, 9 ],
+		    [ 8, 7 ],
+		    [ 12, 1 ],
+		    [ 12, 3 ],
+		    [ 14, 1 ],
+		    [ 14, 3 ],
+		    [ 14, 5 ],
+		    [ 16, 3 ],
+		    [ 16, 5 ],
+		    [ 16, 7 ],
+		    [ 18, 5 ],
+		    [ 18, 7 ],
+		    [ 20, 7 ]
+		]
+	    }
+	},
+	{
+	    "question_id": "m5D",
+	    "question_type" : "multi",
+	    "choices" : [
+		{
+		    "grid_size" : [ 12, 2 ],
+		    "correct" : "no",
+		    "note" : "2-sets of stencil",
+		    "off_cells" : [  ],
+		    "messages" : [
+			[ 0, 3 ],
+			[ 0, 13 ],
+			[ 0, 15 ],
+			[ 2, 1 ],
+			[ 2, 13 ],
+			[ 2, 15 ],
+			[ 2, 17 ],
+			[ 2, 5 ],
+			[ 4, 3 ],
+			[ 4, 15 ],
+			[ 4, 17 ],
+			[ 6, 19 ],
+			[ 6, 21 ],
+			[ 6, 9 ],
+			[ 8, 7 ],
+			[ 8, 19 ],
+			[ 8, 21 ],
+			[ 8, 23 ],
+			[ 8, 11 ],
+			[ 10, 9 ],
+			[ 10, 21 ],
+			[ 10, 23 ],
+			[ 12, 1 ],
+			[ 12, 3 ],
+			[ 12, 15 ],
+			[ 14, 13 ],
+			[ 14, 1 ],
+			[ 14, 3 ],
+			[ 14, 5 ],
+			[ 14, 17 ],
+			[ 16, 15 ],
+			[ 16, 3 ],
+			[ 16, 5 ],
+			[ 18, 7 ],
+			[ 18, 9 ],
+			[ 18, 21 ],
+			[ 20, 19 ],
+			[ 20, 7 ],
+			[ 20, 9 ],
+			[ 20, 11 ],
+			[ 20, 23 ],
+			[ 22, 21 ],
+			[ 22, 9 ],
+			[ 22, 11 ]
+		    ]
+		}
+	    ],
+	    "question_text" : "Can the full chart on the right can be depicted by the partial drawing below?",
+	    "note": "6 x 2 stencil",
+	    "question_max_rows" : 12,
+	    "question_sample" : {
+		"grid_size" : [ 4, 2 ],
+		"off_cells" : [  ],
+		"messages" : [
+		    [ 0, 3 ],
+		    [ 0, 13 ],
+		    [ 0, 15 ],
+		    [ 2, 1 ],
+		    [ 2, 13 ],
+		    [ 2, 15 ],
+		    [ 2, 17 ],
+		    [ 2, 5 ],
+		    [ 4, 3 ],
+		    [ 4, 15 ],
+		    [ 4, 17 ],
+		    [ 4, 19 ],
+		    [ 4, 7 ],
+		    [ 6, 5 ],
+		    [ 6, 17 ],
+		    [ 6, 19 ],
+		    [ 6, 21 ],
+		    [ 6, 9 ],
+		    [ 8, 7 ],
+		    [ 12, 1 ],
+		    [ 12, 3 ],
+		    [ 14, 1 ],
+		    [ 14, 3 ],
+		    [ 14, 5 ],
+		    [ 16, 3 ],
+		    [ 16, 5 ],
+		    [ 16, 7 ],
+		    [ 18, 5 ],
+		    [ 18, 7 ],
+		    [ 20, 7 ]
+		]
+	    }
+	},
+{
+	    "question_id": "m6A",
+	    "question_type" : "multi",
+	    "choices" : [
+		{
+		    "grid_size" : [ 5, 2 ],
+		    "correct" : "no",
+		    "note" : "no - bottom point of 9 point 6 x 2",
+		    "off_cells" : [  ],
+		    "messages" : [
+			[ 0, -1 ],
+			[ 0, -13 ],
+			[ 0, -11 ],
+			[ 0, -9 ],
+			[ 0, 3 ],
+			[ 2, 1 ],
+			[ 2, -11 ],
+			[ 2, -9 ],
+			[ 2, -7 ],
+			[ 2, 5 ],
+			[ 4, 3 ],
+			[ 4, -9 ],
+			[ 4, -7 ],
+			[ 4, -5 ],
+			[ 4, 7 ],
+			[ 6, 5 ],
+			[ 6, -7 ],
+			[ 6, -5 ],
+			[ 6, -3 ],
+			[ 6, 9 ],
+			[ 8, 7 ],
+			[ 8, -5 ],
+			[ 8, -3 ],
+			[ -2, 1 ],
+			[ -12, 1 ],
+			[ -10, 1 ],
+			[ -8, 1 ],
+			[ -10, 3 ],
+			[ -8, 3 ],
+			[ -6, 3 ],
+			[ -8, 5 ],
+			[ -6, 5 ],
+			[ -4, 5 ],
+			[ -6, 7 ],
+			[ -4, 7 ],
+			[ -2, 7 ],
+			[ -4, 9 ],
+			[ -2, 9 ]
+		    ]
+		}
+	    ],
+	    "question_text" : "Can the <b>partial</b> chart on the right be from a full chart depicted by the partial drawing below?",
+	    "note": "6 x 2 stencil, 5 point only",
+	    "question_max_rows" : 8,
+	    "question_sample" : {
+		"grid_size" : [ 4, 2 ],
+		"off_cells" : [  ],
+		"messages" : [
+		    [ 0, 3 ],
+		    [ 0, 13 ],
+		    [ 2, 1 ],
+		    [ 2, 15 ],
+		    [ 2, 5 ],
+		    [ 4, 3 ],
+		    [ 4, 17 ],
+		    [ 4, 7 ],
+		    [ 6, 5 ],
+		    [ 6, 19 ],
+		    [ 6, 9 ],
+		    [ 8, 7 ],
+		    [ 12, 1 ],
+		    [ 14, 3 ],
+		    [ 16, 5 ],
+		    [ 18, 7 ]
+		]
+	    }
+	},
+	{
+	    "question_id": "m6B",
+	    "question_type" : "multi",
+	    "choices" : [
+		{
+		    "grid_size" : [ 6, 2 ],
+		    "off_cells" : [  ],
+		    "correct" : "no",
+		    "note" : "6 by two stencil, 9 point - first six",
+		    "messages" : [
+			[ 0, 3 ],
+			[ 0, 13 ],
+			[ 0, 15 ],
+			[ 2, 1 ],
+			[ 2, 13 ],
+			[ 2, 15 ],
+			[ 2, 17 ],
+			[ 2, 5 ],
+			[ 4, 3 ],
+			[ 4, 15 ],
+			[ 4, 17 ],
+			[ 4, 19 ],
+			[ 4, 7 ],
+			[ 6, 5 ],
+			[ 6, 17 ],
+			[ 6, 19 ],
+			[ 6, 21 ],
+			[ 6, 9 ],
+			[ 8, 7 ],
+			[ 8, 19 ],
+			[ 8, 21 ],
+			[ 8, 23 ],
+			[ 8, 11 ],
+			[ 10, 9 ],
+			[ 10, 21 ],
+			[ 10, 23 ],
+			[ 12, 1 ],
+			[ 12, 3 ],
+			[ 14, 1 ],
+			[ 14, 3 ],
+			[ 14, 5 ],
+			[ 16, 3 ],
+			[ 16, 5 ],
+			[ 16, 7 ],
+			[ 18, 5 ],
+			[ 18, 7 ],
+			[ 18, 9 ],
+			[ 20, 7 ],
+			[ 20, 9 ],
+			[ 20, 11 ],
+			[ 22, 9 ],
+			[ 22, 11 ]
+		]
+		}
+	 	],
+	    "question_text" : "Can the <b>partial</b> chart on the right be from a full chart depicted by the partial drawing below?",
+	    "note": "6 x 2 stencil, 5 point only",
+	    "question_max_rows" : 8,
+	    "question_sample" : {
+		"grid_size" : [ 4, 2 ],
+		"off_cells" : [  ],
+		"messages" : [
+		    [ 0, 3 ],
+		    [ 0, 13 ],
+		    [ 2, 1 ],
+		    [ 2, 15 ],
+		    [ 2, 5 ],
+		    [ 4, 3 ],
+		    [ 4, 17 ],
+		    [ 4, 7 ],
+		    [ 6, 5 ],
+		    [ 6, 19 ],
+		    [ 6, 9 ],
+		    [ 8, 7 ],
+		    [ 12, 1 ],
+		    [ 14, 3 ],
+		    [ 16, 5 ],
+		    [ 18, 7 ]
+		]
+	    }
+	},
+	{
+	    "question_id": "m6C",
+	    "question_type" : "multi",
+	    "choices" : [
+		{
+		    "grid_size" : [ 6, 2 ],
+		    "off_cells" : [ ],
+		    "correct" : "maybe",
+		    "note" : "five point rather than 9 point, bottom only",
+		    "messages" : [
+			[ 0, 3 ],
+			[ 0, -11 ],
+			[ 2, 1 ],
+			[ 2, -9 ],
+			[ 2, 5 ],
+			[ 4, 3 ],
+			[ 4, -7 ],
+			[ 4, 7 ],
+			[ 6, 5 ],
+			[ 6, -5 ],
+			[ 6, 9 ],
+			[ 8, 7 ],
+			[ 8, -3 ],
+			[ 8, 11 ],
+			[ 10, -1 ],
+			[ 10, 9 ],
+			[ -2, 11 ],
+			[ -4, 9 ],
+			[ -6, 7 ],
+			[ -8, 5 ],
+			[ -10, 3 ],
+			[ -12, 1 ]
+		    ]
+		}
+	    ],
+	    "question_text" : "Can the <b>partial</b> chart on the right be from a full chart depicted by the partial drawing below?",
+	    "note": "6 x 2 stencil, 5 point only",
+	    "question_max_rows" : 8,
+	    "question_sample" : {
+		"grid_size" : [ 4, 2 ],
+		"off_cells" : [  ],
+		"messages" : [
+		    [ 0, 3 ],
+		    [ 0, 13 ],
+		    [ 2, 1 ],
+		    [ 2, 15 ],
+		    [ 2, 5 ],
+		    [ 4, 3 ],
+		    [ 4, 17 ],
+		    [ 4, 7 ],
+		    [ 6, 5 ],
+		    [ 6, 19 ],
+		    [ 6, 9 ],
+		    [ 8, 7 ],
+		    [ 12, 1 ],
+		    [ 14, 3 ],
+		    [ 16, 5 ],
+		    [ 18, 7 ]
+		]
+	    }
+	},
+	{
+	    "question_id": "m6D",
+	    "question_type" : "multi",
+	    "choices" : [
+		{
+		    "grid_size" : [ 4, 2 ],
+		    "correct" : "yes",
+		    "note" : "middle part of five point 6 x 2",
+		    "off_cells" : [  ],
+		    "messages" : [
+			[ 0, -1 ],
+			[ 0, -9 ],
+			[ 0, 3 ],
+			[ 2, 1 ],
+			[ 2, -7 ],
+			[ 2, 5 ],
+			[ 4, 3 ],
+			[ 4, -5 ],
+			[ 4, 7 ],
+			[ 6, 5 ],
+			[ 6, -3 ],
+			[ 6, 9 ],
+			[ -10, 1 ],
+			[ -8, 3 ],
+			[ -6, 5 ],
+			[ -4, 7 ],
+			[ 8, 7 ]
+		    ]
+		}
+	    ],
+	    "question_text" : "Can the <b>partial</b> chart on the right be from a full chart depicted by the partial drawing below?",
+	    "note": "6 x 2 stencil, 5 point only",
+	    "question_max_rows" : 8,
+	    "question_sample" : {
+		"grid_size" : [ 4, 2 ],
+		"off_cells" : [  ],
+		"messages" : [
+		    [ 0, 3 ],
+		    [ 0, 13 ],
+		    [ 2, 1 ],
+		    [ 2, 15 ],
+		    [ 2, 5 ],
+		    [ 4, 3 ],
+		    [ 4, 17 ],
+		    [ 4, 7 ],
+		    [ 6, 5 ],
+		    [ 6, 19 ],
+		    [ 6, 9 ],
+		    [ 8, 7 ],
+		    [ 12, 1 ],
+		    [ 14, 3 ],
+		    [ 16, 5 ],
+		    [ 18, 7 ]
+		]
+	    }
+	}
+	]
+}
