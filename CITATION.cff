@@ -1,0 +1,21 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Communication Patterns Supplemental Material Repository
+message: >-
+  If you use this dataset, please cite it using the metadata
+  from this file.
+type: dataset
+authors:
+  - given-names: Connor
+    family-names: Scully-Allison
+    email: cscullyallison@sci.utah.edu
+    affiliation: University of Utah
+  - given-names: 'Katherine '
+    name-particle: E.
+    family-names: Isaacs
+    email: kisaacs@sci.utah.edu
+    affiliation: University of Utah
+repository-code: >-
+  https://github.com/cscully-allison/communication_patterns_eval_supplemental
